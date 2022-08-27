@@ -19,7 +19,9 @@
     "paths": {
       "components": ["components/*"],
       "core": ["core/*"],
-      "types": ["types/*"]
+      "types": ["types/*"],
+      "pages": ["pages/*"],
+      "context": ["context/*"]
     }
   },
   "include": ["src"]
