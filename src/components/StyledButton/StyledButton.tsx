@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from '@mui/material';
+import { Button } from '@mui/material';
 import React from 'react';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
