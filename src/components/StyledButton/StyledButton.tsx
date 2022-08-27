@@ -12,9 +12,11 @@ const StyledButton = ({ buttonVariant = ButtonVariants.primary, children }: ISty
         <Button
           variant='contained'
           sx={{
+            textTransform: 'none',
             background: colors.violet,
             ...fonts.montserratBold16,
-            width: '200px',
+            minWidth: '200px',
+            width: 'max-content',
             height: '45px',
             '&:hover': {
               background: colors.violet,
@@ -30,6 +32,7 @@ const StyledButton = ({ buttonVariant = ButtonVariants.primary, children }: ISty
         <Button
           variant='outlined'
           sx={{
+            textTransform: 'none',
             border: `1px solid ${colors.violet}`,
             color: colors.violet,
             ...fonts.montserratBold16,
