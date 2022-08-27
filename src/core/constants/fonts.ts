@@ -1,6 +1,6 @@
 export const fonts = {
   stixNormal24: {
-    fontFamily: 'STIX Two Text',
+    fontFamily: 'STIXTwoText',
     fontStyle: 'normal',
     fontWeight: '600',
     fontSize: '24px',
