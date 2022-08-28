@@ -19,8 +19,7 @@ const Navigation = () => {
       display={'flex'}
       flexDirection={'row'}
       alignItems={'center'}
-      justifyContent={'center'}
-      gap={'5.125rem'}
+      justifyContent={'space-between'}
     >
       <Grid
         onClick={() => {

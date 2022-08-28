@@ -1,6 +1,7 @@
 export enum ButtonVariants {
   primary,
   secondary,
+  primaryGreen,
 }
 
 export enum NavigationMenuItems {

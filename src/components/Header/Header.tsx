@@ -20,76 +20,65 @@ const Header = () => {
       display={'flex'}
       flexDirection={'column'}
       sx={{
+        padding: '0 8.4rem',
         background:
           'linear-gradient(180deg, rgba(211, 231, 180, 0.3) 41.67%, rgba(218, 232, 196, 0) 117.37%)',
       }}
     >
-      <Grid display={'flex'} flexDirection={'row'} justifyContent={'center'}>
-        <Grid display={'flex'} flexDirection={'row'} alignItems={'center'}>
-          <Grid
-            display={'flex'}
-            flexDirection={'row'}
-            alignItems={'center'}
+      <Grid
+        display={'flex'}
+        flexDirection={'row'}
+        alignItems={'center'}
+        justifyContent={'space-between'}
+      >
+        <Grid
+          display={'flex'}
+          flexDirection={'row'}
+          alignItems={'center'}
+          sx={{
+            cursor: 'pointer',
+          }}
+          onClick={() => {
+            navigate('/', { replace: true });
+            setCurrentMenuItem(NavigationMenuItems.main);
+          }}
+        >
+          <Logo />
+          <Typography
+            color={colors.violet}
             sx={{
-              paddingRight: '7rem',
-              cursor: 'pointer',
-            }}
-            onClick={() => {
-              navigate('/', { replace: true });
-              setCurrentMenuItem(NavigationMenuItems.main);
+              ...fonts.stixNormal24,
             }}
           >
-            <Logo />
-            <Typography
-              color={colors.violet}
-              sx={{
-                ...fonts.stixNormal24,
-              }}
-            >
-              Збережи дитину
-            </Typography>
-          </Grid>
-          <Grid
-            display={'flex'}
-            flexDirection={'column'}
-            alignItems={'center'}
+            Збережи дитину
+          </Typography>
+        </Grid>
+        <Grid display={'flex'} flexDirection={'column'} alignItems={'center'}>
+          <Typography
+            color={colors.grey}
             sx={{
-              paddingRight: '2rem',
+              ...fonts.montserratNormal14,
             }}
           >
-            <Typography
-              color={colors.grey}
-              sx={{
-                ...fonts.montserratNormal14,
-              }}
-            >
-              Безкоштовна гаряча линия
-            </Typography>
-            <Typography
-              color={colors.matteBlack}
-              sx={{
-                ...fonts.montserratMedium16,
-              }}
-            >
-              +380 800 213 452
-            </Typography>
-          </Grid>
-          <Grid
-            display={'flex'}
-            flexDirection={'row'}
-            gap={'19px'}
+            Безкоштовна гаряча линия
+          </Typography>
+          <Typography
+            color={colors.matteBlack}
             sx={{
-              paddingRight: '2.375rem',
+              ...fonts.montserratMedium16,
             }}
           >
-            <MailIcon />
-            <InstagramIcon />
-            <FacebookIcon />
-          </Grid>
-          <Grid display={'flex'} flexDirection={'row'} gap={'30px'}>
-            <StyledButton buttonVariant={ButtonVariants.primary}>Хочу допомогти</StyledButton>
-            <StyledButton buttonVariant={ButtonVariants.secondary}>Потрібна допомога</StyledButton>
-          </Grid>
+            +380 800 213 452
+          </Typography>
+        </Grid>
+        <Grid display={'flex'} flexDirection={'row'} gap={'19px'}>
+          <MailIcon />
+          <InstagramIcon />
+          <FacebookIcon />
+        </Grid>
+        <Grid display={'flex'} flexDirection={'row'} gap={'30px'}>
+          <StyledButton buttonVariant={ButtonVariants.primary}>Хочу допомогти</StyledButton>
+          <StyledButton buttonVariant={ButtonVariants.secondary}>Потрібна допомога</StyledButton>
         </Grid>
       </Grid>
       <Navigation />
