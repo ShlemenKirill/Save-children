@@ -13,7 +13,7 @@ const MainContent = () => {
         backgroundColor: colors.mainBackground,
         backgroundImage: 'url(/images/mainBackground.png)',
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'right'
+        backgroundPosition: 'right',
       }}
     >
       <Grid

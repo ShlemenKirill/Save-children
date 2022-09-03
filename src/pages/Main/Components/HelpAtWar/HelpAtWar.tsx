@@ -1,4 +1,4 @@
-import { Box, Grid, List, ListItem, Stack, Typography } from '@mui/material';
+import { Box, Grid, List, ListItem, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 
