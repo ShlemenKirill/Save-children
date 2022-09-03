@@ -3,6 +3,7 @@ import { Grid } from '@mui/material';
 import MainContent from 'pages/Main/Components/MainContent';
 import HelpAtWar from 'pages/Main/Components/HelpAtWar/HelpAtWar';
 import OurProjects from 'pages/Main/Components/OurProjects/OurProjects';
+import AboutUs from './Components/AboutUs/AboutUs';
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
       <MainContent />
       <HelpAtWar />
       <OurProjects />
+      <AboutUs />
     </Grid>
   );
 };
