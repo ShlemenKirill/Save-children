@@ -1,10 +1,11 @@
-import Header from 'components/Header';
 import { Grid } from '@mui/material';
+import Header from 'components/Header';
+import Footer from 'components/Footer';
 import MainContent from 'pages/Main/Components/MainContent';
-import HelpAtWar from 'pages/Main/Components/HelpAtWar/HelpAtWar';
-import OurProjects from 'pages/Main/Components/OurProjects/OurProjects';
-import AboutUs from 'pages/Main/Components/AboutUs/AboutUs';
-import Information from 'pages/Main/Components/Information/Information';
+import HelpAtWar from 'pages/Main/Components/HelpAtWar';
+import OurProjects from 'pages/Main/Components/OurProjects';
+import AboutUs from 'pages/Main/Components/AboutUs';
+import Information from 'pages/Main/Components/Information';
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
       <OurProjects />
       <AboutUs />
       <Information />
+      <Footer />
     </Grid>
   );
 };
