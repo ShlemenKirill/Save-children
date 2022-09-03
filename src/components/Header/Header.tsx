@@ -20,7 +20,7 @@ const Header = () => {
       display={'flex'}
       flexDirection={'column'}
       sx={{
-        padding: '0 8.4rem',
+        padding: '0 10%',
         background:
           'linear-gradient(180deg, rgba(211, 231, 180, 0.3) 41.67%, rgba(218, 232, 196, 0) 117.37%)',
       }}

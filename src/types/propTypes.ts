@@ -4,3 +4,10 @@ import { ButtonVariants } from 'core/constants/common';
 export interface IStyledButtonProps extends ButtonProps {
   buttonVariant: ButtonVariants;
 }
+
+export interface IProjectCardProps {
+  imageUrl: string;
+  headerText: string;
+  text: string;
+  pathUrl: string;
+}
