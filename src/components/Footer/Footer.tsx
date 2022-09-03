@@ -1,12 +1,12 @@
+import { useNavigate } from 'react-router-dom';
 import { Grid, Typography } from '@mui/material';
-import { colors } from '../../core/constants/colors';
-import Logo from 'components/Logo';
+import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
+import { ABOUT_US, PARTNERS, REPORTS, VOLUNTEERS } from 'core/constants/navigation';
+import Logo from 'components/Logo';
 import MailIconWithBackground from 'components/Icons/MailIconWithBackground';
 import InstagramIconWithBackground from 'components/Icons/InstagramIconWithBackground';
 import FacebookIconWithBackground from 'components/Icons/FacebookIconWithBackground';
-import { useNavigate } from 'react-router-dom';
-import { ABOUT_US, CONTACTS, PARTNERS, REPORTS, VOLUNTEERS } from '../../core/constants/navigation';
 
 const Footer = () => {
   const navigate = useNavigate();
