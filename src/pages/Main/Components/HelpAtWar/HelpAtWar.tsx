@@ -18,7 +18,7 @@ const HelpAtWar = () => {
         justifyContent={'space-between'}
         sx={{
           width: '100%',
-          padding: '4.8rem 4rem 5.8rem 8.4rem',
+          padding: '4.8rem 10% 5.8rem 10%',
           zIndex: 100,
         }}
       >

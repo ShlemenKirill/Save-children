@@ -20,7 +20,7 @@ const MainContent = () => {
         display={'flex'}
         flexDirection={'row'}
         sx={{
-          padding: '4.8rem 4rem 5.8rem 8.4rem',
+          padding: '4.8rem 10% 5.8rem 10%',
           zIndex: 100,
         }}
       >

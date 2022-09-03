@@ -3,15 +3,9 @@ import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import ChevronRight from 'components/Icons/ChevronRight';
 import { useNavigate } from 'react-router-dom';
+import { IProjectCardProps } from 'types/propTypes';
 
-export interface ProjectCardProps {
-  imageUrl: string;
-  headerText: string;
-  text: string;
-  pathUrl: string;
-}
-
-const ProjectCard = ({ imageUrl, headerText, text, pathUrl }: ProjectCardProps) => {
+const ProjectCard = ({ imageUrl, headerText, text, pathUrl }: IProjectCardProps) => {
   const navigate = useNavigate();
   const handleLinkClick = () => {
     navigate(pathUrl);
