@@ -41,5 +41,11 @@ export const fonts = {
     fontSize: '16px',
     lineHeight: '20px',
   },
-
+  montserratSemibold40: {
+    fontFamily: 'Montserrat',
+    fontStyle: 'normal',
+    fontWeight: 600,
+    fontSize: '40px',
+    lineHeight: '49px',
+  },
 };
