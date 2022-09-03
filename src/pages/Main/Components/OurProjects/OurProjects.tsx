@@ -1,0 +1,79 @@
+import { Grid, Link, Typography } from '@mui/material';
+import { colors } from 'core/constants/colors';
+import { fonts } from 'core/constants/fonts';
+import ProjectCard from 'components/ProjectCard/ProjectCard';
+
+const OurProjects = () => {
+  return (
+    <Grid
+      display={'flex'}
+      flexDirection={'row'}
+      sx={{
+        width: '100%',
+        background: colors.mainBackground,
+      }}
+    >
+      <Grid
+        display={'flex'}
+        flexDirection={'column'}
+        justifyContent={'space-between'}
+        sx={{
+          width: '100%',
+          padding: '4.8rem 4rem 5.8rem 8.4rem',
+          zIndex: 100,
+        }}
+      >
+        <Grid
+          width={'100%'}
+          display={'flex'}
+          flexDirection={'row'}
+          justifyContent={'space-between'}
+          alignItems={'flex-end'}
+        >
+          <Typography
+            sx={{
+              ...fonts.montserratSemibold50,
+              color: colors.mainText,
+            }}
+          >
+            Наші проекти
+          </Typography>
+          <Link
+            href={'/projects'}
+            sx={{
+              ...fonts.montserratMedium16,
+              color: colors.violet,
+            }}
+          >
+            Дивитися все
+          </Link>
+        </Grid>
+        <Grid
+          display={'flex'}
+          flexDirection={'row'}
+          justifyContent={'space-around'}
+          sx={{
+            paddingTop: '3.125rem',
+          }}
+        >
+          <ProjectCard
+            imageUrl={'images/projects/pregnant.png'}
+            headerText={'Допомога кризовим вагітним'}
+            text={'Faucibus maecenas risus et, egestas.'}
+            pathUrl={'/projects'}
+          />
+          <ProjectCard
+            imageUrl={'images/projects/hartHouse.png'}
+            headerText={'Дім-турботи "СЕРДЕНЬКО❤"'}
+            text={
+              'Будинок турботи це не гуртожиток для переселенців. У нього зовсім інші задачі, вони більші та глибші. '
+            }
+            pathUrl={'/projects'}
+          />
+        </Grid>
+      </Grid>
+    </Grid>
+  );
+};
+
+export default OurProjects;

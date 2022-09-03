@@ -41,11 +41,32 @@ export const fonts = {
     fontSize: '16px',
     lineHeight: '20px',
   },
+  montserratNormal16: {
+    fontFamily: 'Montserrat',
+    fontStyle: 'normal',
+    fontWeight: 400,
+    fontSize: '16px',
+    lineHeight: '25px',
+  },
   montserratSemibold40: {
     fontFamily: 'Montserrat',
     fontStyle: 'normal',
     fontWeight: 600,
     fontSize: '40px',
     lineHeight: '49px',
+  },
+  montserratSemibold50: {
+    fontFamily: 'Montserrat',
+    fontStyle: 'normal',
+    fontWeight: 600,
+    fontSize: '50px',
+    lineHeight: '60px',
+  },
+  montserratSemibold28: {
+    fontFamily: 'Montserrat',
+    fontStyle: 'normal',
+    fontWeight: 600,
+    fontSize: '28px',
+    lineHeight: '34px',
   },
 };
