@@ -8,7 +8,7 @@ const Photos = () => {
           display: 'flex',
           flexDirection: 'row',
           justifyContent: 'space-between',
-          paddingTop: '30px',
+          paddingTop: '50px',
         }}
       >
         <Box component={'img'} alt={'activity2'} src={'images/aboutUs/activity2.png'} />
@@ -19,7 +19,7 @@ const Photos = () => {
           display: 'flex',
           flexDirection: 'row',
           justifyContent: 'space-between',
-          paddingTop: '30px',
+          paddingTop: '50px',
         }}
       >
         <Grid
