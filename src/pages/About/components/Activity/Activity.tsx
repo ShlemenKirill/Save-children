@@ -2,6 +2,7 @@ import { Box, Grid, List, ListItem, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import { listStyle, listItemStyle, listItemTextStyle } from 'pages/About/styles';
+import { imageStyle } from 'core/constants/styles';
 
 const Activity = () => {
   return (
@@ -82,6 +83,7 @@ const Activity = () => {
           sx={{
             width: '540px',
             height: '523px',
+            ...imageStyle,
           }}
         />
       </Grid>

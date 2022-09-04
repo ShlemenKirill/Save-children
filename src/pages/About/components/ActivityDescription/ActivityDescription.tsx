@@ -1,5 +1,6 @@
 import { Box, Grid, Typography } from '@mui/material';
 import { listItemTextStyle } from 'pages/About/styles';
+import { imageStyle } from 'core/constants/styles';
 
 const ActivityDescription = () => {
   return (
@@ -31,7 +32,12 @@ const ActivityDescription = () => {
           height: '343px',
         }}
       >
-        <Box component={'img'} alt={'activity1'} src={'images/aboutUs/activity1.png'} />
+        <Box
+          component={'img'}
+          alt={'activity1'}
+          src={'images/aboutUs/activity1.png'}
+          sx={imageStyle}
+        />
       </Grid>
     </Grid>
   );

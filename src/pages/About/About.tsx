@@ -3,6 +3,7 @@ import Header from 'components/Header';
 import Footer from 'components/Footer';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
+import { imageStyle } from 'core/constants/styles';
 import Activity from 'pages/About/components/Activity';
 import ChildrenPhotos from 'pages/About/components/ChildrenPhotos';
 import VolunteersTeam from 'pages/About/components/VolunteersTeam';
@@ -11,9 +12,11 @@ import Photos from 'pages/About/components/Photos';
 
 const About = () => {
   return (
-    <Grid sx={{
-      backgroundColor: colors.mainBackground,
-    }}>
+    <Grid
+      sx={{
+        backgroundColor: colors.mainBackground,
+      }}
+    >
       <Header />
       <Grid
         display={'flex'}
@@ -23,7 +26,7 @@ const About = () => {
           width: '1169px',
           paddingTop: '38px',
           paddingBottom: '130px',
-          margin: 'auto'
+          margin: 'auto',
         }}
       >
         <Grid id={'header'}>
@@ -53,6 +56,7 @@ const About = () => {
             alt={'all-volunteers'}
             src={'images/aboutUs/all_volunteers.png'}
             width={'100%'}
+            sx={imageStyle}
           />
         </Grid>
         <ActivityDescription />
