@@ -21,7 +21,7 @@ const Navigation = () => {
       alignItems={'center'}
       justifyContent={'space-between'}
       sx={{
-        paddingTop: '5px'
+        paddingTop: '5px',
       }}
     >
       <Grid

@@ -60,7 +60,7 @@ const Header = () => {
             Збережи дитину
           </Typography>
         </Grid>
-        <Grid display={'flex'} flexDirection={'row'} gap={'60px'} >
+        <Grid display={'flex'} flexDirection={'row'} gap={'60px'}>
           <Grid display={'flex'} flexDirection={'column'} alignItems={'center'}>
             <Typography
               color={colors.grey}
@@ -89,9 +89,12 @@ const Header = () => {
           </Grid>
         </Grid>
       </Grid>
-      <Divider color={`${colors.violet}`} sx={{
-        opacity: '0.3'
-      }}/>
+      <Divider
+        color={`${colors.violet}`}
+        sx={{
+          opacity: '0.3',
+        }}
+      />
       <Navigation />
     </Grid>
   );

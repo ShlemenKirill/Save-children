@@ -7,7 +7,7 @@ export const listStyle = {
 };
 export const listItemStyle = {
   display: 'list-item',
-  padding: '3px 10px'
+  padding: '3px 10px',
 };
 export const listItemTextStyle = {
   ...fonts.montserratNormal16,

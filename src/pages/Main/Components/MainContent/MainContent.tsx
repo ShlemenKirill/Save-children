@@ -95,9 +95,7 @@ const MainContent = () => {
               </Typography>
             </StyledButton>
           </Grid>
-
         </Grid>
-
       </Grid>
     </Grid>
   );

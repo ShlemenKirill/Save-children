@@ -28,14 +28,10 @@ const ActivityDescription = () => {
         id={'activity-description-photo'}
         sx={{
           paddingLeft: '74px',
-          height: '343px'
+          height: '343px',
         }}
       >
-        <Box
-          component={'img'}
-          alt={'activity1'}
-          src={'images/aboutUs/activity1.png'}
-        />
+        <Box component={'img'} alt={'activity1'} src={'images/aboutUs/activity1.png'} />
       </Grid>
     </Grid>
   );

@@ -72,13 +72,18 @@ const Activity = () => {
         sx={{
           display: 'flex',
           flexDirection: 'row',
-          justifyContent: 'flex-end'
+          justifyContent: 'flex-end',
         }}
       >
-        <Box component={'img'} alt={'collage'} src={'images/aboutUs/collage.png'} sx={{
-          width: '540px',
-          height: '523px'
-        }}/>
+        <Box
+          component={'img'}
+          alt={'collage'}
+          src={'images/aboutUs/collage.png'}
+          sx={{
+            width: '540px',
+            height: '523px',
+          }}
+        />
       </Grid>
     </Grid>
   );

@@ -43,7 +43,7 @@ const HelpAtWar = () => {
             sx={{
               paddingTop: '20px',
               display: 'flex',
-              flexDirection: 'row'
+              flexDirection: 'row',
             }}
           >
             <List sx={{ listStyleType: 'disc', paddingLeft: '20px' }}>
