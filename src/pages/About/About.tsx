@@ -11,22 +11,19 @@ import Photos from 'pages/About/components/Photos';
 
 const About = () => {
   return (
-    <Grid>
+    <Grid sx={{
+      backgroundColor: colors.mainBackground,
+    }}>
       <Header />
       <Grid
         display={'flex'}
         flexDirection={'column'}
         sx={{
           backgroundColor: colors.mainBackground,
-          '@media (min-width: 1440px)': {
-            padding: '38px 10% 130px 10%',
-          },
-          '@media (min-width: 1920px)': {
-            padding: '38px 20% 130px 20%',
-          },
-          '@media (min-width: 2560px)': {
-            padding: '38px 27% 130px 27%',
-          },
+          width: '1169px',
+          paddingTop: '38px',
+          paddingBottom: '130px',
+          margin: 'auto'
         }}
       >
         <Grid id={'header'}>

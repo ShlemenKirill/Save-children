@@ -20,15 +20,10 @@ const Header = () => {
       display={'flex'}
       flexDirection={'column'}
       sx={{
-        '@media (min-width: 1440px)': {
-          padding: '15px 10%',
-        },
-        '@media (min-width: 1920px)': {
-          padding: '15px 20%',
-        },
-        '@media (min-width: 2560px)': {
-          padding: '15px 27%',
-        },
+        width: '1169px',
+        paddingTop: '15px',
+        paddingBottom: '15px',
+        margin: 'auto',
         background: colors.mainBackground,
       }}
     >
