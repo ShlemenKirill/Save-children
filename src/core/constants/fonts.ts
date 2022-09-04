@@ -83,4 +83,18 @@ export const fonts = {
     fontSize: '32px',
     lineHeight: '39px',
   },
+  montserratMedium85: {
+    fontFamily: 'Montserrat',
+    fontStyle: 'normal',
+    fontWeight: 500,
+    fontSize: '85px',
+    lineHeight: '88px',
+  },
+  montserratMedium24: {
+    fontFamily: 'Montserrat',
+    fontStyle: 'normal',
+    fontWeight: 500,
+    fontSize: '24px',
+    lineHeight: '30px',
+  },
 };

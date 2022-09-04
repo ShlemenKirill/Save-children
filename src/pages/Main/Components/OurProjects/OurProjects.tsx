@@ -19,7 +19,15 @@ const OurProjects = () => {
         justifyContent={'space-between'}
         sx={{
           width: '100%',
-          padding: '4.8rem 10% 5.8rem 10%',
+          '@media (min-width: 1440px)': {
+            padding: '4.8rem 10% 5.8rem 10%',
+          },
+          '@media (min-width: 1920px)': {
+            padding: '4.8rem 20% 5.8rem 20%',
+          },
+          '@media (min-width: 2560px)': {
+            padding: '4.8rem 27% 5.8rem 27%',
+          },
           zIndex: 100,
         }}
       >
@@ -51,7 +59,7 @@ const OurProjects = () => {
         <Grid
           display={'flex'}
           flexDirection={'row'}
-          justifyContent={'space-around'}
+          justifyContent={'space-between'}
           sx={{
             paddingTop: '3.125rem',
           }}
