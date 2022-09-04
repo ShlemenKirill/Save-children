@@ -2,6 +2,7 @@ import { Box, Grid, Typography } from '@mui/material';
 import { fonts } from 'core/constants/fonts';
 import { colors } from 'core/constants/colors';
 import { listItemTextStyle } from 'pages/About/styles';
+import { imageStyle } from 'core/constants/styles';
 
 const VolunteersTeam = () => {
   return (
@@ -75,6 +76,7 @@ const VolunteersTeam = () => {
           src={'images/aboutUs/photoWithHashtag.png'}
           sx={{
             borderRadius: '5px',
+            ...imageStyle
           }}
         />
       </Grid>
