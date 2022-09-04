@@ -37,7 +37,15 @@ const Footer = () => {
       alignItems={'flex-start'}
       gap={'10%'}
       sx={{
-        padding: '70px 10%',
+        '@media (min-width: 1440px)': {
+          padding: '4.375rem 10%',
+        },
+        '@media (min-width: 1920px)': {
+          padding: '4.375rem 20%',
+        },
+        '@media (min-width: 2560px)': {
+          padding: '4.375rem 27%',
+        },
         background: colors.footer,
       }}
     >

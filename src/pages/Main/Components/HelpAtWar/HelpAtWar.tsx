@@ -18,7 +18,15 @@ const HelpAtWar = () => {
         justifyContent={'space-between'}
         sx={{
           width: '100%',
-          padding: '4.8rem 10% 5.8rem 10%',
+          '@media (min-width: 1440px)': {
+            padding: '4.8rem 10% 5.8rem 10%',
+          },
+          '@media (min-width: 1920px)': {
+            padding: '4.8rem 20% 5.8rem 20%',
+          },
+          '@media (min-width: 2560px)': {
+            padding: '4.8rem 27% 5.8rem 27%',
+          },
           zIndex: 100,
         }}
       >
@@ -34,6 +42,8 @@ const HelpAtWar = () => {
           <Grid
             sx={{
               paddingTop: '20px',
+              display: 'flex',
+              flexDirection: 'row',
             }}
           >
             <List sx={{ listStyleType: 'disc', paddingLeft: '20px' }}>
@@ -103,14 +113,14 @@ const HelpAtWar = () => {
                 </Typography>
               </ListItem>
             </List>
+            <Grid display={'flex'} flexDirection={'column'} justifyContent={'flex-end'}>
+              <Box
+                component={'img'}
+                alt={'We support Ukraine'}
+                src={'images/weSupportUkraineFlag.png'}
+              />
+            </Grid>
           </Grid>
-        </Grid>
-        <Grid display={'flex'} flexDirection={'column'} justifyContent={'flex-end'}>
-          <Box
-            component={'img'}
-            alt={'We support Ukraine'}
-            src={'images/weSupportUkraineFlag.png'}
-          />
         </Grid>
       </Grid>
     </Grid>

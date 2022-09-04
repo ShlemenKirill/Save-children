@@ -20,6 +20,9 @@ const Navigation = () => {
       flexDirection={'row'}
       alignItems={'center'}
       justifyContent={'space-between'}
+      sx={{
+        paddingTop: '5px',
+      }}
     >
       <Grid
         onClick={() => {

@@ -13,15 +13,23 @@ const MainContent = () => {
         backgroundColor: colors.mainBackground,
         backgroundImage: 'url(/images/mainBackground.png)',
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'right',
+        backgroundPosition: 'center',
+        '@media (min-width: 1440px)': {
+          padding: '5.1rem 0 5.8rem 10%',
+        },
+        '@media (min-width: 1920px)': {
+          padding: '5.1rem 0 5.8rem 20%',
+        },
+        '@media (min-width: 2560px)': {
+          padding: '5.1rem 0 5.8rem 27%',
+        },
       }}
     >
       <Grid
         display={'flex'}
         flexDirection={'row'}
         sx={{
-          padding: '4.8rem 10% 5.8rem 10%',
-          zIndex: 100,
+          backgroundColor: colors.mainBackground,
         }}
       >
         <Grid
