@@ -17,16 +17,10 @@ const HelpAtWar = () => {
         flexDirection={'row'}
         justifyContent={'space-between'}
         sx={{
-          width: '100%',
-          '@media (min-width: 1440px)': {
-            padding: '4.8rem 10% 5.8rem 10%',
-          },
-          '@media (min-width: 1920px)': {
-            padding: '4.8rem 20% 5.8rem 20%',
-          },
-          '@media (min-width: 2560px)': {
-            padding: '4.8rem 27% 5.8rem 27%',
-          },
+          width: '1169px',
+          paddingTop: '4.8rem',
+          paddingBottom: '5.8rem',
+          margin: 'auto',
           zIndex: 100,
         }}
       >

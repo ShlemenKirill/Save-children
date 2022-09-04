@@ -32,101 +32,102 @@ const Footer = () => {
   };
   return (
     <Grid
-      display={'flex'}
-      flexDirection={'row'}
-      alignItems={'flex-start'}
-      gap={'10%'}
       sx={{
-        '@media (min-width: 1440px)': {
-          padding: '4.375rem 10%',
-        },
-        '@media (min-width: 1920px)': {
-          padding: '4.375rem 20%',
-        },
-        '@media (min-width: 2560px)': {
-          padding: '4.375rem 27%',
-        },
         background: colors.footer,
       }}
     >
-      <Grid display={'flex'} flexDirection={'row'} gap={'12px'} alignItems={'center'}>
-        <Logo />
-        <Typography
-          sx={{
-            color: colors.violet,
-            ...fonts.stixNormal24,
-          }}
-        >
-          Збережи дитину
-        </Typography>
-      </Grid>
-      <Grid>
-        <Typography sx={menuHeaderStyle}>Контакти</Typography>
-        <Typography sx={secondaryText}>Kyiv, Ukraine</Typography>
-        <Typography sx={secondaryText}>+380 800 213 452</Typography>
-        <Grid
-          display={'flex'}
-          flexDirection={'row'}
-          gap={'20px'}
-          sx={{
-            paddingTop: '22px',
-          }}
-        >
-          <MailIconWithBackground />
-          <InstagramIconWithBackground />
-          <FacebookIconWithBackground />
+      <Grid
+        display={'flex'}
+        flexDirection={'row'}
+        alignItems={'flex-start'}
+        gap={'10%'}
+        sx={{
+          width: '1169px',
+          paddingTop: '4.375rem',
+          paddingBottom: '4.375rem',
+          margin: 'auto',
+          background: colors.footer,
+        }}
+      >
+        <Grid display={'flex'} flexDirection={'row'} gap={'12px'} alignItems={'center'}>
+          <Logo />
+          <Typography
+            sx={{
+              color: colors.violet,
+              ...fonts.stixNormal24,
+            }}
+          >
+            Збережи дитину
+          </Typography>
         </Grid>
-      </Grid>
-      <Grid>
-        <Typography sx={menuHeaderStyle}>Меню</Typography>
-        <Typography
-          sx={menuItemStyle}
-          onClick={() => {
-            navigate(ABOUT_US);
-          }}
-        >
-          Про нас
-        </Typography>
-        <Typography
-          sx={menuItemStyle}
-          onClick={() => {
-            navigate('/projects');
-          }}
-        >
-          Нашi проекти
-        </Typography>
-        <Typography
-          sx={menuItemStyle}
-          onClick={() => {
-            navigate(REPORTS);
-          }}
-        >
-          Звітність
-        </Typography>
-        <Typography
-          sx={menuItemStyle}
-          onClick={() => {
-            navigate(PARTNERS);
-          }}
-        >
-          Партнерам
-        </Typography>
-        <Typography
-          sx={menuItemStyle}
-          onClick={() => {
-            navigate(VOLUNTEERS);
-          }}
-        >
-          Волонтерам
-        </Typography>
-        <Typography
-          sx={menuItemStyle}
-          onClick={() => {
-            navigate('/information');
-          }}
-        >
-          Iнформація
-        </Typography>
+        <Grid>
+          <Typography sx={menuHeaderStyle}>Контакти</Typography>
+          <Typography sx={secondaryText}>Kyiv, Ukraine</Typography>
+          <Typography sx={secondaryText}>+380 800 213 452</Typography>
+          <Grid
+            display={'flex'}
+            flexDirection={'row'}
+            gap={'20px'}
+            sx={{
+              paddingTop: '22px',
+            }}
+          >
+            <MailIconWithBackground />
+            <InstagramIconWithBackground />
+            <FacebookIconWithBackground />
+          </Grid>
+        </Grid>
+        <Grid>
+          <Typography sx={menuHeaderStyle}>Меню</Typography>
+          <Typography
+            sx={menuItemStyle}
+            onClick={() => {
+              navigate(ABOUT_US);
+            }}
+          >
+            Про нас
+          </Typography>
+          <Typography
+            sx={menuItemStyle}
+            onClick={() => {
+              navigate('/projects');
+            }}
+          >
+            Нашi проекти
+          </Typography>
+          <Typography
+            sx={menuItemStyle}
+            onClick={() => {
+              navigate(REPORTS);
+            }}
+          >
+            Звітність
+          </Typography>
+          <Typography
+            sx={menuItemStyle}
+            onClick={() => {
+              navigate(PARTNERS);
+            }}
+          >
+            Партнерам
+          </Typography>
+          <Typography
+            sx={menuItemStyle}
+            onClick={() => {
+              navigate(VOLUNTEERS);
+            }}
+          >
+            Волонтерам
+          </Typography>
+          <Typography
+            sx={menuItemStyle}
+            onClick={() => {
+              navigate('/information');
+            }}
+          >
+            Iнформація
+          </Typography>
+        </Grid>
       </Grid>
     </Grid>
   );

@@ -6,23 +6,23 @@ import StyledButton from 'components/StyledButton';
 
 const MainContent = () => {
   return (
+    <Grid sx={{
+      backgroundColor: colors.mainBackground,
+      backgroundImage: 'url(/images/mainBackground.png)',
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center',
+    }}>
+
+
     <Grid
       display={'flex'}
       flexDirection={'row'}
       sx={{
-        backgroundColor: colors.mainBackground,
-        backgroundImage: 'url(/images/mainBackground.png)',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
-        '@media (min-width: 1440px)': {
-          padding: '5.1rem 0 5.8rem 10%',
-        },
-        '@media (min-width: 1920px)': {
-          padding: '5.1rem 0 5.8rem 20%',
-        },
-        '@media (min-width: 2560px)': {
-          padding: '5.1rem 0 5.8rem 27%',
-        },
+
+        width: '1169px',
+        paddingTop: '5.1rem',
+        paddingBottom: '5.8rem',
+        margin: 'auto',
       }}
     >
       <Grid
@@ -97,6 +97,7 @@ const MainContent = () => {
           </Grid>
         </Grid>
       </Grid>
+    </Grid>
     </Grid>
   );
 };
