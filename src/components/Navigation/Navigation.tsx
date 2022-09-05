@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Grid, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';

@@ -6,7 +6,6 @@ import {
   CONTACTS,
   PARTNERS,
   PROJECTS,
-  PROJECTS_PREGNANT_HELP,
   REPORTS,
   VOLUNTEERS,
 } from 'core/constants/navigation';
