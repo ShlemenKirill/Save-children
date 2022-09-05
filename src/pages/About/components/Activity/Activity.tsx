@@ -79,7 +79,7 @@ const Activity = () => {
         <Box
           component={'img'}
           alt={'collage'}
-          src={'images/aboutUs/collage.png'}
+          src={'/images/aboutUs/collage.png'}
           sx={{
             width: '540px',
             height: '523px',

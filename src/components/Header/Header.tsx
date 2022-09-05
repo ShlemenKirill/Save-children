@@ -17,80 +17,90 @@ const Header = () => {
   const { setCurrentMenuItem } = useContext(MenuContext);
   return (
     <Grid
-      display={'flex'}
-      flexDirection={'column'}
       sx={{
-        width: '1169px',
-        paddingTop: '15px',
-        paddingBottom: '15px',
-        margin: 'auto',
+        position: 'sticky',
+        top: 0,
+        zIndex: 1000,
+        width: '100%',
         background: colors.mainBackground,
       }}
     >
       <Grid
         display={'flex'}
-        flexDirection={'row'}
-        alignItems={'center'}
-        justifyContent={'space-between'}
+        flexDirection={'column'}
+        sx={{
+          width: '1169px',
+          paddingTop: '15px',
+          paddingBottom: '15px',
+          margin: 'auto',
+          background: colors.mainBackground,
+        }}
       >
         <Grid
           display={'flex'}
           flexDirection={'row'}
           alignItems={'center'}
-          sx={{
-            cursor: 'pointer',
-          }}
-          onClick={() => {
-            navigate('/', { replace: true });
-            setCurrentMenuItem(NavigationMenuItems.main);
-          }}
+          justifyContent={'space-between'}
         >
-          <Logo />
-          <Typography
-            color={colors.violet}
+          <Grid
+            display={'flex'}
+            flexDirection={'row'}
+            alignItems={'center'}
             sx={{
-              ...fonts.stixNormal24,
+              cursor: 'pointer',
+            }}
+            onClick={() => {
+              navigate('/', { replace: true });
+              setCurrentMenuItem(NavigationMenuItems.main);
             }}
           >
-            Збережи дитину
-          </Typography>
-        </Grid>
-        <Grid display={'flex'} flexDirection={'row'} gap={'60px'}>
-          <Grid display={'flex'} flexDirection={'column'} alignItems={'center'}>
+            <Logo />
             <Typography
-              color={colors.grey}
+              color={colors.violet}
               sx={{
-                ...fonts.montserratNormal14,
+                ...fonts.stixNormal24,
               }}
             >
-              Безкоштовна гаряча линия
-            </Typography>
-            <Typography
-              color={colors.matteBlack}
-              sx={{
-                ...fonts.montserratMedium16,
-              }}
-            >
-              +380 800 213 452
+              Збережи дитину
             </Typography>
           </Grid>
-          <Grid display={'flex'} flexDirection={'row'} gap={'25px'} alignItems={'center'}>
-            <MailIcon />
-            <InstagramIcon />
-            <FacebookIcon />
-          </Grid>
-          <Grid display={'flex'} flexDirection={'row'}>
-            <StyledButton buttonVariant={ButtonVariants.primary}>Хочу допомогти</StyledButton>
+          <Grid display={'flex'} flexDirection={'row'} gap={'60px'}>
+            <Grid display={'flex'} flexDirection={'column'} alignItems={'center'}>
+              <Typography
+                color={colors.grey}
+                sx={{
+                  ...fonts.montserratNormal14,
+                }}
+              >
+                Безкоштовна гаряча линия
+              </Typography>
+              <Typography
+                color={colors.matteBlack}
+                sx={{
+                  ...fonts.montserratMedium16,
+                }}
+              >
+                +380 800 213 452
+              </Typography>
+            </Grid>
+            <Grid display={'flex'} flexDirection={'row'} gap={'25px'} alignItems={'center'}>
+              <MailIcon />
+              <InstagramIcon />
+              <FacebookIcon />
+            </Grid>
+            <Grid display={'flex'} flexDirection={'row'}>
+              <StyledButton buttonVariant={ButtonVariants.primary}>Хочу допомогти</StyledButton>
+            </Grid>
           </Grid>
         </Grid>
+        <Divider
+          color={`${colors.violet}`}
+          sx={{
+            opacity: '0.3',
+          }}
+        />
+        <Navigation />
       </Grid>
-      <Divider
-        color={`${colors.violet}`}
-        sx={{
-          opacity: '0.3',
-        }}
-      />
-      <Navigation />
     </Grid>
   );
 };

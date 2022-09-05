@@ -1,19 +1,22 @@
-import { useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Grid, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import NavMenuSelect from 'components/NavMenuSelect';
 import { NavigationMenuItems } from 'core/constants/common';
-import { ABOUT_US, CONTACTS, PARTNERS, REPORTS, VOLUNTEERS } from 'core/constants/navigation';
-import MenuContext from 'context/MenuContext';
+import {
+  ABOUT_US,
+  CONTACTS,
+  INFORMATION,
+  PARTNERS,
+  PROJECTS,
+  REPORTS,
+  VOLUNTEERS,
+} from 'core/constants/navigation';
 
 const Navigation = () => {
   const navigate = useNavigate();
-  const { currentMenuItem, setCurrentMenuItem } = useContext(MenuContext);
-  const panelOnClickHandler = (panelName: NavigationMenuItems) => {
-    setCurrentMenuItem(panelName);
-  };
+  const { pathname } = useLocation();
   return (
     <Grid
       display={'flex'}
@@ -26,15 +29,11 @@ const Navigation = () => {
     >
       <Grid
         onClick={() => {
-          panelOnClickHandler(NavigationMenuItems.aboutUs);
           navigate(ABOUT_US, { replace: true });
         }}
         sx={{
           cursor: 'pointer',
-          borderBottom:
-            currentMenuItem === NavigationMenuItems.aboutUs
-              ? `1px solid ${colors.matteBlack}`
-              : 'none',
+          borderBottom: pathname === ABOUT_US ? `1px solid ${colors.matteBlack}` : 'none',
         }}
       >
         <Typography
@@ -47,15 +46,9 @@ const Navigation = () => {
         </Typography>
       </Grid>
       <Grid
-        onClick={() => {
-          panelOnClickHandler(NavigationMenuItems.ourProjects);
-        }}
         sx={{
           cursor: 'pointer',
-          borderBottom:
-            currentMenuItem === NavigationMenuItems.ourProjects
-              ? `1px solid ${colors.matteBlack}`
-              : 'none',
+          borderBottom: pathname === PROJECTS ? `1px solid ${colors.matteBlack}` : 'none',
         }}
       >
         <NavMenuSelect
@@ -69,13 +62,9 @@ const Navigation = () => {
         />
       </Grid>
       <Grid
-        onClick={() => panelOnClickHandler(NavigationMenuItems.information)}
         sx={{
           cursor: 'pointer',
-          borderBottom:
-            currentMenuItem === NavigationMenuItems.information
-              ? `1px solid ${colors.matteBlack}`
-              : 'none',
+          borderBottom: pathname === INFORMATION ? `1px solid ${colors.matteBlack}` : 'none',
         }}
       >
         <NavMenuSelect
@@ -91,15 +80,11 @@ const Navigation = () => {
       </Grid>
       <Grid
         onClick={() => {
-          panelOnClickHandler(NavigationMenuItems.reports);
           navigate(REPORTS, { replace: true });
         }}
         sx={{
           cursor: 'pointer',
-          borderBottom:
-            currentMenuItem === NavigationMenuItems.reports
-              ? `1px solid ${colors.matteBlack}`
-              : 'none',
+          borderBottom: pathname === REPORTS ? `1px solid ${colors.matteBlack}` : 'none',
         }}
       >
         <Typography
@@ -113,15 +98,11 @@ const Navigation = () => {
       </Grid>
       <Grid
         onClick={() => {
-          panelOnClickHandler(NavigationMenuItems.partners);
           navigate(PARTNERS, { replace: true });
         }}
         sx={{
           cursor: 'pointer',
-          borderBottom:
-            currentMenuItem === NavigationMenuItems.partners
-              ? `1px solid ${colors.matteBlack}`
-              : 'none',
+          borderBottom: pathname === PARTNERS ? `1px solid ${colors.matteBlack}` : 'none',
         }}
       >
         <Typography
@@ -135,15 +116,11 @@ const Navigation = () => {
       </Grid>
       <Grid
         onClick={() => {
-          panelOnClickHandler(NavigationMenuItems.volunteers);
           navigate(VOLUNTEERS, { replace: true });
         }}
         sx={{
           cursor: 'pointer',
-          borderBottom:
-            currentMenuItem === NavigationMenuItems.volunteers
-              ? `1px solid ${colors.matteBlack}`
-              : 'none',
+          borderBottom: pathname === VOLUNTEERS ? `1px solid ${colors.matteBlack}` : 'none',
         }}
       >
         <Typography
@@ -157,15 +134,11 @@ const Navigation = () => {
       </Grid>
       <Grid
         onClick={() => {
-          panelOnClickHandler(NavigationMenuItems.contacts);
           navigate(CONTACTS, { replace: true });
         }}
         sx={{
           cursor: 'pointer',
-          borderBottom:
-            currentMenuItem === NavigationMenuItems.contacts
-              ? `1px solid ${colors.matteBlack}`
-              : 'none',
+          borderBottom: pathname === CONTACTS ? `1px solid ${colors.matteBlack}` : 'none',
         }}
       >
         <Typography

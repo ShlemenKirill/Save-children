@@ -65,14 +65,14 @@ const AboutUs = () => {
           </Grid>
           <Grid display={'flex'} flexDirection={'row'} gap={'100px'} justifyContent={'center'}>
             <Grid>
-              <Box component={'img'} alt={'Children'} src={'images/aboutUs/children1.png'} />
+              <Box component={'img'} alt={'Children'} src={'/images/aboutUs/children1.png'} />
             </Grid>
             <Grid
               sx={{
                 paddingTop: '150px',
               }}
             >
-              <Box component={'img'} alt={'Children'} src={'images/aboutUs/children2.png'} />
+              <Box component={'img'} alt={'Children'} src={'/images/aboutUs/children2.png'} />
             </Grid>
           </Grid>
         </Grid>
@@ -80,7 +80,7 @@ const AboutUs = () => {
           <Box
             component={'img'}
             alt={'collage'}
-            src={'images/aboutUs/collage.png'}
+            src={'/images/aboutUs/collage.png'}
             width={'555px'}
             height={'555px'}
           />

@@ -15,13 +15,13 @@ const Photos = () => {
         <Box
           component={'img'}
           alt={'activity2'}
-          src={'images/aboutUs/activity2.png'}
+          src={'/images/aboutUs/activity2.png'}
           sx={imageStyle}
         />
         <Box
           component={'img'}
           alt={'activity3'}
-          src={'images/aboutUs/activity3.png'}
+          src={'/images/aboutUs/activity3.png'}
           sx={imageStyle}
         />
       </Grid>
@@ -43,20 +43,20 @@ const Photos = () => {
           <Box
             component={'img'}
             alt={'activity4'}
-            src={'images/aboutUs/activity4.png'}
+            src={'/images/aboutUs/activity4.png'}
             sx={imageStyle}
           />
           <Box
             component={'img'}
             alt={'activity5'}
-            src={'images/aboutUs/activity5.png'}
+            src={'/images/aboutUs/activity5.png'}
             sx={imageStyle}
           />
         </Grid>
         <Box
           component={'img'}
           alt={'activity6'}
-          src={'images/aboutUs/activity6.png'}
+          src={'/images/aboutUs/activity6.png'}
           sx={imageStyle}
         />
       </Grid>
