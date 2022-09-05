@@ -23,9 +23,23 @@
     "react/react-in-jsx-scope": "off",
     "camelcase": "error",
     "spaced-comment": "error",
-    "quotes": ["error", "single"],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
     "no-duplicate-imports": "error",
-    "semi": [2, "always"]
+    "semi": [2, "always"],
+    "@typescript-eslint/quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true,
+        "avoidEscape": true
+      }
+    ]
   },
   "settings": {
     "import/resolver": {

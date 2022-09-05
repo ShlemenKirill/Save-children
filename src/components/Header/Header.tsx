@@ -22,7 +22,7 @@ const Header = () => {
         top: 0,
         zIndex: 1000,
         width: '100%',
-        background: colors.mainBackground
+        background: colors.mainBackground,
       }}
     >
       <Grid
