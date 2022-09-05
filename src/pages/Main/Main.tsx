@@ -12,6 +12,9 @@ const Main = () => {
     <Grid
       sx={{
         background: colors.mainBackground,
+        '@media (max-width: 1024px)': {
+          width: '1169px',
+        },
       }}
     >
       <PageContainer>

@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Divider, Grid, Typography } from '@mui/material';
+import { Divider, Grid, Link, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import { ButtonVariants, NavigationMenuItems } from 'core/constants/common';
@@ -84,9 +84,30 @@ const Header = () => {
               </Typography>
             </Grid>
             <Grid display={'flex'} flexDirection={'row'} gap={'25px'} alignItems={'center'}>
-              <MailIcon />
-              <InstagramIcon />
-              <FacebookIcon />
+              <Link
+                href={'mailto:zberezhyd@gmail.com'}
+                underline='none'
+                target={'_blank'}
+                rel={'noreferrer'}
+              >
+                <MailIcon />
+              </Link>
+              <Link
+                href={'https://www.instagram.com/zbereju.dutuny/'}
+                underline='none'
+                target={'_blank'}
+                rel={'noreferrer'}
+              >
+                <InstagramIcon />
+              </Link>
+              <Link
+                href={'https://www.facebook.com/zbereju.dutuny/'}
+                underline='none'
+                target={'_blank'}
+                rel={'noreferrer'}
+              >
+                <FacebookIcon />
+              </Link>
             </Grid>
             <Grid display={'flex'} flexDirection={'row'}>
               <StyledButton buttonVariant={ButtonVariants.primary}>Хочу допомогти</StyledButton>

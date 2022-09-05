@@ -2,6 +2,7 @@ import { Grid, Link, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import ProjectCard from 'components/ProjectCard/ProjectCard';
+import { PROJECTS, PROJECTS_PREGNANT_HELP } from 'core/constants/navigation';
 
 const OurProjects = () => {
   return (
@@ -41,7 +42,7 @@ const OurProjects = () => {
             Наші проекти
           </Typography>
           <Link
-            href={'/projects'}
+            href={PROJECTS}
             sx={{
               ...fonts.montserratMedium16,
               color: colors.violet,
@@ -62,7 +63,7 @@ const OurProjects = () => {
             imageUrl={'/images/projects/pregnant.png'}
             headerText={'Допомога кризовим вагітним'}
             text={'Faucibus maecenas risus et, egestas.'}
-            pathUrl={'/projects'}
+            pathUrl={PROJECTS_PREGNANT_HELP}
           />
           <ProjectCard
             imageUrl={'/images/projects/hartHouse.png'}
