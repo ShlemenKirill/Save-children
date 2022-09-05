@@ -21,7 +21,8 @@
       "core": ["core/*"],
       "types": ["types/*"],
       "pages": ["pages/*"],
-      "context": ["context/*"]
+      "context": ["context/*"],
+      "containers": ["containers/*"]
     }
   },
   "include": ["src"]
