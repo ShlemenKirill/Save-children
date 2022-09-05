@@ -35,7 +35,7 @@ const ActivityDescription = () => {
         <Box
           component={'img'}
           alt={'activity1'}
-          src={'images/aboutUs/activity1.png'}
+          src={'/images/aboutUs/activity1.png'}
           sx={imageStyle}
         />
       </Grid>

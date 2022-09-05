@@ -16,7 +16,7 @@ const ChildrenPhotos = () => {
       <Box
         component={'img'}
         alt={'children'}
-        src={'images/aboutUs/children1.png'}
+        src={'/images/aboutUs/children1.png'}
         sx={{
           width: '282px',
           ...imageStyle
@@ -25,7 +25,7 @@ const ChildrenPhotos = () => {
       <Box
         component={'img'}
         alt={'group'}
-        src={'images/aboutUs/group.png'}
+        src={'/images/aboutUs/group.png'}
         sx={{
           width: '508px',
           ...imageStyle
@@ -34,7 +34,7 @@ const ChildrenPhotos = () => {
       <Box
         component={'img'}
         alt={'children'}
-        src={'images/aboutUs/children2.png'}
+        src={'/images/aboutUs/children2.png'}
         sx={{
           width: '282px',
           ...imageStyle

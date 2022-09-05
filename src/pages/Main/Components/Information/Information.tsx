@@ -60,15 +60,15 @@ const Information = () => {
           }}
         >
           <InfoCard
-            imageUrl={'images/information/childrenInStress.png'}
+            imageUrl={'/images/information/childrenInStress.png'}
             headerText={'“Допоможiть, моя дитина в стресi”'}
             text={
-              'Перше що потрібно знати мамі — вам і дитині потрібен час. Все що почуває мама- почуває і дитина. Матуся може зрозуміти які ємоції в неї і чому, маленька дитина ні.'
+              'Перше що потрібно знати мамі — вам і дитині потрібен час. Все що почуває мама- почуває і дитина. Матуся може зрозуміти які ємоції в неї і чому, маленька дитина ні.'
             }
             pathUrl={'/info/1'}
           />
           <InfoCard
-            imageUrl={'images/information/flag.png'}
+            imageUrl={'/images/information/flag.png'}
             headerText={'Як ми працюємо під час війни'}
             text={'Наші основні задачі, та майже щоденні справи.'}
             pathUrl={'/info/2'}

@@ -54,7 +54,7 @@ const About = () => {
               <Box
                 component={'img'}
                 alt={'all-volunteers'}
-                src={'images/aboutUs/all_volunteers.png'}
+                src={'/images/aboutUs/all_volunteers.png'}
                 width={'100%'}
                 sx={imageStyle}
               />

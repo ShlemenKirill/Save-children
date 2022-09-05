@@ -9,6 +9,7 @@ import {
   PROJECTS_PREGNANT_HELP,
 } from 'core/constants/navigation';
 import ProjectCard from 'components/ProjectCard/ProjectCard';
+import { Outlet } from 'react-router-dom';
 
 const Projects = () => {
   return (
@@ -47,7 +48,7 @@ const Projects = () => {
               }}
             >
               <ProjectCard
-                imageUrl={'images/projects/pregnant.png'}
+                imageUrl={'/images/projects/pregnant.png'}
                 headerText={'Допомога кризовим вагітним'}
                 text={
                   'Психологи служби консультують жінок, які зіткнулися з проблемою незапланованої вагітності'
@@ -55,7 +56,7 @@ const Projects = () => {
                 pathUrl={PROJECTS_PREGNANT_HELP}
               />
               <ProjectCard
-                imageUrl={'images/projects/hartHouse.png'}
+                imageUrl={'/images/projects/hartHouse.png'}
                 headerText={'Дім-турботи "СЕРДЕНЬКО❤"'}
                 text={
                   'Будинок турботи це не гуртожиток для переселенців. У нього зовсім інші задачі, вони більші та глибші. '
@@ -72,13 +73,13 @@ const Projects = () => {
               }}
             >
               <ProjectCard
-                imageUrl={'images/projects/evacuation.png'}
+                imageUrl={'/images/projects/evacuation.png'}
                 headerText={'Допомога в евакуації'}
                 text={'Евакуація жінок та дітей це тривала робота по багатьом напрямкам.'}
                 pathUrl={PROJECTS_EVACUATION_HELP}
               />
               <ProjectCard
-                imageUrl={'images/projects/largeFamily.png'}
+                imageUrl={'/images/projects/largeFamily.png'}
                 headerText={`Допомога багатодітним сім'ям`}
                 text={
                   'Особливо ми любимо працювати з багатодітними родинами, бо діти це благословіння. '
@@ -89,6 +90,7 @@ const Projects = () => {
           </Grid>
         </>
       </PageContainer>
+      <Outlet />
     </Grid>
   );
 };

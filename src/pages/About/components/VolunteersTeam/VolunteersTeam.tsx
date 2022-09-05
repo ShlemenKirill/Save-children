@@ -73,7 +73,7 @@ const VolunteersTeam = () => {
         <Box
           component={'img'}
           alt={'save-children-team'}
-          src={'images/aboutUs/photoWithHashtag.png'}
+          src={'/images/aboutUs/photoWithHashtag.png'}
           sx={{
             borderRadius: '5px',
             ...imageStyle

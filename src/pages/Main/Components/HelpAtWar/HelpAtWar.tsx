@@ -111,7 +111,7 @@ const HelpAtWar = () => {
               <Box
                 component={'img'}
                 alt={'We support Ukraine'}
-                src={'images/weSupportUkraineFlag.png'}
+                src={'/images/weSupportUkraineFlag.png'}
               />
             </Grid>
           </Grid>

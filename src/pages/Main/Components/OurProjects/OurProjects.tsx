@@ -59,13 +59,13 @@ const OurProjects = () => {
           }}
         >
           <ProjectCard
-            imageUrl={'images/projects/pregnant.png'}
+            imageUrl={'/images/projects/pregnant.png'}
             headerText={'Допомога кризовим вагітним'}
             text={'Faucibus maecenas risus et, egestas.'}
             pathUrl={'/projects'}
           />
           <ProjectCard
-            imageUrl={'images/projects/hartHouse.png'}
+            imageUrl={'/images/projects/hartHouse.png'}
             headerText={'Дім-турботи "СЕРДЕНЬКО❤"'}
             text={
               'Будинок турботи це не гуртожиток для переселенців. У нього зовсім інші задачі, вони більші та глибші. '
