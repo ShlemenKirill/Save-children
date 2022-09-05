@@ -80,7 +80,7 @@ const Header = () => {
             <FacebookIcon />
           </Grid>
           <Grid display={'flex'} flexDirection={'row'}>
-            <StyledButton buttonVariant={ButtonVariants.primary}>Потрібна допомога</StyledButton>
+            <StyledButton buttonVariant={ButtonVariants.primary}>Хочу допомогти</StyledButton>
           </Grid>
         </Grid>
       </Grid>
