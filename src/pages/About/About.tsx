@@ -24,7 +24,7 @@ const About = () => {
         sx={{
           backgroundColor: colors.mainBackground,
           width: '1169px',
-          paddingTop: '38px',
+          paddingTop: '10px',
           paddingBottom: '130px',
           margin: 'auto',
         }}
