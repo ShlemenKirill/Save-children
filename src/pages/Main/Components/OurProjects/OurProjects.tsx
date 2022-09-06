@@ -62,7 +62,7 @@ const OurProjects = () => {
           <ProjectCard
             imageUrl={'/images/projects/pregnant.png'}
             headerText={'Допомога кризовим вагітним'}
-            text={'Faucibus maecenas risus et, egestas.'}
+            text={'Психологи служби консультують жінок, які зіткнулися з проблемою незапланованої вагітності'}
             pathUrl={PROJECTS_PREGNANT_HELP}
           />
           <ProjectCard
