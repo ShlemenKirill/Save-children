@@ -16,8 +16,9 @@ import Volunteers from 'pages/Volunteers';
 import Contacts from 'pages/Contacts';
 import About from 'pages/About';
 import Projects from 'pages/Projects';
-import MenuContext from 'context/MenuContext';
 import PregnantHelp from 'pages/Projects/PregnantHelp';
+import LargeFamilyHelp from 'pages/Projects/LargeFamilyHelp';
+import MenuContext from 'context/MenuContext';
 
 const App = () => {
   const [currentMenuItem, setCurrentMenuItem] = useState<NavigationMenuItems>(
@@ -32,6 +33,7 @@ const App = () => {
           <Route path={PROJECTS}>
             <Route index element={<Projects />} />
             <Route path={'pregnant-help'} element={<PregnantHelp />} />
+            <Route path={'large-family-help'} element={<LargeFamilyHelp />} />
           </Route>
           <Route path={REPORTS} element={<Reports />} />
           <Route path={PARTNERS} element={<Partners />} />
