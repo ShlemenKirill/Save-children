@@ -1,8 +1,18 @@
+import React, { useEffect, useRef, useState } from 'react';
 import { Box, Grid, List, ListItem, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 
 const HelpAtWar = () => {
+  const listItemStyle = {
+    display: 'list-item',
+    padding: 0,
+  };
+  const listRef = useRef<HTMLUListElement>(null);
+  const [height, setHeight] = useState(0);
+  useEffect(() => {
+    setHeight(listRef.current ? listRef.current.offsetHeight : 0);
+  }, [listRef.current]);
   return (
     <Grid
       display={'flex'}
@@ -38,14 +48,14 @@ const HelpAtWar = () => {
               paddingTop: '20px',
               display: 'flex',
               flexDirection: 'row',
+              height: height,
             }}
           >
-            <List sx={{ listStyleType: 'disc', paddingLeft: '20px' }}>
-              <ListItem
-                sx={{
-                  display: 'list-item',
-                }}
-              >
+            <List
+              ref={listRef}
+              sx={{ listStyleType: 'disc', padding: '0 0 0 30px', height: 'max-content' }}
+            >
+              <ListItem sx={listItemStyle}>
                 <Typography
                   sx={{
                     ...fonts.montserratNormal24,
@@ -54,11 +64,7 @@ const HelpAtWar = () => {
                   Психологiчну пiдтримку
                 </Typography>
               </ListItem>
-              <ListItem
-                sx={{
-                  display: 'list-item',
-                }}
-              >
+              <ListItem sx={listItemStyle}>
                 <Typography
                   sx={{
                     ...fonts.montserratNormal24,
@@ -67,11 +73,7 @@ const HelpAtWar = () => {
                   Продуктову допомогу (по Києву)
                 </Typography>
               </ListItem>
-              <ListItem
-                sx={{
-                  display: 'list-item',
-                }}
-              >
+              <ListItem sx={listItemStyle}>
                 <Typography
                   sx={{
                     ...fonts.montserratNormal24,
@@ -80,11 +82,7 @@ const HelpAtWar = () => {
                   Продукти та лiки для підопічних родин
                 </Typography>
               </ListItem>
-              <ListItem
-                sx={{
-                  display: 'list-item',
-                }}
-              >
+              <ListItem sx={listItemStyle}>
                 <Typography
                   sx={{
                     ...fonts.montserratNormal24,
@@ -93,22 +91,22 @@ const HelpAtWar = () => {
                   Пiдтримку для сирiт
                 </Typography>
               </ListItem>
-              <ListItem
-                sx={{
-                  display: 'list-item',
-                }}
-              >
+              <ListItem sx={listItemStyle}>
                 <Typography
                   sx={{
                     ...fonts.montserratNormal24,
                   }}
                 >
-                  Допомагаемо з перевезенням до безпечних мiст
+                  Допомагаємо з перевезенням до безпечних мiст
                 </Typography>
               </ListItem>
             </List>
             <Grid display={'flex'} flexDirection={'column'} justifyContent={'flex-end'}>
               <Box
+                sx={{
+                  paddingLeft: '100px',
+                  marginBottom: '-200px',
+                }}
                 component={'img'}
                 alt={'We support Ukraine'}
                 src={'/images/weSupportUkraineFlag.png'}

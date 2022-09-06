@@ -118,7 +118,7 @@ const PregnantHelp = () => {
               <Typography sx={{ ...normalTextStyleSemiBold }}>
                 1. Як Ви уявляєте зараз дитину, яку Ви носите?
               </Typography>
-              <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+              <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
                 Це питання важливе тому, що в момент прийняття рішення про аборт свідомість жінки
                 часто буває намертво прив’язана до життєвих обставин, що змушує її зробити аборт, і
                 вона не бачить більше нічого. Психологи називають цей стан «тунельною свідомістю».
@@ -126,33 +126,33 @@ const PregnantHelp = () => {
                 обставин, які підштовхують її до аборту (про них ми поговоримо пізніше), а до того,
                 хто взагалі той, від кого вона хоче позбутися.
               </Typography>
-              <Typography sx={{ ...normalTextStyleSemiBold }}>
+              <Typography sx={{ ...normalTextStyleSemiBold, paddingTop: '15px' }}>
                 2. Яке ім’я Ви б дали Вашій дитині? Кого Ви більше хочете, хлопчика чи дівчинку?
               </Typography>
-              <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+              <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
                 Ці питання також допомагають жінці переключити увагу з обставин на дитину, трішки
                 помріяти.
               </Typography>
-              <Typography sx={{ ...normalTextStyleSemiBold }}>
+              <Typography sx={{ ...normalTextStyleSemiBold, paddingTop: '15px', }}>
                 3. Чим ця внутрішньоутробна дитина відрізняється від Вашої старшої дитини?
               </Typography>
-              <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+              <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
                 Це питання для жінки, у якої вже є діти. «А чим дитина, яка ще не народилася, для
                 Вас відрізняється від тієї, яка народилася?» Додаткове питання на цю тему: «А з
                 першою дитиною у Вас все було безхмарно?
               </Typography>
-              <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+              <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
                 Чи доводилося Вам подолати якісь труднощі заради того, щоб вона народилася?».
               </Typography>
-              <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+              <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
                 Як правило, і з попередньою дитиною жінці доводилося долати якісь труднощі, якщо не
                 в період вагітності, то вже після народження дитини. Аборт відбувається, якщо дитина
                 є, а жінка відмовляється пускати його в своє життя.
               </Typography>
-              <Typography sx={{ ...normalTextStyleSemiBold }}>
+              <Typography sx={{ ...normalTextStyleSemiBold, paddingTop: '15px', }}>
                 4. Чи хочете Ви мати дітей?
               </Typography>
-              <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+              <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
                 Це питання дуже тонке і дуже складне. Його потрібно поставити дуже вчасно, з великою
                 тактовністю і увагою до жінки. Завдання цього питання — дати жінці можливість
                 задуматися в цілому про своє життя, про свою долю, щоб вона уявила свою життєву
@@ -177,7 +177,7 @@ const PregnantHelp = () => {
             <Typography sx={{ ...normalTextStyleSemiBold, paddingTop: '25px' }}>
               5. Що Вам заважає народити дитину?
             </Typography>
-            <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+            <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
               Тепер ми даємо можливість жінці поговорити про ті обставини, які штовхають її на
               аборт. Це дуже важливе питання, тому що ці обставини потрібно обов’язково з нею
               обговорити. Дати можливість відповісти на це питання розгорнуто, розповісти про
@@ -189,7 +189,7 @@ const PregnantHelp = () => {
             <Typography sx={{ ...normalTextStyleSemiBold, paddingTop: '15px' }}>
               6. Чому Ви вважаєте, що маєте право зробити аборт?
             </Typography>
-            <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+            <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
               Можна поставити таке глобальне питання. Це насправді дуже об’ємна тема. Розмова може
               повернутися в різні напрямки, в залежності від того, що відповість жінка. Вона може
               сказати: «Це юридично дозволено». Далі можна задати питання: а чи вважає вона, що все,
@@ -222,13 +222,13 @@ const PregnantHelp = () => {
             <Typography sx={{ ...normalTextStyleSemiBold, paddingTop: '25px' }}>
               7. Як Ви уявляєте процедуру аборту, чи відомо Вам що-небудь про її наслідки?
             </Typography>
-            <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+            <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
               Дані:
             </Typography>
             <List
               sx={{
                 listStyleType: 'disc',
-                paddingLeft: '30px',
+                padding: '0 0 0 30px',
               }}
             >
               <ListItem
@@ -274,22 +274,22 @@ const PregnantHelp = () => {
                 </Typography>
               </ListItem>
             </List>
-            <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+            <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
               Після розповіді жінці про медичні наслідки аборту, можна запитати у неї, чи відомо їй,
               що бувають не тільки фізичні, але і душевні наслідки аборту?
             </Typography>
-            <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+            <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
               Чи знайомий їй такий термін, як «постабортний синдром»?
             </Typography>
             <Typography sx={{ ...normalTextStyleSemiBold, paddingTop: '15px' }}>
               8. Чи замислювалися Ви коли-небудь, кому вигідно, щоб масово здійснювалися аборти?
             </Typography>
-            <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+            <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
               Ставлення до абортів в корені змінилося. І в зв’язку з цим виникає питання: «Якщо
               відношення так сильно змінюється, значить, є хтось, хто зацікавлений, щоб громадська
               думка була саме таке. Хто б це міг бути, і в чому його інтерес? ».
             </Typography>
-            <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+            <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
               Абортивна сировина — це плацента і стовбурові клітини, і це дуже дорога сировина, яка
               широко використовується, і добувати її потрібно в промислових масштабах. Звичайно,
               навряд чи аборти були легалізовані саме з метою отримання цих матеріалів, але зараз ці
@@ -316,30 +316,30 @@ const PregnantHelp = () => {
             <Typography sx={{ ...normalTextStyleSemiBold, paddingTop: '25px' }}>
               9. Хто в Вашій родині проти дитини і хто за нього?
             </Typography>
-            <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+            <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
               Повертаючись до життєвих обставин жінки, можливо, з’ясується, що хтось із родичів
               дійсно проти. Які аргументи вони наводять? Чому вони це роблять? Робили вони самі
               аборти і як вони ставляться до такого кроку? З’ясувавши ці важливі обставини,
               необхідно допомогти жінці боротися з тиском всередині сім’ї і навіть, можливо, з
               насильством — фізичним, емоційним, моральним, матеріальним і т.д.
             </Typography>
-            <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+            <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
               Дуже важливо дізнатися, а чи є хоч хтось, хто за дитину і чи могли б ці люди надати їй
               підтримку, в тому числі, наприклад, взяти на себе конфронтацію з тими, хто проти.
             </Typography>
-            <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+            <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
               Чи знайомий їй такий термін, як «постабортний синдром»?
             </Typography>
             <Typography sx={{ ...normalTextStyleSemiBold, paddingTop: '15px' }}>
               10. Яку допомогу я можу Вам надати, щоб Ви прийняли рішення народити дитину?
             </Typography>
-            <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+            <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
               Нарешті, добре запитати у жінки, а чим саме Ви можете їй допомогти. Це питання
               правильніше ставити в кінці бесіди, щоб жінка вже встигла висловити свої сумніви і
               страхи і після того, як деякі з них виявляться «розхитаними», коли перед жінкою
               з’явиться якась альтернатива аборту.
             </Typography>
-            <Typography sx={{ ...normalTextStyle, paddingTop: '10px', paddingLeft: '15px' }}>
+            <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
               Коли жінка говорить про те, що вона хоче зробити аборт, вона повністю з’єднана з тими
               обставинами, які їй заважають зберегти дитину. І якщо у неї в цей момент запитати: «А
               що я можу зробити?», — вона, швидше за все, відповість, що нічого, і що, в загалом, не
