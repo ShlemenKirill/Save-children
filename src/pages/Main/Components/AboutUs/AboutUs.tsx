@@ -1,6 +1,7 @@
 import { Box, Grid, Link, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
+import { linkStyle } from 'core/constants/styles';
 
 const AboutUs = () => {
   return (
@@ -54,8 +55,7 @@ const AboutUs = () => {
             <Link
               href={'/about'}
               sx={{
-                ...fonts.montserratMedium16,
-                color: colors.violet,
+                ...linkStyle,
                 paddingTop: '22px',
                 paddingRight: '30px',
               }}

@@ -1,6 +1,7 @@
 import { Grid, Link, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
+import { linkStyle } from 'core/constants/styles';
 import InfoCard from 'components/InfoCard/InfoCard';
 
 const Information = () => {
@@ -42,8 +43,7 @@ const Information = () => {
           <Link
             href={'/info'}
             sx={{
-              ...fonts.montserratMedium16,
-              color: colors.violet,
+              ...linkStyle,
               paddingTop: '22px',
               paddingRight: '30px',
             }}
