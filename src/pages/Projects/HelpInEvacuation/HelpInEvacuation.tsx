@@ -12,6 +12,7 @@ const HelpInEvacuation = () => {
   const numbersStyle = {
     color: colors.violet,
     ...fonts.montserratSemibold40,
+    lineHeight: '40px',
   };
   const listStyle = {
     listStyleType: 'disc',
@@ -24,7 +25,7 @@ const HelpInEvacuation = () => {
   const rowItemStyle = {
     display: 'grid',
     gridTemplateColumns: '25px 1fr',
-    gap: '17px',
+    gap: '14px',
     paddingTop: '11px',
   };
   return (

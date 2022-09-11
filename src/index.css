@@ -12,7 +12,6 @@ body {
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 code {
@@ -22,22 +21,20 @@ code {
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
-
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
-
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #D9C0EB;
+  background: #d9c0eb;
   border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #662C91;
+  background: #662c91;
 }

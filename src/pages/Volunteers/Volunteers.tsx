@@ -46,7 +46,7 @@ const Volunteers = () => {
               height={'566px'}
             />
             <Grid>
-              <Typography sx={normalTextStyle}>
+              <Typography sx={{ ...normalTextStyle, paddingTop: 0 }}>
                 Громадська організація «Збережи дитину» запрошує в команду.
               </Typography>
               <Typography sx={normalTextStyle}>
@@ -97,22 +97,23 @@ const Volunteers = () => {
               <Typography sx={normalTextStyle}>
                 Збережемо життя разом! Якщо Вам вже є 18 років- заповнюйте Анкету для волонтерів
               </Typography>
-              <Link
-                href={
-                  'https://docs.google.com/forms/d/e/1FAIpQLSf-FtXu0A-7Cooosyg4QvC1MhwrjuCsnACCdspE18MiqiGv2A/viewform'
-                }
-                target={'_blank'}
-                rel={'noreferrer'}
-                sx={{
-                  paddingTop: '12px',
-                  color: colors.violet,
-                  ...fonts.montserratMedium24,
-                  textUnderlineOffset: '5px',
-                  textDecorationColor: colors.violet,
-                }}
-              >
-                Анкета для волонтерiв
-              </Link>
+              <Grid paddingTop={'12px'}>
+                <Link
+                  href={
+                    'https://docs.google.com/forms/d/e/1FAIpQLSf-FtXu0A-7Cooosyg4QvC1MhwrjuCsnACCdspE18MiqiGv2A/viewform'
+                  }
+                  target={'_blank'}
+                  rel={'noreferrer'}
+                  sx={{
+                    color: colors.violet,
+                    ...fonts.montserratMedium24,
+                    textUnderlineOffset: '5px',
+                    textDecorationColor: colors.violet,
+                  }}
+                >
+                  Анкета для волонтерiв
+                </Link>
+              </Grid>
             </Grid>
           </Grid>
         </>
