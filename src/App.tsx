@@ -18,6 +18,8 @@ import About from 'pages/About';
 import Projects from 'pages/Projects';
 import PregnantHelp from 'pages/Projects/PregnantHelp';
 import LargeFamilyHelp from 'pages/Projects/LargeFamilyHelp';
+import CareHome from 'pages/Projects/CareHome';
+import HelpInEvacuation from 'pages/Projects/HelpInEvacuation';
 import MenuContext from 'context/MenuContext';
 
 const App = () => {
@@ -34,6 +36,8 @@ const App = () => {
             <Route index element={<Projects />} />
             <Route path={'pregnant-help'} element={<PregnantHelp />} />
             <Route path={'large-family-help'} element={<LargeFamilyHelp />} />
+            <Route path={'care-home'} element={<CareHome />} />
+            <Route path={'help-in-evacuation'} element={<HelpInEvacuation />} />
           </Route>
           <Route path={REPORTS} element={<Reports />} />
           <Route path={PARTNERS} element={<Partners />} />
