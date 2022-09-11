@@ -1,11 +1,27 @@
-import { Grid } from '@mui/material';
-import Header from 'components/Header';
+import { Grid, Typography } from '@mui/material';
+import { colors } from 'core/constants/colors';
+import PageContainer from 'containers/PageContainer';
+import { fonts } from 'core/constants/fonts';
 
 const Reports = () => {
   return (
-    <Grid>
-      <Header />
-      <span>reports</span>
+    <Grid
+      sx={{
+        backgroundColor: colors.mainBackground,
+      }}
+    >
+      <PageContainer>
+        <>
+          <Typography
+            sx={{
+              color: colors.matteBlack,
+              ...fonts.montserratMedium85,
+            }}
+          >
+            Звітність
+          </Typography>
+        </>
+      </PageContainer>
     </Grid>
   );
 };
