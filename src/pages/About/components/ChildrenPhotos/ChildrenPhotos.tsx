@@ -19,7 +19,7 @@ const ChildrenPhotos = () => {
         src={'/images/aboutUs/children1.png'}
         sx={{
           width: '282px',
-          ...imageStyle
+          ...imageStyle,
         }}
       />
       <Box
@@ -28,7 +28,7 @@ const ChildrenPhotos = () => {
         src={'/images/aboutUs/group.png'}
         sx={{
           width: '508px',
-          ...imageStyle
+          ...imageStyle,
         }}
       />
       <Box
@@ -37,7 +37,7 @@ const ChildrenPhotos = () => {
         src={'/images/aboutUs/children2.png'}
         sx={{
           width: '282px',
-          ...imageStyle
+          ...imageStyle,
         }}
       />
     </Grid>

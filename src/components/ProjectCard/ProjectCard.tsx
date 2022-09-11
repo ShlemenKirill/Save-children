@@ -73,7 +73,7 @@ const ProjectCard = ({ imageUrl, headerText, text, pathUrl }: IProjectCardProps)
             cursor: 'pointer',
             '&:hover': {
               textDecoration: 'underline',
-              textUnderlineOffset: '4px'
+              textUnderlineOffset: '4px',
             },
           }}
         >

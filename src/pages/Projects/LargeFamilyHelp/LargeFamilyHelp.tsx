@@ -25,17 +25,7 @@ const LargeFamilyHelp = () => {
       }}
     >
       <PageContainer>
-        <Grid
-          display={'flex'}
-          flexDirection={'column'}
-          sx={{
-            backgroundColor: colors.mainBackground,
-            width: '1169px',
-            paddingTop: '10px',
-            paddingBottom: '130px',
-            margin: 'auto',
-          }}
-        >
+        <>
           <Breadcrumbs>
             <Link href={PROJECTS} underline='hover'>
               <Typography
@@ -166,7 +156,7 @@ const LargeFamilyHelp = () => {
               src={'/images/projects/large_family4.png'}
             />
           </Grid>
-        </Grid>
+        </>
       </PageContainer>
     </Grid>
   );

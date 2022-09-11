@@ -76,7 +76,7 @@ const VolunteersTeam = () => {
           src={'/images/aboutUs/photoWithHashtag.png'}
           sx={{
             borderRadius: '5px',
-            ...imageStyle
+            ...imageStyle,
           }}
         />
       </Grid>

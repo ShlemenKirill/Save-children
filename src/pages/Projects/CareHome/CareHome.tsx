@@ -17,17 +17,7 @@ const CareHome = () => {
       }}
     >
       <PageContainer>
-        <Grid
-          display={'flex'}
-          flexDirection={'column'}
-          sx={{
-            backgroundColor: colors.mainBackground,
-            width: '1169px',
-            paddingTop: '10px',
-            paddingBottom: '130px',
-            margin: 'auto',
-          }}
-        >
+        <>
           <Breadcrumbs>
             <Link href={PROJECTS} underline='hover'>
               <Typography
@@ -208,7 +198,7 @@ const CareHome = () => {
               height={'432px'}
             />
           </Grid>
-        </Grid>
+        </>
       </PageContainer>
     </Grid>
   );

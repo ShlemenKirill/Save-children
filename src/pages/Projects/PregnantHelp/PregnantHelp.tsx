@@ -24,17 +24,7 @@ const PregnantHelp = () => {
       }}
     >
       <PageContainer>
-        <Grid
-          display={'flex'}
-          flexDirection={'column'}
-          sx={{
-            backgroundColor: colors.mainBackground,
-            width: '1169px',
-            paddingTop: '10px',
-            paddingBottom: '130px',
-            margin: 'auto',
-          }}
-        >
+        <>
           <Breadcrumbs>
             <Link href={PROJECTS} underline='hover'>
               <Typography
@@ -133,7 +123,7 @@ const PregnantHelp = () => {
                 Ці питання також допомагають жінці переключити увагу з обставин на дитину, трішки
                 помріяти.
               </Typography>
-              <Typography sx={{ ...normalTextStyleSemiBold, paddingTop: '15px', }}>
+              <Typography sx={{ ...normalTextStyleSemiBold, paddingTop: '15px' }}>
                 3. Чим ця внутрішньоутробна дитина відрізняється від Вашої старшої дитини?
               </Typography>
               <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
@@ -149,7 +139,7 @@ const PregnantHelp = () => {
                 в період вагітності, то вже після народження дитини. Аборт відбувається, якщо дитина
                 є, а жінка відмовляється пускати його в своє життя.
               </Typography>
-              <Typography sx={{ ...normalTextStyleSemiBold, paddingTop: '15px', }}>
+              <Typography sx={{ ...normalTextStyleSemiBold, paddingTop: '15px' }}>
                 4. Чи хочете Ви мати дітей?
               </Typography>
               <Typography sx={{ ...normalTextStyle, paddingTop: '7px', paddingLeft: '15px' }}>
@@ -347,7 +337,7 @@ const PregnantHelp = () => {
               життєвих обставин, тоді їй можна розповісти про те, як ці обставини можна змінити.
             </Typography>
           </Grid>
-        </Grid>
+        </>
       </PageContainer>
     </Grid>
   );
