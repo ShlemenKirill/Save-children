@@ -1,8 +1,9 @@
 import { Grid, Link, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
-import ProjectCard from 'components/ProjectCard/ProjectCard';
 import { PROJECTS, PROJECTS_PREGNANT_HELP } from 'core/constants/navigation';
+import { linkStyle } from 'core/constants/styles';
+import ProjectCard from 'components/ProjectCard/ProjectCard';
 
 const OurProjects = () => {
   return (
@@ -41,13 +42,7 @@ const OurProjects = () => {
           >
             Наші проекти
           </Typography>
-          <Link
-            href={PROJECTS}
-            sx={{
-              ...fonts.montserratMedium16,
-              color: colors.violet,
-            }}
-          >
+          <Link href={PROJECTS} sx={linkStyle}>
             Дивитися все
           </Link>
         </Grid>
@@ -62,7 +57,9 @@ const OurProjects = () => {
           <ProjectCard
             imageUrl={'/images/projects/pregnant.png'}
             headerText={'Допомога кризовим вагітним'}
-            text={'Психологи служби консультують жінок, які зіткнулися з проблемою незапланованої вагітності'}
+            text={
+              'Психологи служби консультують жінок, які зіткнулися з проблемою незапланованої вагітності'
+            }
             pathUrl={PROJECTS_PREGNANT_HELP}
           />
           <ProjectCard

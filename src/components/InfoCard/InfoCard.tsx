@@ -73,6 +73,7 @@ const InfoCard = ({ imageUrl, headerText, text, pathUrl }: IProjectCardProps) =>
                 cursor: 'pointer',
                 '&:hover': {
                   textDecoration: 'underline',
+                  textUnderlineOffset: '4px',
                 },
               }}
             >
