@@ -48,7 +48,7 @@ const Navigation = () => {
       <Grid
         sx={{
           cursor: 'pointer',
-          borderBottom: pathname === PROJECTS ? `1px solid ${colors.matteBlack}` : 'none',
+          borderBottom: pathname.startsWith(PROJECTS) ? `1px solid ${colors.matteBlack}` : 'none',
         }}
       >
         <NavMenuSelect

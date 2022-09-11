@@ -1,8 +1,15 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { alpha, Button, Menu, MenuItem, MenuProps, styled } from '@mui/material';
 import ChevronDown from 'components/Icons/ChevronDown';
 import { fonts } from 'core/constants/fonts';
 import { colors } from 'core/constants/colors';
+import {
+  PROJECTS_EVACUATION_HELP,
+  PROJECTS_HART_HOUSE,
+  PROJECTS_LARGE_FAMILY_HELP,
+  PROJECTS_PREGNANT_HELP,
+} from 'core/constants/navigation';
 
 const StyledMenu = styled((props: MenuProps) => (
   <Menu
@@ -47,12 +54,27 @@ export interface NavMenuSelectProps {
 }
 
 const NavMenuSelect = ({ name, menuItems }: NavMenuSelectProps) => {
+  const navigate = useNavigate();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
   };
-  const handleClose = () => {
+  const handleMenuItemClick = (menuItem: string) => {
+    switch (menuItem) {
+      case 'Допомога кризовим вагітним':
+        navigate(PROJECTS_PREGNANT_HELP);
+        break;
+      case 'Допомога в евакуацii':
+        navigate(PROJECTS_EVACUATION_HELP);
+        break;
+      case 'Допомога багатодітним сімям':
+        navigate(PROJECTS_LARGE_FAMILY_HELP);
+        break;
+      case 'Дiм турботы СЕРДЕНЬКО':
+        navigate(PROJECTS_HART_HOUSE);
+        break;
+    }
     setAnchorEl(null);
   };
   return (
@@ -81,11 +103,11 @@ const NavMenuSelect = ({ name, menuItems }: NavMenuSelectProps) => {
         }}
         anchorEl={anchorEl}
         open={open}
-        onClose={handleClose}
+        onClose={() => setAnchorEl(null)}
       >
         {menuItems.map((menuItem) => {
           return (
-            <MenuItem key={menuItem} onClick={handleClose} disableRipple>
+            <MenuItem key={menuItem} onClick={() => handleMenuItemClick(menuItem)} disableRipple>
               {menuItem}
             </MenuItem>
           );
