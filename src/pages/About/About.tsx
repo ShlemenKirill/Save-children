@@ -18,50 +18,38 @@ const About = () => {
     >
       <PageContainer>
         <>
-          <Grid
-            display={'flex'}
-            flexDirection={'column'}
-            sx={{
-              backgroundColor: colors.mainBackground,
-              width: '1169px',
-              paddingTop: '10px',
-              paddingBottom: '130px',
-              margin: 'auto',
-            }}
-          >
-            <Grid id={'header'}>
-              <Typography
-                sx={{
-                  color: colors.mainText,
-                  ...fonts.montserratMedium85,
-                }}
-              >
-                Про нас
-              </Typography>
-            </Grid>
-            <Activity />
-            <ChildrenPhotos />
-            <VolunteersTeam />
-            <Grid
-              id={'all-volunteers'}
+          <Grid id={'header'}>
+            <Typography
               sx={{
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'center',
-                paddingTop: '50px',
+                color: colors.mainText,
+                ...fonts.montserratMedium85,
               }}
             >
-              <Box
-                component={'img'}
-                alt={'all-volunteers'}
-                src={'/images/aboutUs/all_volunteers.png'}
-                width={'100%'}
-                sx={imageStyle}
-              />
-            </Grid>
-            <ActivityDescription />
-            <Photos />
+              Про нас
+            </Typography>
           </Grid>
+          <Activity />
+          <ChildrenPhotos />
+          <VolunteersTeam />
+          <Grid
+            id={'all-volunteers'}
+            sx={{
+              display: 'flex',
+              flexDirection: 'row',
+              justifyContent: 'center',
+              paddingTop: '50px',
+            }}
+          >
+            <Box
+              component={'img'}
+              alt={'all-volunteers'}
+              src={'/images/aboutUs/all_volunteers.png'}
+              width={'100%'}
+              sx={imageStyle}
+            />
+          </Grid>
+          <ActivityDescription />
+          <Photos />
         </>
       </PageContainer>
     </Grid>
