@@ -1,8 +1,10 @@
-const FacebookIcon = () => {
+import { ISVGIconProps } from 'types/propTypes';
+
+const FacebookIcon = ({ color = '#662C91' }: ISVGIconProps) => {
   return (
     <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'>
       <path
-        stroke='#662C91'
+        stroke={color}
         strokeLinecap='round'
         strokeLinejoin='round'
         strokeWidth='2'

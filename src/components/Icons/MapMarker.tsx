@@ -1,24 +1,22 @@
-import { ISVGIconProps } from 'types/propTypes';
-
-const InstagramIcon = ({ color = '#662C91' }: ISVGIconProps) => {
+const MapMarker = () => {
   return (
     <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'>
       <path
-        stroke={color}
+        stroke='#1F1F1F'
         strokeLinecap='round'
         strokeLinejoin='round'
         strokeWidth='2'
-        d='M17 2H7a5 5 0 00-5 5v10a5 5 0 005 5h10a5 5 0 005-5V7a5 5 0 00-5-5z'
+        d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z'
       ></path>
       <path
-        stroke={color}
+        stroke='#1F1F1F'
         strokeLinecap='round'
         strokeLinejoin='round'
         strokeWidth='2'
-        d='M16 11.37a4 4 0 11-7.914 1.174A4 4 0 0116 11.37zM17.5 6.5h.01'
+        d='M12 13a3 3 0 100-6 3 3 0 000 6z'
       ></path>
     </svg>
   );
 };
 
-export default InstagramIcon;
+export default MapMarker;
