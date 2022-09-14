@@ -3,7 +3,12 @@ import { useNavigate } from 'react-router-dom';
 import { Divider, Grid, Link, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
-import { ButtonVariants, NavigationMenuItems } from 'core/constants/common';
+import {
+  ButtonVariants,
+  FACEBOOK_LINK_SAVE_CHILDREN,
+  INSTAGRAM_LINK,
+  NavigationMenuItems,
+} from 'core/constants/common';
 import MailIcon from 'components/Icons/MailIcon';
 import InstagramIcon from 'components/Icons/InstagramIcon';
 import FacebookIcon from 'components/Icons/FacebookIcon';
@@ -92,16 +97,11 @@ const Header = () => {
               >
                 <MailIcon />
               </Link>
-              <Link
-                href={'https://www.instagram.com/zbereju.dutuny/'}
-                underline='none'
-                target={'_blank'}
-                rel={'noreferrer'}
-              >
+              <Link href={INSTAGRAM_LINK} underline='none' target={'_blank'} rel={'noreferrer'}>
                 <InstagramIcon />
               </Link>
               <Link
-                href={'https://www.facebook.com/zbereju.dutuny/'}
+                href={FACEBOOK_LINK_SAVE_CHILDREN}
                 underline='none'
                 target={'_blank'}
                 rel={'noreferrer'}
