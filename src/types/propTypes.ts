@@ -11,3 +11,7 @@ export interface IProjectCardProps {
   text: string;
   pathUrl: string;
 }
+
+export interface ISVGIconProps {
+  color?: string;
+}

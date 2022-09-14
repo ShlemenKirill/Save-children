@@ -1,6 +1,5 @@
 import React, { lazy, useState, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { CircularProgress } from '@mui/material';
 import { NavigationMenuItems } from 'core/constants/common';
 import {
   ABOUT_US,
@@ -11,6 +10,7 @@ import {
   VOLUNTEERS,
 } from 'core/constants/navigation';
 import MenuContext from 'context/MenuContext';
+import AppLoader from 'components/AppLoader';
 
 const Main = lazy(() => import('pages/Main'));
 const Reports = lazy(() => import('pages/Reports'));
@@ -35,7 +35,7 @@ const App = () => {
           <Route
             path='/'
             element={
-              <Suspense fallback={<CircularProgress color='secondary' />}>
+              <Suspense fallback={<AppLoader />}>
                 <Main />
               </Suspense>
             }
@@ -43,7 +43,7 @@ const App = () => {
           <Route
             path={ABOUT_US}
             element={
-              <Suspense fallback={<CircularProgress color='secondary' />}>
+              <Suspense fallback={<AppLoader />}>
                 <About />
               </Suspense>
             }
@@ -52,7 +52,7 @@ const App = () => {
             <Route
               index
               element={
-                <Suspense fallback={<CircularProgress color='secondary' />}>
+                <Suspense fallback={<AppLoader />}>
                   <Projects />
                 </Suspense>
               }
@@ -60,7 +60,7 @@ const App = () => {
             <Route
               path={'pregnant-help'}
               element={
-                <Suspense fallback={<CircularProgress color='secondary' />}>
+                <Suspense fallback={<AppLoader />}>
                   <PregnantHelp />
                 </Suspense>
               }
@@ -68,7 +68,7 @@ const App = () => {
             <Route
               path={'large-family-help'}
               element={
-                <Suspense fallback={<CircularProgress color='secondary' />}>
+                <Suspense fallback={<AppLoader />}>
                   <LargeFamilyHelp />
                 </Suspense>
               }
@@ -76,7 +76,7 @@ const App = () => {
             <Route
               path={'care-home'}
               element={
-                <Suspense fallback={<CircularProgress color='secondary' />}>
+                <Suspense fallback={<AppLoader />}>
                   <CareHome />
                 </Suspense>
               }
@@ -84,7 +84,7 @@ const App = () => {
             <Route
               path={'help-in-evacuation'}
               element={
-                <Suspense fallback={<CircularProgress color='secondary' />}>
+                <Suspense fallback={<AppLoader />}>
                   <HelpInEvacuation />
                 </Suspense>
               }
@@ -93,7 +93,7 @@ const App = () => {
           <Route
             path={REPORTS}
             element={
-              <Suspense fallback={<CircularProgress color='secondary' />}>
+              <Suspense fallback={<AppLoader />}>
                 <Reports />
               </Suspense>
             }
@@ -101,7 +101,7 @@ const App = () => {
           <Route
             path={PARTNERS}
             element={
-              <Suspense fallback={<CircularProgress color='secondary' />}>
+              <Suspense fallback={<AppLoader />}>
                 <Partners />
               </Suspense>
             }
@@ -109,7 +109,7 @@ const App = () => {
           <Route
             path={VOLUNTEERS}
             element={
-              <Suspense fallback={<CircularProgress color='secondary' />}>
+              <Suspense fallback={<AppLoader />}>
                 <Volunteers />
               </Suspense>
             }
@@ -117,7 +117,7 @@ const App = () => {
           <Route
             path={CONTACTS}
             element={
-              <Suspense fallback={<CircularProgress color='secondary' />}>
+              <Suspense fallback={<AppLoader />}>
                 <Contacts />
               </Suspense>
             }
