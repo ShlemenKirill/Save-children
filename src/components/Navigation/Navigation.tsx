@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Grid, Menu, MenuItem, Typography } from '@mui/material';
+import { Grid, MenuItem, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import ChevronDown from 'components/Icons/ChevronDown';
