@@ -1,8 +1,8 @@
 import { useLocation, useNavigate } from 'react-router-dom';
-import { Grid, Typography } from '@mui/material';
+import { Grid, Menu, MenuItem, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
-import NavMenuSelect from 'components/NavMenuSelect';
+import ChevronDown from 'components/Icons/ChevronDown';
 import { NavigationMenuItems } from 'core/constants/common';
 import {
   ABOUT_US,
@@ -13,10 +13,28 @@ import {
   REPORTS,
   VOLUNTEERS,
 } from 'core/constants/navigation';
+import React from 'react';
+import StyledMenu from '../StyledMenu';
 
 const Navigation = () => {
   const navigate = useNavigate();
   const { pathname } = useLocation();
+  const [projectsMenu, setProjectsMenu] = React.useState<null | HTMLElement>(null);
+  const [informationMenu, setInformationMenu] = React.useState<null | HTMLElement>(null);
+  const openProjectsMenu = Boolean(projectsMenu);
+  const openInformationMenu = Boolean(informationMenu);
+  const handleClickProjectMenu = (event: React.MouseEvent<HTMLDivElement>) => {
+    setProjectsMenu(event.currentTarget);
+  };
+  const handleCloseProjectMenu = () => {
+    setProjectsMenu(null);
+  };
+  const handleClickInformationMenu = (event: React.MouseEvent<HTMLDivElement>) => {
+    setInformationMenu(event.currentTarget);
+  };
+  const handleCloseInformationMenu = () => {
+    setInformationMenu(null);
+  };
   return (
     <Grid
       display={'flex'}
@@ -45,38 +63,157 @@ const Navigation = () => {
           {NavigationMenuItems.aboutUs}
         </Typography>
       </Grid>
-      <Grid
-        sx={{
-          cursor: 'pointer',
-          borderBottom: pathname.startsWith(PROJECTS) ? `1px solid ${colors.matteBlack}` : 'none',
-        }}
-      >
-        <NavMenuSelect
-          name={NavigationMenuItems.ourProjects}
-          menuItems={[
-            'Допомога кризовим вагітним',
-            'Допомога в евакуацii',
-            'Допомога багатодітним сімям',
-            'Дiм турботы СЕРДЕНЬКО',
-          ]}
-        />
+      <Grid>
+        <Grid
+          display={'flex'}
+          flexDirection={'row'}
+          onClick={() => {
+            navigate(PROJECTS, { replace: true });
+          }}
+          sx={{
+            cursor: 'pointer',
+            borderBottom: pathname.startsWith(PROJECTS) ? `1px solid ${colors.matteBlack}` : 'none',
+          }}
+        >
+          <Typography
+            color={colors.matteBlack}
+            sx={{
+              ...fonts.montserratMedium16,
+            }}
+          >
+            {NavigationMenuItems.ourProjects}
+          </Typography>
+          <Grid
+            display={'flex'}
+            flexDirection={'row'}
+            alignItems={'center'}
+            paddingLeft={'7px'}
+            onClick={(event) => {
+              event.stopPropagation();
+              handleClickProjectMenu(event);
+            }}
+          >
+            <ChevronDown />
+          </Grid>
+        </Grid>
+        <StyledMenu
+          id='projects-menu'
+          anchorEl={projectsMenu}
+          open={openProjectsMenu}
+          onClose={handleCloseProjectMenu}
+        >
+          <MenuItem
+            onClick={() => {
+              handleCloseProjectMenu();
+              navigate('/projects/pregnant-help');
+            }}
+          >
+            Допомога кризовим вагітним
+          </MenuItem>
+          <MenuItem
+            onClick={() => {
+              handleCloseProjectMenu();
+              navigate('/projects/help-in-evacuation');
+            }}
+          >
+            Допомога в евакуацii
+          </MenuItem>
+          <MenuItem
+            onClick={() => {
+              handleCloseProjectMenu();
+              navigate('/projects/large-family-help');
+            }}
+          >
+            Допомога багатодітним сімям
+          </MenuItem>
+          <MenuItem
+            onClick={() => {
+              handleCloseProjectMenu();
+              navigate('/projects/care-home');
+            }}
+          >
+            Дiм турботы СЕРДЕНЬКО
+          </MenuItem>
+        </StyledMenu>
       </Grid>
-      <Grid
-        sx={{
-          cursor: 'pointer',
-          borderBottom: pathname === INFORMATION ? `1px solid ${colors.matteBlack}` : 'none',
-        }}
-      >
-        <NavMenuSelect
-          name={NavigationMenuItems.information}
-          menuItems={[
-            'Як ми працюємо під час війни',
-            ' «Допоможiть, моя дитина в стресi»',
-            'Брошура «Матусю, збережи менi життя!»',
-            'Брошура «Скажи СТОП насиллю»',
-            'Книга «Збереженнi життя»',
-          ]}
-        />
+      <Grid>
+        <Grid
+          display={'flex'}
+          flexDirection={'row'}
+          onClick={() => {
+            navigate(INFORMATION, { replace: true });
+          }}
+          sx={{
+            cursor: 'pointer',
+            borderBottom: pathname === INFORMATION ? `1px solid ${colors.matteBlack}` : 'none',
+          }}
+        >
+          <Typography
+            color={colors.matteBlack}
+            sx={{
+              ...fonts.montserratMedium16,
+            }}
+          >
+            {NavigationMenuItems.information}
+          </Typography>
+          <Grid
+            paddingLeft={'7px'}
+            onClick={(event) => {
+              event.stopPropagation();
+              handleClickInformationMenu(event);
+            }}
+          >
+            <ChevronDown />
+          </Grid>
+        </Grid>
+
+        <StyledMenu
+          id='information-menu'
+          anchorEl={informationMenu}
+          open={openInformationMenu}
+          onClose={handleCloseInformationMenu}
+        >
+          <MenuItem
+            onClick={() => {
+              handleCloseProjectMenu();
+              navigate('/projects/pregnant-help');
+            }}
+          >
+            Як ми працюємо під час війни
+          </MenuItem>
+          <MenuItem
+            onClick={() => {
+              handleCloseProjectMenu();
+              navigate('/projects/help-in-evacuation');
+            }}
+          >
+            «Допоможiть, моя дитина в стресi»
+          </MenuItem>
+          <MenuItem
+            onClick={() => {
+              handleCloseProjectMenu();
+              navigate('/projects/large-family-help');
+            }}
+          >
+            Брошура «Матусю, збережи менi життя!»
+          </MenuItem>
+          <MenuItem
+            onClick={() => {
+              handleCloseProjectMenu();
+              navigate('/projects/care-home');
+            }}
+          >
+            Брошура «Скажи СТОП насиллю»
+          </MenuItem>
+          <MenuItem
+            onClick={() => {
+              handleCloseProjectMenu();
+              navigate('/projects/care-home');
+            }}
+          >
+            Книга «Збереженнi життя»
+          </MenuItem>
+        </StyledMenu>
       </Grid>
       <Grid
         onClick={() => {
