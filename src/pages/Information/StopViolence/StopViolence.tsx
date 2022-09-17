@@ -9,6 +9,15 @@ const StopViolence = () => {
     color: colors.matteBlack,
     ...fonts.montserratNormal16,
   };
+  const pathToImages = [
+    '/images/information/stopViolence3.png',
+    '/images/information/stopViolence4.png',
+    '/images/information/stopViolence5.png',
+    '/images/information/stopViolence6.png',
+    '/images/information/stopViolence7.png',
+    '/images/information/stopViolence8.png',
+    '/images/information/stopViolence9.png',
+  ];
   return (
     <Grid
       sx={{
@@ -86,55 +95,18 @@ const StopViolence = () => {
                 height={'787px'}
               />
             </Grid>
-            <Box
-              component={'img'}
-              alt={'stopViolence'}
-              src={'/images/information/stopViolence3.png'}
-              width={'1170px'}
-              height={'837px'}
-            />
-            <Box
-              component={'img'}
-              alt={'stopViolence'}
-              src={'/images/information/stopViolence4.png'}
-              width={'1170px'}
-              height={'837px'}
-            />
-            <Box
-              component={'img'}
-              alt={'stopViolence'}
-              src={'/images/information/stopViolence5.png'}
-              width={'1170px'}
-              height={'837px'}
-            />
-            <Box
-              component={'img'}
-              alt={'stopViolence'}
-              src={'/images/information/stopViolence6.png'}
-              width={'1170px'}
-              height={'837px'}
-            />
-            <Box
-              component={'img'}
-              alt={'stopViolence'}
-              src={'/images/information/stopViolence7.png'}
-              width={'1170px'}
-              height={'837px'}
-            />
-            <Box
-              component={'img'}
-              alt={'stopViolence'}
-              src={'/images/information/stopViolence8.png'}
-              width={'1170px'}
-              height={'837px'}
-            />
-            <Box
-              component={'img'}
-              alt={'stopViolence'}
-              src={'/images/information/stopViolence9.png'}
-              width={'1170px'}
-              height={'837px'}
-            />
+            {pathToImages.map((path) => {
+              return (
+                <Box
+                  key={path}
+                  component={'img'}
+                  alt={'stopViolence'}
+                  src={path}
+                  width={'1170px'}
+                  height={'837px'}
+                />
+              );
+            })}
           </Grid>
         </>
       </PageContainer>
