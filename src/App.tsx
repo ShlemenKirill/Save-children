@@ -4,6 +4,7 @@ import { NavigationMenuItems } from 'core/constants/common';
 import {
   ABOUT_US,
   CONTACTS,
+  INFORMATION,
   PARTNERS,
   PROJECTS,
   REPORTS,
@@ -23,6 +24,7 @@ const PregnantHelp = lazy(() => import('pages/Projects/PregnantHelp'));
 const LargeFamilyHelp = lazy(() => import('pages/Projects/LargeFamilyHelp'));
 const CareHome = lazy(() => import('pages/Projects/CareHome'));
 const HelpInEvacuation = lazy(() => import('pages/Projects/HelpInEvacuation'));
+const Information = lazy(() => import('pages/Information'));
 
 const App = () => {
   const [currentMenuItem, setCurrentMenuItem] = useState<NavigationMenuItems>(
@@ -86,6 +88,16 @@ const App = () => {
               element={
                 <Suspense fallback={<AppLoader />}>
                   <HelpInEvacuation />
+                </Suspense>
+              }
+            />
+          </Route>
+          <Route path={INFORMATION}>
+            <Route
+              index
+              element={
+                <Suspense fallback={<AppLoader />}>
+                  <Information />
                 </Suspense>
               }
             />
