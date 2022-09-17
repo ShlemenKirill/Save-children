@@ -1,8 +1,10 @@
+import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Grid, MenuItem, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import ChevronDown from 'components/Icons/ChevronDown';
+import StyledMenu from 'components/StyledMenu';
 import { NavigationMenuItems } from 'core/constants/common';
 import {
   ABOUT_US,
@@ -13,8 +15,6 @@ import {
   REPORTS,
   VOLUNTEERS,
 } from 'core/constants/navigation';
-import React from 'react';
-import StyledMenu from '../StyledMenu';
 
 const Navigation = () => {
   const navigate = useNavigate();
