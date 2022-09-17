@@ -8,8 +8,15 @@ import {
   ABOUT_US,
   CONTACTS,
   INFORMATION,
+  INFORMATION_CHILDREN_IN_STRESS,
+  INFORMATION_SAVE_CHILDREN, INFORMATION_SAVE_CHILDREN_BOOK, INFORMATION_STOP_VIOLENCE,
+  INFORMATION_WAR,
   PARTNERS,
   PROJECTS,
+  PROJECTS_EVACUATION_HELP,
+  PROJECTS_HART_HOUSE,
+  PROJECTS_LARGE_FAMILY_HELP,
+  PROJECTS_PREGNANT_HELP,
   REPORTS,
   VOLUNTEERS,
 } from 'core/constants/navigation';
@@ -105,7 +112,7 @@ const Navigation = () => {
           <MenuItem
             onClick={() => {
               handleCloseProjectMenu();
-              navigate('/projects/pregnant-help');
+              navigate(PROJECTS_PREGNANT_HELP);
             }}
           >
             Допомога кризовим вагітним
@@ -113,7 +120,7 @@ const Navigation = () => {
           <MenuItem
             onClick={() => {
               handleCloseProjectMenu();
-              navigate('/projects/help-in-evacuation');
+              navigate(PROJECTS_EVACUATION_HELP);
             }}
           >
             Допомога в евакуацii
@@ -121,7 +128,7 @@ const Navigation = () => {
           <MenuItem
             onClick={() => {
               handleCloseProjectMenu();
-              navigate('/projects/large-family-help');
+              navigate(PROJECTS_LARGE_FAMILY_HELP);
             }}
           >
             Допомога багатодітним сімям
@@ -129,7 +136,7 @@ const Navigation = () => {
           <MenuItem
             onClick={() => {
               handleCloseProjectMenu();
-              navigate('/projects/care-home');
+              navigate(PROJECTS_HART_HOUSE);
             }}
           >
             Дiм турботы СЕРДЕНЬКО
@@ -176,7 +183,7 @@ const Navigation = () => {
           <MenuItem
             onClick={() => {
               handleCloseProjectMenu();
-              navigate('/projects/pregnant-help');
+              navigate(INFORMATION_WAR);
             }}
           >
             Як ми працюємо під час війни
@@ -184,7 +191,7 @@ const Navigation = () => {
           <MenuItem
             onClick={() => {
               handleCloseProjectMenu();
-              navigate('/projects/help-in-evacuation');
+              navigate(INFORMATION_CHILDREN_IN_STRESS);
             }}
           >
             «Допоможiть, моя дитина в стресi»
@@ -192,7 +199,7 @@ const Navigation = () => {
           <MenuItem
             onClick={() => {
               handleCloseProjectMenu();
-              navigate('/projects/large-family-help');
+              navigate(INFORMATION_SAVE_CHILDREN);
             }}
           >
             Брошура «Матусю, збережи менi життя!»
@@ -200,7 +207,7 @@ const Navigation = () => {
           <MenuItem
             onClick={() => {
               handleCloseProjectMenu();
-              navigate('/projects/care-home');
+              navigate(INFORMATION_STOP_VIOLENCE);
             }}
           >
             Брошура «Скажи СТОП насиллю»
@@ -208,7 +215,7 @@ const Navigation = () => {
           <MenuItem
             onClick={() => {
               handleCloseProjectMenu();
-              navigate('/projects/care-home');
+              navigate(INFORMATION_SAVE_CHILDREN_BOOK);
             }}
           >
             Книга «Збереженнi життя»
