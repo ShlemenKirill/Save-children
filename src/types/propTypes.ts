@@ -20,3 +20,8 @@ export interface IDownloadLinkProps {
   fileName: string;
   src: string;
 }
+
+export interface IInformationPageContainerProps {
+  children: JSX.Element;
+  name: string;
+}
