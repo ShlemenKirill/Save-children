@@ -5,7 +5,7 @@ import { fonts } from 'core/constants/fonts';
 import InfoCard from 'components/InfoCard/InfoCard';
 import {
   INFORMATION_CHILDREN_IN_STRESS,
-  INFORMATION_SAVE_CHILDREN,
+  INFORMATION_MOTHER_SAVE_MY_LIFE,
   INFORMATION_SAVE_CHILDREN_BOOK,
   INFORMATION_STOP_VIOLENCE,
   INFORMATION_WAR,
@@ -49,7 +49,7 @@ const Information = () => {
               text={
                 'Ми хочемо розповісти вам про справжнісіньке диво — людину, яка ще не народилася.'
               }
-              pathUrl={INFORMATION_SAVE_CHILDREN}
+              pathUrl={INFORMATION_MOTHER_SAVE_MY_LIFE}
             />
             <InfoCard
               imageUrl={'/images/information/stopViolence.png'}

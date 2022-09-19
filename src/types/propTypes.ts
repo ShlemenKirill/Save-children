@@ -15,3 +15,8 @@ export interface IProjectCardProps {
 export interface ISVGIconProps {
   color?: string;
 }
+
+export interface IDownloadLinkProps {
+  fileName: string;
+  src: string;
+}
