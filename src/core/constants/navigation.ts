@@ -11,6 +11,6 @@ export const PROJECTS_EVACUATION_HELP = '/projects/help-in-evacuation';
 export const PROJECTS_LARGE_FAMILY_HELP = '/projects/large-family-help';
 export const INFORMATION_CHILDREN_IN_STRESS = '/information/children-in-stress';
 export const INFORMATION_WAR = '/information/war';
-export const INFORMATION_SAVE_CHILDREN = '/information/save-children';
+export const INFORMATION_MOTHER_SAVE_MY_LIFE = '/information/mother-save-my-life';
 export const INFORMATION_STOP_VIOLENCE = '/information/stop-violence';
 export const INFORMATION_SAVE_CHILDREN_BOOK = '/information/book-save-children';

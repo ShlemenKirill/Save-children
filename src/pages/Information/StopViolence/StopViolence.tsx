@@ -72,8 +72,11 @@ const StopViolence = () => {
                 sx={{
                   color: colors.violet,
                   ...fonts.montserratNormal16,
+                  textDecorationColor: colors.violet,
+                  textUnderlineOffset: '2px',
                 }}
               >
+                {' '}
                 Скачати
               </Link>
             </Typography>

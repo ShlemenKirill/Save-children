@@ -11,7 +11,7 @@ import {
   CONTACTS,
   INFORMATION,
   INFORMATION_CHILDREN_IN_STRESS,
-  INFORMATION_SAVE_CHILDREN, INFORMATION_SAVE_CHILDREN_BOOK, INFORMATION_STOP_VIOLENCE,
+  INFORMATION_MOTHER_SAVE_MY_LIFE, INFORMATION_SAVE_CHILDREN_BOOK, INFORMATION_STOP_VIOLENCE,
   INFORMATION_WAR,
   PARTNERS,
   PROJECTS,
@@ -199,7 +199,7 @@ const Navigation = () => {
           <MenuItem
             onClick={() => {
               handleCloseProjectMenu();
-              navigate(INFORMATION_SAVE_CHILDREN);
+              navigate(INFORMATION_MOTHER_SAVE_MY_LIFE);
             }}
           >
             Брошура «Матусю, збережи менi життя!»
