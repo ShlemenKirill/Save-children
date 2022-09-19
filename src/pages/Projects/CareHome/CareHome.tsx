@@ -32,6 +32,9 @@ const CareHome = () => {
               src={'/images/projects/careHome1.png'}
               width={'445px'}
               height={'322px'}
+              sx={{
+                filter: 'drop-shadow(0px 3px 34px rgba(239, 243, 231, 0.8))',
+              }}
             />
           </Grid>
           <Grid>

@@ -7,11 +7,11 @@ const StyledMenu = styled((props: MenuProps) => (
     elevation={0}
     anchorOrigin={{
       vertical: 'bottom',
-      horizontal: 'right',
+      horizontal: 'center',
     }}
     transformOrigin={{
       vertical: 'top',
-      horizontal: 'right',
+      horizontal: 'center',
     }}
     {...props}
   />
@@ -23,6 +23,8 @@ const StyledMenu = styled((props: MenuProps) => (
       padding: '4px 0',
     },
     '& .MuiMenuItem-root': {
+      paddingBottom: '3px',
+      paddingTop: '3px',
       ...fonts.montserratNormal16,
       '&: hover': {
         ...fonts.montserratSemibold16,

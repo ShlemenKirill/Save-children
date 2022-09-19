@@ -61,6 +61,7 @@ const PregnantHelp = () => {
         <Grid display={'flex'} flexDirection={'row'} gap={'55px'} paddingTop={'15px'}>
           <Grid>
             <Box
+              paddingTop={'7px'}
               component={'img'}
               alt={'save-children'}
               src={'/images/projects/pregnantFull.png'}

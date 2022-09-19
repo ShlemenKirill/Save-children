@@ -16,7 +16,7 @@ const Header = () => {
   const headerStyle = {
     width: '1169px',
     paddingTop: isOnScroll ? '0px' : '15px',
-    paddingBottom: isOnScroll ? '0px' : '5px',
+    paddingBottom: '5px',
     margin: 'auto',
     background: colors.mainBackground,
   };

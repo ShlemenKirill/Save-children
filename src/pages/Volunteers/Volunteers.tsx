@@ -45,6 +45,9 @@ const Volunteers = () => {
               src={'/images/volunteers/volunteers1.png'}
               width={'400px'}
               height={'566px'}
+              sx={{
+                boxShadow: '0px 6px 28px 5px rgba(234, 221, 244, 0.4)',
+              }}
             />
             <Grid>
               <Typography sx={{ ...normalTextStyle, paddingTop: 0 }}>
@@ -108,6 +111,10 @@ const Volunteers = () => {
                     ...fonts.montserratMedium24,
                     textUnderlineOffset: '5px',
                     textDecorationColor: colors.violet,
+                    textDecoration: 'none',
+                    '&:hover': {
+                      textDecoration: 'underline',
+                    },
                   }}
                 >
                   Анкета для волонтерiв
