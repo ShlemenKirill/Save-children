@@ -1,0 +1,2 @@
+import DetailedInformationPageContainer from './DetailedInformationPageContainer';
+export default DetailedInformationPageContainer;

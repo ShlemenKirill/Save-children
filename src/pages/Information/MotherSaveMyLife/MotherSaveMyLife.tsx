@@ -1,8 +1,9 @@
 import { Box, Grid, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
+import { ContainerTypes } from 'core/constants/common';
 import DownloadLink from 'components/DownloadLink';
-import InformationPageContainer from 'containers/InformationPageContainer';
+import DetailedInformationPageContainer from 'containers/DetailedInformationPageContainer';
 
 const MotherSaveMyLife = () => {
   const normalTextStyle = {
@@ -14,7 +15,10 @@ const MotherSaveMyLife = () => {
     '/images/information/mother_save_my_life4.png',
   ];
   return (
-    <InformationPageContainer name={'Брошура «Матусю, збережи менi життя!»'}>
+    <DetailedInformationPageContainer
+      name={'Брошура «Матусю, збережи менi життя!»'}
+      containerType={ContainerTypes.information}
+    >
       <>
         <Grid>
           <Typography sx={normalTextStyle} paddingTop={'29px'}>
@@ -69,7 +73,7 @@ const MotherSaveMyLife = () => {
           })}
         </Grid>
       </>
-    </InformationPageContainer>
+    </DetailedInformationPageContainer>
   );
 };
 

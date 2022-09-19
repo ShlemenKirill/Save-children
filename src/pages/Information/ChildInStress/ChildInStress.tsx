@@ -1,7 +1,8 @@
 import { Box, Grid, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
-import InformationPageContainer from 'containers/InformationPageContainer';
+import { ContainerTypes } from 'core/constants/common';
+import DetailedInformationPageContainer from 'containers/DetailedInformationPageContainer';
 
 const ChildInStress = () => {
   const normalTextStyle = {
@@ -9,7 +10,10 @@ const ChildInStress = () => {
     ...fonts.montserratNormal16,
   };
   return (
-    <InformationPageContainer name={'«Допоможiть, моя дитина в стресi»'}>
+    <DetailedInformationPageContainer
+      name={'«Допоможiть, моя дитина в стресi»'}
+      containerType={ContainerTypes.information}
+    >
       <>
         <Grid>
           <Typography sx={normalTextStyle} paddingTop={'20px'}>
@@ -73,7 +77,7 @@ const ChildInStress = () => {
           </Grid>
         </Grid>
       </>
-    </InformationPageContainer>
+    </DetailedInformationPageContainer>
   );
 };
 

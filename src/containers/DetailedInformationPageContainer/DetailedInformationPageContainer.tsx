@@ -1,11 +1,17 @@
 import { Breadcrumbs, Grid, Link, Typography } from '@mui/material';
 import PageContainer from 'containers/PageContainer';
 import { colors } from 'core/constants/colors';
-import { INFORMATION } from 'core/constants/navigation';
+import { INFORMATION, PROJECTS } from 'core/constants/navigation';
 import { fonts } from 'core/constants/fonts';
-import { IInformationPageContainerProps } from 'types/propTypes';
+import { ContainerTypes } from 'core/constants/common';
+import { IDetailedInformationPageContainerProps } from 'types/propTypes';
 
-const InformationPageContainer = ({ children, name }: IInformationPageContainerProps) => {
+const DetailedInformationPageContainer = ({
+  children,
+  name,
+  containerType,
+}: IDetailedInformationPageContainerProps) => {
+  const linkToParent = containerType === ContainerTypes.information ? INFORMATION : PROJECTS;
   return (
     <Grid
       sx={{
@@ -15,7 +21,7 @@ const InformationPageContainer = ({ children, name }: IInformationPageContainerP
       <PageContainer>
         <>
           <Breadcrumbs>
-            <Link href={INFORMATION} underline='hover'>
+            <Link href={linkToParent} underline='hover'>
               <Typography
                 sx={{
                   color: colors.matteBlack,
@@ -23,7 +29,7 @@ const InformationPageContainer = ({ children, name }: IInformationPageContainerP
                   ...fonts.montserratNormal14,
                 }}
               >
-                Iнформація
+                {containerType}
               </Typography>
             </Link>
             <Typography
@@ -56,4 +62,4 @@ const InformationPageContainer = ({ children, name }: IInformationPageContainerP
   );
 };
 
-export default InformationPageContainer;
+export default DetailedInformationPageContainer;

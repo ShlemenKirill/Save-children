@@ -1,5 +1,5 @@
 import { ButtonProps } from '@mui/material';
-import { ButtonVariants } from 'core/constants/common';
+import { ButtonVariants, ContainerTypes } from 'core/constants/common';
 
 export interface IStyledButtonProps extends ButtonProps {
   buttonVariant: ButtonVariants;
@@ -21,7 +21,8 @@ export interface IDownloadLinkProps {
   src: string;
 }
 
-export interface IInformationPageContainerProps {
+export interface IDetailedInformationPageContainerProps {
   children: JSX.Element;
   name: string;
+  containerType: ContainerTypes;
 }
