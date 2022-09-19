@@ -17,7 +17,7 @@ export enum NavigationMenuItems {
 
 export enum ContainerTypes {
   projects = 'Наши проекты',
-  information = 'Iнформація'
+  information = 'Iнформація',
 }
 
 export const FACEBOOK_LINK_SHELTER =
@@ -26,3 +26,5 @@ export const FACEBOOK_LINK_SAVE_CHILDREN = 'https://www.facebook.com/zbereju.dut
 export const INSTAGRAM_LINK = 'https://www.instagram.com/zbereju.dutuny/';
 export const VOLUNTEERS_LINK =
   'https://docs.google.com/forms/d/e/1FAIpQLSf-FtXu0A-7Cooosyg4QvC1MhwrjuCsnACCdspE18MiqiGv2A/viewform';
+export const MAP_LINK =
+  'https://www.google.com/maps/place/Kyiv,+Ukraine,+02000/@50.4021702,30.3926088,11z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf4ee15a4505:0x764931d2170146fe!8m2!3d50.4501!4d30.5234';

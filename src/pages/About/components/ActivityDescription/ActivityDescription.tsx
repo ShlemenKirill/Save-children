@@ -1,6 +1,9 @@
-import { Box, Grid, Typography } from '@mui/material';
+import { Box, Grid, Link, Typography } from '@mui/material';
 import { listItemTextStyle } from 'pages/About/styles';
 import { imageStyle } from 'core/constants/styles';
+import { VOLUNTEERS_LINK } from 'core/constants/common';
+import { colors } from 'core/constants/colors';
+import { fonts } from 'core/constants/fonts';
 
 const ActivityDescription = () => {
   return (
@@ -22,7 +25,23 @@ const ActivityDescription = () => {
         </Typography>
         <Typography sx={{ ...listItemTextStyle, paddingTop: '11px' }}>
           В 2022 році вийде книга з потужними терапевтичними історіями нашіх підопічних матусь про
-          збереження життя — «ЗБЕРЕЖЕНІ ЖИТТЯ».
+          збереження життя —{' '}
+          <Link
+            href={VOLUNTEERS_LINK}
+            sx={{
+              color: colors.violet,
+              ...fonts.montserratNormal16,
+              textUnderlineOffset: '5px',
+              textDecorationColor: colors.violet,
+              textDecoration: 'none',
+              '&:hover': {
+                textDecoration: 'underline',
+              },
+            }}
+          >
+            «ЗБЕРЕЖЕННІ ЖИТТЯ»
+          </Link>{' '}
+          .
         </Typography>
       </Grid>
       <Grid

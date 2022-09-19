@@ -141,7 +141,8 @@ const Navigation = () => {
               navigate(PROJECTS_HART_HOUSE);
             }}
           >
-            Дiм турботы СЕРДЕНЬКО
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            Дiм турботы "СЕРДЕНЬКО"
           </MenuItem>
         </StyledMenu>
       </Grid>
