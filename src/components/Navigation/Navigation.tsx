@@ -154,7 +154,9 @@ const Navigation = () => {
           }}
           sx={{
             cursor: 'pointer',
-            borderBottom: pathname === INFORMATION ? `1px solid ${colors.matteBlack}` : 'none',
+            borderBottom: pathname.startsWith(INFORMATION)
+              ? `1px solid ${colors.matteBlack}`
+              : 'none',
           }}
         >
           <Typography

@@ -25,3 +25,7 @@ export interface IInformationPageContainerProps {
   children: JSX.Element;
   name: string;
 }
+
+export interface IDetailedLinkProps {
+  handler: () => void;
+}
