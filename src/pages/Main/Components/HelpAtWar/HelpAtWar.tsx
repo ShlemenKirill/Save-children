@@ -19,7 +19,7 @@ const HelpAtWar = () => {
       flexDirection={'row'}
       sx={{
         width: '100%',
-        background: 'linear-gradient(89.91deg, #E7EFDA 2.7%, rgba(231, 239, 218, 0) 70.55%)',
+        background: colors.greenLightBackground,
       }}
     >
       <Grid
@@ -28,8 +28,8 @@ const HelpAtWar = () => {
         justifyContent={'space-between'}
         sx={{
           width: '1169px',
-          paddingTop: '4.8rem',
-          paddingBottom: '5.8rem',
+          paddingTop: '3rem',
+          paddingBottom: '4rem',
           margin: 'auto',
           zIndex: 100,
         }}
@@ -37,7 +37,7 @@ const HelpAtWar = () => {
         <Grid display={'flex'} flexDirection={'column'}>
           <Typography
             sx={{
-              ...fonts.montserratSemibold40,
+              ...fonts.montserratSemibold32,
               color: colors.mainText,
             }}
           >
@@ -105,7 +105,7 @@ const HelpAtWar = () => {
               <Box
                 sx={{
                   paddingLeft: '100px',
-                  marginBottom: '-200px',
+                  marginBottom: '-150px',
                 }}
                 component={'img'}
                 alt={'We support Ukraine'}
