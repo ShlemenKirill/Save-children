@@ -3,6 +3,7 @@ import { colors } from 'core/constants/colors';
 import { INFORMATION } from 'core/constants/navigation';
 import { fonts } from 'core/constants/fonts';
 import PageContainer from 'containers/PageContainer';
+import DownloadLink from 'components/DownloadLink';
 
 const MotherSaveMyLife = () => {
   const normalTextStyle = {
@@ -72,19 +73,10 @@ const MotherSaveMyLife = () => {
               “Привіт, я маленька людина на самому початку свого життя. З моменту зачаття і до
               сьогодні я - справжнісінька людина. У мене є голова, тулуб, ручки і ніжки, я можу чути
               і відчувати біль. Я - унікальний, адже іншого такого, як я, у світі не існує.”{' '}
-              <Link
-                download={'mother_save_my_life_broshure'}
-                href={'/documents/mother_save_my_life_broshure.pdf'}
-                sx={{
-                  color: colors.violet,
-                  ...fonts.montserratNormal16,
-                  textDecorationColor: colors.violet,
-                  textUnderlineOffset: '2px',
-                }}
-              >
-                {' '}
-                Скачати
-              </Link>
+              <DownloadLink
+                fileName={'mother_save_my_life_broshure'}
+                src={'/documents/mother_save_my_life_broshure.pdf'}
+              />
             </Typography>
           </Grid>
           <Grid display={'flex'} flexDirection={'column'} gap={'50px'} paddingTop={'30px'}>

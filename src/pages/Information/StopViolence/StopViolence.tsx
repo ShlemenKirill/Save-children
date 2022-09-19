@@ -3,6 +3,7 @@ import PageContainer from 'containers/PageContainer';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import { INFORMATION } from 'core/constants/navigation';
+import DownloadLink from 'components/DownloadLink';
 
 const StopViolence = () => {
   const normalTextStyle = {
@@ -66,19 +67,10 @@ const StopViolence = () => {
               Брошура пiдготована з метою попередження насильства над жiнками, пiдтримки кризових
               вагiтних якi перебуваютъ у скдаданих життєвих обставинах. За статистикою близько 90%
               випадкiв звернення щодо насильства в сiм’i надходить вiд жiнок.
-              <Link
-                download={'Stop Violence broshure'}
-                href={'/documents/stop_violence.pdf'}
-                sx={{
-                  color: colors.violet,
-                  ...fonts.montserratNormal16,
-                  textDecorationColor: colors.violet,
-                  textUnderlineOffset: '2px',
-                }}
-              >
-                {' '}
-                Скачати
-              </Link>
+              <DownloadLink
+                fileName={'Stop Violence broshure'}
+                src={'/documents/stop_violence.pdf'}
+              />
             </Typography>
           </Grid>
           <Grid display={'flex'} flexDirection={'column'} gap={'50px'} paddingTop={'31px'}>
