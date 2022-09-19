@@ -1,7 +1,7 @@
-import { Grid, Typography } from '@mui/material';
+import { Grid, Link, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
-import { ButtonVariants } from 'core/constants/common';
+import { ButtonVariants, VOLUNTEERS_LINK } from 'core/constants/common';
 import StyledButton from 'components/StyledButton';
 
 const MainContent = () => {
@@ -75,7 +75,7 @@ const MainContent = () => {
                   ...fonts.montserratNormal24,
                 }}
               >
-                у підтримку вагітності.
+                у підтримку вагітності
               </Typography>
             </Grid>
             <Grid
@@ -83,16 +83,25 @@ const MainContent = () => {
                 paddingTop: '3.75rem',
               }}
             >
-              <StyledButton buttonVariant={ButtonVariants.primaryGreen}>
-                <Typography
-                  color={colors.white}
-                  sx={{
-                    ...fonts.montserratBold16,
-                  }}
-                >
-                  Приєднатися
-                </Typography>
-              </StyledButton>
+              <Link
+                href={VOLUNTEERS_LINK}
+                target={'_blank'}
+                rel={'noreferrer'}
+                sx={{
+                  textDecoration: 'none',
+                }}
+              >
+                <StyledButton buttonVariant={ButtonVariants.primaryGreen}>
+                  <Typography
+                    color={colors.white}
+                    sx={{
+                      ...fonts.montserratBold16,
+                    }}
+                  >
+                    Приєднатися
+                  </Typography>
+                </StyledButton>
+              </Link>
             </Grid>
           </Grid>
         </Grid>

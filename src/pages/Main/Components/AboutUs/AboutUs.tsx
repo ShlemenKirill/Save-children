@@ -10,14 +10,14 @@ const AboutUs = () => {
       flexDirection={'row'}
       sx={{
         maxWidth: '100%',
-        background: 'linear-gradient(89.91deg, #E7EFDA 2.7%, rgba(231, 239, 218, 0) 70.55%)',
+        background: colors.greenLightBackground,
       }}
     >
       <Grid
         display={'grid'}
         gridTemplateColumns={'1fr 1fr'}
         justifyContent={'center'}
-        gap={'70px'}
+        gap={'84px'}
         sx={{
           width: '1169px',
           paddingTop: '4.8rem',
@@ -56,20 +56,25 @@ const AboutUs = () => {
               href={'/about'}
               sx={{
                 ...linkStyle,
-                paddingTop: '22px',
-                paddingRight: '30px',
+                paddingRight: '10px',
               }}
             >
-              Дивитися все
+              Докладно
             </Link>
           </Grid>
-          <Grid display={'flex'} flexDirection={'row'} gap={'100px'} justifyContent={'center'}>
+          <Grid
+            display={'flex'}
+            flexDirection={'row'}
+            gap={'84px'}
+            justifyContent={'center'}
+            paddingTop={'30px'}
+          >
             <Grid>
               <Box component={'img'} alt={'Children'} src={'/images/aboutUs/children1.png'} />
             </Grid>
             <Grid
               sx={{
-                paddingTop: '150px',
+                paddingTop: '80px',
               }}
             >
               <Box component={'img'} alt={'Children'} src={'/images/aboutUs/children2.png'} />

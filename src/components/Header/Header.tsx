@@ -1,25 +1,25 @@
 import { useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { Divider, Grid, Link, Typography } from '@mui/material';
+import MenuContext from 'context/MenuContext';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
-import {
-  ButtonVariants,
-  FACEBOOK_LINK_SAVE_CHILDREN,
-  INSTAGRAM_LINK,
-  NavigationMenuItems,
-} from 'core/constants/common';
+import { ButtonVariants, FACEBOOK_LINK_SAVE_CHILDREN, INSTAGRAM_LINK } from 'core/constants/common';
 import MailIcon from 'components/Icons/MailIcon';
 import InstagramIcon from 'components/Icons/InstagramIcon';
 import FacebookIcon from 'components/Icons/FacebookIcon';
 import Logo from 'components/Logo';
 import StyledButton from 'components/StyledButton';
 import Navigation from 'components/Navigation';
-import MenuContext from 'context/MenuContext';
 
 const Header = () => {
-  const navigate = useNavigate();
-  const { setCurrentMenuItem } = useContext(MenuContext);
+  const { isOnScroll } = useContext(MenuContext);
+  const headerStyle = {
+    width: '1169px',
+    paddingTop: isOnScroll ? '0px' : '15px',
+    paddingBottom: isOnScroll ? '0px' : '5px',
+    margin: 'auto',
+    background: colors.mainBackground,
+  };
   return (
     <Grid
       sx={{
@@ -30,45 +30,14 @@ const Header = () => {
         background: colors.mainBackground,
       }}
     >
-      <Grid
-        display={'flex'}
-        flexDirection={'column'}
-        sx={{
-          width: '1169px',
-          paddingTop: '15px',
-          paddingBottom: '15px',
-          margin: 'auto',
-          background: colors.mainBackground,
-        }}
-      >
+      <Grid display={'flex'} flexDirection={'column'} sx={headerStyle}>
         <Grid
           display={'flex'}
           flexDirection={'row'}
           alignItems={'center'}
           justifyContent={'space-between'}
         >
-          <Grid
-            display={'flex'}
-            flexDirection={'row'}
-            alignItems={'center'}
-            sx={{
-              cursor: 'pointer',
-            }}
-            onClick={() => {
-              navigate('/', { replace: true });
-              setCurrentMenuItem(NavigationMenuItems.main);
-            }}
-          >
-            <Logo />
-            <Typography
-              color={colors.violet}
-              sx={{
-                ...fonts.stixNormal24,
-              }}
-            >
-              Збережи дитину
-            </Typography>
-          </Grid>
+          <Logo />
           <Grid display={'flex'} flexDirection={'row'} gap={'60px'}>
             <Grid display={'flex'} flexDirection={'column'} alignItems={'center'}>
               <Typography

@@ -9,4 +9,10 @@ export const MenuContext = React.createContext<IMenuContext>({
      * void function
      */
   },
+  isOnScroll: false,
+  setIsOnScroll: () => {
+    /**
+     * void function
+     */
+  },
 });

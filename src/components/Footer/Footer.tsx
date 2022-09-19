@@ -2,15 +2,31 @@ import { useNavigate } from 'react-router-dom';
 import { Grid, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
-import { ABOUT_US, PARTNERS, REPORTS, VOLUNTEERS } from 'core/constants/navigation';
+import {
+  ABOUT_US,
+  INFORMATION,
+  PARTNERS,
+  PROJECTS,
+  REPORTS,
+  VOLUNTEERS,
+} from 'core/constants/navigation';
 import Logo from 'components/Logo';
 import MailIconWithBackground from 'components/Icons/MailIconWithBackground';
 import InstagramIconWithBackground from 'components/Icons/InstagramIconWithBackground';
 import FacebookIconWithBackground from 'components/Icons/FacebookIconWithBackground';
 
 const Footer = () => {
+  const menuItems = [
+    { name: 'Про нас', path: ABOUT_US },
+    { name: 'Нашi проекти', path: PROJECTS },
+    { name: 'Звітність', path: REPORTS },
+    { name: 'Партнерам', path: PARTNERS },
+    { name: 'Волонтерам', path: VOLUNTEERS },
+    { name: 'Iнформація', path: INFORMATION },
+  ];
   const navigate = useNavigate();
   const secondaryText = {
+    paddingTop: '2px',
     color: colors.matteBlack,
     ...fonts.montserratNormal16,
   };
@@ -40,7 +56,7 @@ const Footer = () => {
         display={'flex'}
         flexDirection={'row'}
         alignItems={'flex-start'}
-        gap={'10%'}
+        gap={'17%'}
         sx={{
           width: '1169px',
           paddingTop: '4.375rem',
@@ -49,17 +65,7 @@ const Footer = () => {
           background: colors.footer,
         }}
       >
-        <Grid display={'flex'} flexDirection={'row'} gap={'12px'} alignItems={'center'}>
-          <Logo />
-          <Typography
-            sx={{
-              color: colors.violet,
-              ...fonts.stixNormal24,
-            }}
-          >
-            Збережи дитину
-          </Typography>
-        </Grid>
+        <Logo />
         <Grid>
           <Typography sx={menuHeaderStyle}>Контакти</Typography>
           <Typography sx={secondaryText}>Kyiv, Ukraine</Typography>
@@ -69,7 +75,7 @@ const Footer = () => {
             flexDirection={'row'}
             gap={'20px'}
             sx={{
-              paddingTop: '22px',
+              paddingTop: '32px',
             }}
           >
             <MailIconWithBackground />
@@ -79,54 +85,19 @@ const Footer = () => {
         </Grid>
         <Grid>
           <Typography sx={menuHeaderStyle}>Меню</Typography>
-          <Typography
-            sx={menuItemStyle}
-            onClick={() => {
-              navigate(ABOUT_US);
-            }}
-          >
-            Про нас
-          </Typography>
-          <Typography
-            sx={menuItemStyle}
-            onClick={() => {
-              navigate('/projects');
-            }}
-          >
-            Нашi проекти
-          </Typography>
-          <Typography
-            sx={menuItemStyle}
-            onClick={() => {
-              navigate(REPORTS);
-            }}
-          >
-            Звітність
-          </Typography>
-          <Typography
-            sx={menuItemStyle}
-            onClick={() => {
-              navigate(PARTNERS);
-            }}
-          >
-            Партнерам
-          </Typography>
-          <Typography
-            sx={menuItemStyle}
-            onClick={() => {
-              navigate(VOLUNTEERS);
-            }}
-          >
-            Волонтерам
-          </Typography>
-          <Typography
-            sx={menuItemStyle}
-            onClick={() => {
-              navigate('/information');
-            }}
-          >
-            Iнформація
-          </Typography>
+          {menuItems.map(({ name, path }) => {
+            return (
+              <Typography
+                key={name}
+                sx={menuItemStyle}
+                onClick={() => {
+                  navigate(path);
+                }}
+              >
+                {name}
+              </Typography>
+            );
+          })}
         </Grid>
       </Grid>
     </Grid>

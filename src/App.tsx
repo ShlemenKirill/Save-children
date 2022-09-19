@@ -1,4 +1,4 @@
-import React, { lazy, useState, Suspense } from 'react';
+import React, { lazy, useState, Suspense, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { NavigationMenuItems } from 'core/constants/common';
 import {
@@ -33,8 +33,26 @@ const App = () => {
   const [currentMenuItem, setCurrentMenuItem] = useState<NavigationMenuItems>(
     NavigationMenuItems.main,
   );
+  const [isOnScroll, setIsOnScroll] = useState<boolean>(false);
+  const handleScroll = () => {
+    const position = window.scrollY;
+    if (position > 0) {
+      setIsOnScroll(true);
+    } else {
+      setIsOnScroll(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
-    <MenuContext.Provider value={{ currentMenuItem, setCurrentMenuItem }}>
+    <MenuContext.Provider
+      value={{ currentMenuItem, setCurrentMenuItem, isOnScroll, setIsOnScroll }}
+    >
       <BrowserRouter>
         <Routes>
           <Route

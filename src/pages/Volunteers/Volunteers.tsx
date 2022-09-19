@@ -1,6 +1,7 @@
 import { Box, Grid, Link, List, ListItem, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
+import { VOLUNTEERS_LINK } from 'core/constants/common';
 import PageContainer from 'containers/PageContainer';
 
 const Volunteers = () => {
@@ -99,9 +100,7 @@ const Volunteers = () => {
               </Typography>
               <Grid paddingTop={'12px'}>
                 <Link
-                  href={
-                    'https://docs.google.com/forms/d/e/1FAIpQLSf-FtXu0A-7Cooosyg4QvC1MhwrjuCsnACCdspE18MiqiGv2A/viewform'
-                  }
+                  href={VOLUNTEERS_LINK}
                   target={'_blank'}
                   rel={'noreferrer'}
                   sx={{

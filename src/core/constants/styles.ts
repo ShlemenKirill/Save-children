@@ -9,5 +9,9 @@ export const linkStyle = {
   ...fonts.montserratMedium16,
   color: colors.violet,
   textDecorationColor: colors.violet,
+
   textUnderlineOffset: '4px',
+  '&:hover': {
+    ...fonts.montserratSemibold16,
+  },
 };

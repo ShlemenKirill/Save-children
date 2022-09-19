@@ -5,6 +5,7 @@ export const fonts = {
     fontWeight: 600,
     fontSize: '24px',
     lineHeight: '17px',
+    letterSpacing: '0.035em',
   },
   stixSemibold90: {
     fontFamily: 'STIXTwoText',
@@ -12,6 +13,7 @@ export const fonts = {
     fontWeight: 600,
     fontSize: '90px',
     lineHeight: '85px',
+    letterSpacing: '0.03em',
   },
   montserratNormal14: {
     fontFamily: 'Montserrat',
