@@ -26,3 +26,7 @@ export interface IDetailedInformationPageContainerProps {
   name: string;
   containerType: ContainerTypes;
 }
+
+export interface IDetailedLinkProps {
+  handler: () => void;
+}

@@ -2,6 +2,7 @@ import { Grid, Link, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import { linkStyle } from 'core/constants/styles';
+import { INFORMATION_CHILDREN_IN_STRESS, INFORMATION_WAR } from 'core/constants/navigation';
 import InfoCard from 'components/InfoCard/InfoCard';
 
 const Information = () => {
@@ -65,13 +66,13 @@ const Information = () => {
             text={
               'Перше що потрібно знати мамі — вам і дитині потрібен час. Все що почуває мама- почуває і дитина. Матуся може зрозуміти які ємоції в неї і чому, маленька дитина ні.'
             }
-            pathUrl={'/info/1'}
+            pathUrl={INFORMATION_CHILDREN_IN_STRESS}
           />
           <InfoCard
             imageUrl={'/images/information/flag.png'}
             headerText={'Як ми працюємо під час війни'}
             text={'Наші основні задачі, та майже щоденні справи.'}
-            pathUrl={'/info/2'}
+            pathUrl={INFORMATION_WAR}
           />
         </Grid>
       </Grid>

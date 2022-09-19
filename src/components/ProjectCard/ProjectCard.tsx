@@ -1,8 +1,8 @@
+import { useNavigate } from 'react-router-dom';
 import { Box, Grid, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
-import ChevronRight from 'components/Icons/ChevronRight';
-import { useNavigate } from 'react-router-dom';
+import DetailedLink from 'components/DetailedLink';
 import { IProjectCardProps } from 'types/propTypes';
 
 const ProjectCard = ({ imageUrl, headerText, text, pathUrl }: IProjectCardProps) => {
@@ -59,34 +59,7 @@ const ProjectCard = ({ imageUrl, headerText, text, pathUrl }: IProjectCardProps)
           </Grid>
         </Grid>
       </Grid>
-      <Grid
-        display={'flex'}
-        flexDirection={'row'}
-        justifyContent={'flex-end'}
-        alignItems={'center'}
-      >
-        <Typography
-          onClick={handleLinkClick}
-          sx={{
-            color: colors.matteBlack,
-            ...fonts.montserratNormal16,
-            cursor: 'pointer',
-            '&:hover': {
-              textDecoration: 'underline',
-              textUnderlineOffset: '4px',
-            },
-          }}
-        >
-          Докладно
-        </Typography>
-        <Grid
-          sx={{
-            paddingLeft: '0.5rem',
-          }}
-        >
-          <ChevronRight />
-        </Grid>
-      </Grid>
+      <DetailedLink handler={handleLinkClick} />
     </Grid>
   );
 };
