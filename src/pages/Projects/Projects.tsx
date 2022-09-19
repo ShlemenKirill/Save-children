@@ -20,17 +20,7 @@ const Projects = () => {
     >
       <PageContainer>
         <>
-          <Grid
-            display={'flex'}
-            flexDirection={'column'}
-            sx={{
-              backgroundColor: colors.mainBackground,
-              width: '1169px',
-              paddingTop: '10px',
-              paddingBottom: '130px',
-              margin: 'auto',
-            }}
-          >
+          <Grid display={'flex'} flexDirection={'column'}>
             <Typography
               sx={{
                 color: colors.mainText,
@@ -44,7 +34,7 @@ const Projects = () => {
               flexDirection={'row'}
               gap={'80px'}
               sx={{
-                paddingTop: '50px',
+                paddingTop: '40px',
               }}
             >
               <ProjectCard

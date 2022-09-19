@@ -28,6 +28,7 @@ const Information = lazy(() => import('pages/Information'));
 const ChildInStress = lazy(() => import('pages/Information/ChildInStress'));
 const StopViolence = lazy(() => import('pages/Information/StopViolence'));
 const MotherSaveMyLife = lazy(() => import('pages/Information/MotherSaveMyLife'));
+const BookSaveChild = lazy(() => import('pages/Information/BookSaveChildren'));
 
 const App = () => {
   const [currentMenuItem, setCurrentMenuItem] = useState<NavigationMenuItems>(
@@ -143,6 +144,14 @@ const App = () => {
               element={
                 <Suspense fallback={<AppLoader />}>
                   <MotherSaveMyLife />
+                </Suspense>
+              }
+            />
+            <Route
+              path={'book-save-children'}
+              element={
+                <Suspense fallback={<AppLoader />}>
+                  <BookSaveChild />
                 </Suspense>
               }
             />
