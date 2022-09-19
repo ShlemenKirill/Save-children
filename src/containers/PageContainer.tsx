@@ -20,7 +20,7 @@ const PageContainer = ({ children }: IPageContainerProps) => {
         sx={{
           backgroundColor: colors.mainBackground,
           width: '1169px',
-          paddingTop: '10px',
+          paddingTop: '27px',
           paddingBottom: '130px',
           margin: 'auto',
         }}
