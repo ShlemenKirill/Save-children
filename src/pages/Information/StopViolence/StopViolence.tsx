@@ -1,8 +1,9 @@
-import { Box,  Grid, Typography } from '@mui/material';
+import { Box, Grid, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
+import { ContainerTypes } from 'core/constants/common';
 import DownloadLink from 'components/DownloadLink';
-import InformationPageContainer from 'containers/InformationPageContainer/InformationPageContainer';
+import DetailedInformationPageContainer from 'containers/DetailedInformationPageContainer/DetailedInformationPageContainer';
 
 const StopViolence = () => {
   const normalTextStyle = {
@@ -19,7 +20,10 @@ const StopViolence = () => {
     '/images/information/stopViolence9.png',
   ];
   return (
-    <InformationPageContainer name={'Брошура «Скажи СТОП насиллю»'}>
+    <DetailedInformationPageContainer
+      name={'Брошура «Скажи СТОП насиллю»'}
+      containerType={ContainerTypes.information}
+    >
       <>
         <Grid>
           <Typography sx={normalTextStyle} paddingTop={'21px'}>
@@ -63,7 +67,7 @@ const StopViolence = () => {
           })}
         </Grid>
       </>
-    </InformationPageContainer>
+    </DetailedInformationPageContainer>
   );
 };
 
