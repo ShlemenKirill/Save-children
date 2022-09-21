@@ -30,3 +30,7 @@ export interface IDetailedInformationPageContainerProps {
 export interface IDetailedLinkProps {
   handler: () => void;
 }
+
+export interface IFinancialHelpCardProps {
+  destination: string;
+}

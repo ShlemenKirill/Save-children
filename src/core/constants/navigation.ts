@@ -5,6 +5,7 @@ export const VOLUNTEERS = '/volunteers';
 export const CONTACTS = '/contacts';
 export const PROJECTS = '/projects';
 export const INFORMATION = '/information';
+export const WANT_TO_HELP = '/want_to_help';
 export const PROJECTS_PREGNANT_HELP = '/projects/pregnant-help';
 export const PROJECTS_HART_HOUSE = '/projects/care-home';
 export const PROJECTS_EVACUATION_HELP = '/projects/help-in-evacuation';
