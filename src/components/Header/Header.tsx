@@ -1,9 +1,11 @@
 import { useContext } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Divider, Grid, Link, Typography } from '@mui/material';
 import MenuContext from 'context/MenuContext';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import { ButtonVariants, FACEBOOK_LINK_SAVE_CHILDREN, INSTAGRAM_LINK } from 'core/constants/common';
+import { WANT_TO_HELP } from 'core/constants/navigation';
 import MailIcon from 'components/Icons/MailIcon';
 import InstagramIcon from 'components/Icons/InstagramIcon';
 import FacebookIcon from 'components/Icons/FacebookIcon';
@@ -12,6 +14,7 @@ import StyledButton from 'components/StyledButton';
 import Navigation from 'components/Navigation';
 
 const Header = () => {
+  const navigate = useNavigate();
   const { isOnScroll } = useContext(MenuContext);
   const headerStyle = {
     width: '1169px',
@@ -78,7 +81,13 @@ const Header = () => {
                 <FacebookIcon />
               </Link>
             </Grid>
-            <Grid display={'flex'} flexDirection={'row'}>
+            <Grid
+              display={'flex'}
+              flexDirection={'row'}
+              onClick={() => {
+                navigate(WANT_TO_HELP);
+              }}
+            >
               <StyledButton buttonVariant={ButtonVariants.primary}>Хочу допомогти</StyledButton>
             </Grid>
           </Grid>

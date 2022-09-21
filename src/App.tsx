@@ -9,6 +9,7 @@ import {
   PROJECTS,
   REPORTS,
   VOLUNTEERS,
+  WANT_TO_HELP,
 } from 'core/constants/navigation';
 import MenuContext from 'context/MenuContext';
 import AppLoader from 'components/AppLoader';
@@ -30,6 +31,7 @@ const StopViolence = lazy(() => import('pages/Information/StopViolence'));
 const MotherSaveMyLife = lazy(() => import('pages/Information/MotherSaveMyLife'));
 const BookSaveChild = lazy(() => import('pages/Information/BookSaveChildren'));
 const WorkAtWar = lazy(() => import('pages/Information/WorkAtWar'));
+const WantToHelp = lazy(() => import('pages/WantToHelp'));
 
 const App = () => {
   const [currentMenuItem, setCurrentMenuItem] = useState<NavigationMenuItems>(
@@ -194,6 +196,14 @@ const App = () => {
             element={
               <Suspense fallback={<AppLoader />}>
                 <Contacts />
+              </Suspense>
+            }
+          />
+          <Route
+            path={WANT_TO_HELP}
+            element={
+              <Suspense fallback={<AppLoader />}>
+                <WantToHelp />
               </Suspense>
             }
           />
