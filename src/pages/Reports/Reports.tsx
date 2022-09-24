@@ -4,6 +4,14 @@ import PageContainer from 'containers/PageContainer';
 import { fonts } from 'core/constants/fonts';
 
 const Reports = () => {
+  const mainImagesSrc = ['/images/reports/report2.png', '/images/reports/report3.png'];
+  const additionalImagesSrc = [
+    '/images/reports/report4.png',
+    '/images/reports/report5.png',
+    '/images/reports/report6.png',
+    '/images/reports/report7.png',
+    '/images/reports/report8.png',
+  ];
   const headerTextStyle = {
     ...fonts.montserratNormal24,
     color: colors.matteBlack,
@@ -90,20 +98,18 @@ const Reports = () => {
           </Typography>
           <Grid display={'flex'} flexDirection={'row'} gap={'39px'} paddingTop={'20px'}>
             <Grid display={'flex'} flexDirection={'row'} gap={'39px'}>
-              <Box
-                component={'img'}
-                alt={'reports'}
-                src={'/images/reports/report2.png'}
-                width={'203px'}
-                height={'270px'}
-              />
-              <Box
-                component={'img'}
-                alt={'reports'}
-                src={'/images/reports/report3.png'}
-                width={'203px'}
-                height={'270px'}
-              />
+              {mainImagesSrc.map((src) => {
+                return (
+                  <Box
+                    key={src}
+                    component={'img'}
+                    alt={'reports'}
+                    src={src}
+                    width={'203px'}
+                    height={'270px'}
+                  />
+                );
+              })}
             </Grid>
             <Grid>
               <Typography sx={normalTextStyle}>
@@ -158,41 +164,18 @@ const Reports = () => {
             12. Відкрили будинок турботи «СЕРДЕНЬКО».
           </Typography>
           <Grid display={'flex'} flexDirection={'row'} gap={'39px'} paddingTop={'20px'}>
-            <Box
-              component={'img'}
-              alt={'reports'}
-              src={'/images/reports/report4.png'}
-              width={'203px'}
-              height={'270px'}
-            />
-            <Box
-              component={'img'}
-              alt={'reports'}
-              src={'/images/reports/report5.png'}
-              width={'203px'}
-              height={'270px'}
-            />
-            <Box
-              component={'img'}
-              alt={'reports'}
-              src={'/images/reports/report6.png'}
-              width={'203px'}
-              height={'270px'}
-            />
-            <Box
-              component={'img'}
-              alt={'reports'}
-              src={'/images/reports/report7.png'}
-              width={'203px'}
-              height={'270px'}
-            />
-            <Box
-              component={'img'}
-              alt={'reports'}
-              src={'/images/reports/report8.png'}
-              width={'203px'}
-              height={'270px'}
-            />
+            {additionalImagesSrc.map((src) => {
+              return (
+                <Box
+                  key={src}
+                  component={'img'}
+                  alt={'reports'}
+                  src={src}
+                  width={'203px'}
+                  height={'270px'}
+                />
+              );
+            })}
           </Grid>
           <Typography sx={normalTextStyle} paddingTop={'20px'}>
             13. Підтримали ліками підопічні родини в період пандемії та війни на сумму більше
