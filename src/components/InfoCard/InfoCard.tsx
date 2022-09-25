@@ -22,7 +22,7 @@ const InfoCard = ({ imageUrl, headerText, text, pathUrl }: IProjectCardProps) =>
     >
       <Grid display={'flex'} flexDirection={'row'}>
         <Grid>
-          <Box component={'img'} alt={headerText} src={imageUrl} width={'310px'} height={'185px'} />
+          <Box component={'img'} alt={imageUrl} src={imageUrl} width={'310px'} height={'185px'} />
         </Grid>
         <Grid
           sx={{
