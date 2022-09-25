@@ -24,7 +24,7 @@ const ProjectCard = ({ imageUrl, headerText, text, pathUrl }: IProjectCardProps)
         borderRadius: '10px',
       }}
     >
-      <Box component={'img'} alt={headerText} src={imageUrl} width={'28.4rem'} height={'20.6rem'} />
+      <Box component={'img'} alt={imageUrl} src={imageUrl} width={'28.4rem'} height={'20.6rem'} />
       <Grid
         display={'flex'}
         flexDirection={'column'}

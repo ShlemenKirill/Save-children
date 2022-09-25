@@ -47,7 +47,7 @@ const Projects = () => {
               />
               <ProjectCard
                 imageUrl={'/images/projects/hartHouse.png'}
-                headerText={'Дім-турботи "СЕРДЕНЬКО❤"'}
+                headerText={'Дім-турботи "СЕРДЕНЬКО \u2764\uFE0F"'}
                 text={
                   'Будинок турботи це не гуртожиток для переселенців. У нього зовсім інші задачі, вони більші та глибші. '
                 }
