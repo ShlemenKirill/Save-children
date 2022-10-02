@@ -39,6 +39,7 @@ const ProjectCard = ({ imageUrl, headerText, text, pathUrl }: IProjectCardProps)
             }}
           >
             <Typography
+              data-testid='projectCard-headerText'
               sx={{
                 color: colors.matteBlack,
                 ...fonts.montserratSemibold28,
@@ -47,8 +48,9 @@ const ProjectCard = ({ imageUrl, headerText, text, pathUrl }: IProjectCardProps)
               {headerText}
             </Typography>
           </Grid>
-          <Grid>
+          <Grid >
             <Typography
+              data-testid='projectCard-mainText'
               sx={{
                 color: colors.matteBlack,
                 ...fonts.montserratNormal16,
