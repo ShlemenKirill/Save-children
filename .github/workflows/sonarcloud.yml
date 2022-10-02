@@ -7,7 +7,7 @@
 # GitHub Code Scanning alerts with the vulnerabilities found.
 # Free for open source project.
 
-# 1. Login to SonarCloud.io using your GitHub account
+# 1. Login to SonarCloud.io using your GitHub account 
 
 # 2. Import your project on SonarCloud
 #     * Add your GitHub organization first, then add your repository as a new project.
