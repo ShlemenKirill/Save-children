@@ -56,14 +56,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}   # Generate a token on Sonarcloud.io, add it to the secrets of this repo with the name SONAR_TOKEN (Settings > Secrets > Actions > add new repository secret)
-        with:
-          # Additional arguments for the sonarcloud scanners
-          args:
-            # Unique keys of your project and organization. You can find them in SonarCloud > Information (bottom-left menu)
-            # mandatory
-            -sonar.projectKey=ShlemenKirill_Save-children
-            -sonar.organization=shlemenkirill 
-            -sonar.sources=src
-            -sonar.tests=src
-            -sonar.test.inclusions=src
-            -sonar.javascript.lcov.reportPaths=./coverage/lcov.info
+         
+            
