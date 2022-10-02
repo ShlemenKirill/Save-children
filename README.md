@@ -4,3 +4,4 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ShlemenKirill_Save-children&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=ShlemenKirill_Save-children)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=ShlemenKirill_Save-children&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=ShlemenKirill_Save-children)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=ShlemenKirill_Save-children&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=ShlemenKirill_Save-children)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ShlemenKirill_Save-children&metric=coverage)](https://sonarcloud.io/summary/new_code?id=ShlemenKirill_Save-children)
