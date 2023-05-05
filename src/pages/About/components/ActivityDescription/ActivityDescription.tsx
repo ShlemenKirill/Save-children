@@ -4,8 +4,10 @@ import { imageStyle } from 'core/constants/styles';
 import { VOLUNTEERS_LINK } from 'core/constants/common';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
+import { useTranslation } from 'react-i18next';
 
 const ActivityDescription = () => {
+  const { t } = useTranslation();
   return (
     <Grid
       id={'activity-description'}
@@ -16,16 +18,9 @@ const ActivityDescription = () => {
       }}
     >
       <Grid id={'activity-description-text'}>
-        <Typography sx={listItemTextStyle}>
-          Наша діяльність це співпраця з поліцією, соціальними службами, дитячими будинками,
-          будинками милосердя, провідними гінекологами, лікарями, пологовими будинками, світськими
-          персонами, найкращими фахівцями в сфері фінансів, юриспруденції, психології, священством,
-          сестрами милосердя, будинками матері та дитини, а в реальності України ми співпрацюємо з
-          військовими та партнерами які допомогають нам в евакуації родин.
-        </Typography>
+        <Typography sx={listItemTextStyle}>{t('aboutPage.activityDescription.p1')}</Typography>
         <Typography sx={{ ...listItemTextStyle, paddingTop: '11px' }}>
-          В 2022 році вийде книга з потужними терапевтичними історіями нашіх підопічних матусь про
-          збереження життя —{' '}
+          {t('aboutPage.activityDescription.p2')}
           <Link
             href={VOLUNTEERS_LINK}
             sx={{
@@ -39,7 +34,7 @@ const ActivityDescription = () => {
               },
             }}
           >
-            «ЗБЕРЕЖЕННІ ЖИТТЯ»
+            {t('aboutPage.activityDescription.link1')}
           </Link>{' '}
           .
         </Typography>

@@ -3,8 +3,10 @@ import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import { listStyle, listItemStyle, listItemTextStyle } from 'pages/About/styles';
 import { imageStyle } from 'core/constants/styles';
+import { useTranslation } from 'react-i18next';
 
 const Activity = () => {
+  const { t } = useTranslation();
   return (
     <Grid
       id={'activity'}
@@ -21,29 +23,17 @@ const Activity = () => {
             ...fonts.montserratNormal16,
           }}
         >
-          Діяльність благодійної громадської організації «Збережи дитину» спрямована на збереження
-          життя дітей та підтримку матерів, які потрапили у складну життєву ситуацію та які
-          приймають рішення народжувати, багатодітним матерям та дітям сиротам під час війни в
-          Україні, а саме:
+          {t('aboutPage.activity.p1')}
         </Typography>
         <List sx={listStyle}>
           <ListItem sx={{ ...listItemStyle }}>
-            <Typography sx={listItemTextStyle}>
-              Надання психологічної, продуктової, фінансової, юридичної допомоги соціально
-              незахищеним вагітним жінкам, матерям та їх дітям
-            </Typography>
+            <Typography sx={listItemTextStyle}>{t('aboutPage.activity.listItem1')}</Typography>
           </ListItem>
           <ListItem sx={listItemStyle}>
-            <Typography sx={listItemTextStyle}>
-              Відновлення існуючого та будівництво нового будинку- прихистку для матерів та їх дітей
-              які постраждали під час війни, втратили житло, були вимушено евакуйовані
-            </Typography>
+            <Typography sx={listItemTextStyle}>{t('aboutPage.activity.listItem2')}</Typography>
           </ListItem>
           <ListItem sx={listItemStyle}>
-            <Typography sx={listItemTextStyle}>
-              Створення мережі філіалів благодійної громадської організації «Збережи дитину» по всій
-              Україні
-            </Typography>
+            <Typography sx={listItemTextStyle}>{t('aboutPage.activity.listItem3')}</Typography>
           </ListItem>
         </List>
         <Typography
@@ -52,19 +42,17 @@ const Activity = () => {
             ...fonts.montserratMedium24,
           }}
         >
-          Фахівці Організації за час свого існування створили:
+          {t('aboutPage.activity.p2')}
         </Typography>
         <List sx={listStyle}>
           <ListItem sx={listItemStyle}>
-            <Typography sx={listItemTextStyle}>
-              Безкоштовну гарячу лінію — для допомоги жінкам
-            </Typography>
+            <Typography sx={listItemTextStyle}>{t('aboutPage.activity.listItem4')}</Typography>
           </ListItem>
           <ListItem sx={listItemStyle}>
-            <Typography sx={listItemTextStyle}>Психологічну службу</Typography>
+            <Typography sx={listItemTextStyle}>{t('aboutPage.activity.listItem5')}</Typography>
           </ListItem>
           <ListItem sx={listItemStyle}>
-            <Typography sx={listItemTextStyle}>Службу юридичної та соціальної допомоги</Typography>
+            <Typography sx={listItemTextStyle}>{t('aboutPage.activity.listItem6')}</Typography>
           </ListItem>
         </List>
       </Grid>

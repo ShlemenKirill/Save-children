@@ -43,6 +43,31 @@
       "partners": "To partners",
       "volunteers": "Volunteers",
       "contacts": "Contacts"
+    },
+    "aboutPage": {
+      "aboutUs": "About us",
+      "activity": {
+        "p1": "The activities of the charitable public organization \"Save the Child\" are aimed at saving the lives of children and supporting mothers who are in a difficult life situation and who decide to give birth, mothers with many children and orphaned children during the war in Ukraine, namely:",
+        "listItem1": "Provision of psychological, food, financial, and legal assistance to socially vulnerable pregnant women, mothers and their children",
+        "listItem2": "Restoration of the existing and construction of a new shelter for mothers and their children who suffered during the war, lost their homes, were forced to evacuate",
+        "listItem3": "Creation of a network of branches of the charitable public organization \"Save the Child\" throughout Ukraine",
+        "p2": "During its existence, the specialists of the Organization created:",
+        "listItem4": "A free hotline to help women",
+        "listItem5": "Psychological service",
+        "listItem6": "Legal and social assistance service"
+      },
+      "activityDescription": {
+        "p1": "Our activity is cooperation with the police, social services, orphanages, houses of mercy, leading gynecologists, doctors, maternity hospitals, social persons, the best specialists in the field of finance, jurisprudence, psychology, priesthood, sisters of mercy, mother and child homes, and in reality ",
+        "p2": "In 2022, a book will be published with powerful therapeutic stories of our foster mothers about saving life — ",
+        "link1": "\"LIVES SAVED\""
+      },
+      "volunteersTeam": {
+        "p1": "\"Save the Child\" is a powerful team of volunteers.",
+        "p2": "Dozens of educational events have been held, we have issued about 10,000 brochures that save the lives of children and women every day.",
+        "p3": "More than 200 children were saved in their mothers' wombs in almost 4 weeks of work.",
+        "p4": "Every mother needs a strong support, unfortunately it happens that circumstances decide for us.",
+        "p5": "To stop this social collapse, WE \"Save the Child\" united not only to save future lives, but also to prevent existing lives from being lost in this world."
+      }
     }
   }
 }

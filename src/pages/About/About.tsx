@@ -8,8 +8,10 @@ import ChildrenPhotos from 'pages/About/components/ChildrenPhotos';
 import VolunteersTeam from 'pages/About/components/VolunteersTeam';
 import ActivityDescription from 'pages/About/components/ActivityDescription';
 import Photos from 'pages/About/components/Photos';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <Grid
       sx={{
@@ -25,7 +27,7 @@ const About = () => {
                 ...fonts.montserratMedium85,
               }}
             >
-              Про нас
+              {t('aboutPage.aboutUs')}
             </Typography>
           </Grid>
           <Activity />
