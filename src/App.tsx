@@ -74,7 +74,7 @@ const App = () => {
       interpolation: {
         escapeValue: false, // react already safes from xss
       },
-    }).then();
+    }).catch();
 
   return (
     <LanguageContext.Provider value={{ currentLanguage, setCurrentLanguage }}>
