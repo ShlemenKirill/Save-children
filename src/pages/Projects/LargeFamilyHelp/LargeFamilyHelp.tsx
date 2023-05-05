@@ -20,7 +20,7 @@ const LargeFamilyHelp = () => {
   };
   return (
     <DetailedInformationPageContainer
-      name={"Допомога багатодітним сім'ям"}
+      name={`Допомога багатодітним сім'ям`}
       containerType={ContainerTypes.projects}
     >
       <>
