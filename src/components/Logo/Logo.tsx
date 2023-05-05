@@ -2,8 +2,10 @@ import { useNavigate } from 'react-router-dom';
 import { Grid, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
+import { useTranslation } from 'react-i18next';
 
 const Logo = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   return (
     <Grid
@@ -25,7 +27,7 @@ const Logo = () => {
           ...fonts.stixNormal24,
         }}
       >
-        Збережи дитину
+        {t('logo')}
       </Typography>
     </Grid>
   );

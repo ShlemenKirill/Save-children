@@ -12,9 +12,12 @@ import FacebookIcon from 'components/Icons/FacebookIcon';
 import Logo from 'components/Logo';
 import StyledButton from 'components/StyledButton';
 import Navigation from 'components/Navigation';
+import LanguageSelector from '../LanguageSelector';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
   const { isOnScroll } = useContext(MenuContext);
   const headerStyle = {
     width: '1169px',
@@ -42,14 +45,19 @@ const Header = () => {
         >
           <Logo />
           <Grid display={'flex'} flexDirection={'row'} gap={'60px'}>
-            <Grid display={'flex'} flexDirection={'column'} alignItems={'center'}>
+            <Grid
+              display={'flex'}
+              flexDirection={'column'}
+              alignItems={'center'}
+              justifyContent={'center'}
+            >
               <Typography
                 color={colors.grey}
                 sx={{
                   ...fonts.montserratNormal14,
                 }}
               >
-                Безкоштовна гаряча линия
+                {t(['header.hotLine'])}
               </Typography>
               <Typography
                 color={colors.matteBlack}
@@ -81,6 +89,9 @@ const Header = () => {
                 <FacebookIcon />
               </Link>
             </Grid>
+            <Grid>
+              <LanguageSelector />
+            </Grid>
             <Grid
               display={'flex'}
               flexDirection={'row'}
@@ -88,7 +99,9 @@ const Header = () => {
                 navigate(WANT_TO_HELP);
               }}
             >
-              <StyledButton buttonVariant={ButtonVariants.primary}>Хочу допомогти</StyledButton>
+              <StyledButton buttonVariant={ButtonVariants.primary}>
+                {t('header.wantToHelp')}
+              </StyledButton>
             </Grid>
           </Grid>
         </Grid>
