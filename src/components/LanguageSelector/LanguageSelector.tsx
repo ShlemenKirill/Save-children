@@ -4,9 +4,9 @@ import { useTranslation } from 'react-i18next';
 
 export const LanguageSelector = () => {
   const { i18n } = useTranslation();
-  const onLanguageChange = async (event: SelectChangeEvent) => {
+  const onLanguageChange = (event: SelectChangeEvent) => {
     const targetLanguage = event.target.value;
-    await i18n.changeLanguage(targetLanguage);
+    i18n.changeLanguage(targetLanguage).catch();
   };
 
   return (
