@@ -1,5 +1,5 @@
 import { FormControl, MenuItem, Select, SelectChangeEvent } from '@mui/material';
-import { useContext, useEffect } from 'react';
+import { useContext } from 'react';
 import { LanguageContext, Languages } from 'context/LanguageContext/LanguageContext';
 
 export const LanguageSelector = () => {

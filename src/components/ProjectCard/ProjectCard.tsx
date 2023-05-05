@@ -48,7 +48,7 @@ const ProjectCard = ({ imageUrl, headerText, text, pathUrl }: IProjectCardProps)
               {headerText}
             </Typography>
           </Grid>
-          <Grid >
+          <Grid>
             <Typography
               data-testid='projectCard-mainText'
               sx={{
