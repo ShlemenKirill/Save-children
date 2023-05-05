@@ -1,9 +1,48 @@
 {
   "translation": {
+    "common": {
+      "download": "Download"
+    },
     "logo": "Save the child",
     "header": {
       "hotLine": "Free hotline",
       "wantToHelp": "I want to help"
+    },
+    "finHelpCard": {
+      "forFinHelp": "For financial assistance",
+      "projectDesc": "Save the child charity project in support of pregnancy",
+      "dest": "APPOINTMENT:",
+      "head": "Head of NGO Trukhan Nataliya",
+      "bank": "Privatbank 5168 7574 0663 0931"
+    },
+    "footer": {
+      "about": "About us",
+      "projects": "Our projects",
+      "reports": "Reporting",
+      "partners": "To partners",
+      "volunteers": "Volunteers",
+      "info": "Information",
+      "contacts": "Contacts",
+      "address": "Kyiv, Ukraine",
+      "menu": "Menu"
+    },
+    "navigation": {
+      "evacuationHelp": "Assistance in evacuation",
+      "pregnantHelp": "Assistance to crisis pregnant women",
+      "largeFamilyHelp": "Assistance to large families",
+      "hartHouse": "House of care \"SERDENKO\"",
+      "infoWar": "How we work during wartime",
+      "stressChild": "\"Help, my child is stressed\"",
+      "motherSaveMyLife": "Brochure \"Mother, save my life!\"",
+      "stopViolence": "Brochure \"Say STOP to violence\"",
+      "saveLife": "The book \"Saving Life\"",
+      "aboutUs": "About us",
+      "ourProjects": "Our projects",
+      "information": "Information",
+      "reports": "Reporting",
+      "partners": "To partners",
+      "volunteers": "Volunteers",
+      "contacts": "Contacts"
     }
   }
 }

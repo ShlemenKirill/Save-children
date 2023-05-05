@@ -2,8 +2,10 @@ import { Grid, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import { IFinancialHelpCardProps } from 'types/propTypes';
+import { useTranslation } from 'react-i18next';
 
 const FinancialHelpCard = ({ destination }: IFinancialHelpCardProps) => {
+  const { t } = useTranslation();
   const credentialsTextStyle = {
     ...fonts.montserratNormal16,
     color: colors.matteBlack,
@@ -23,17 +25,15 @@ const FinancialHelpCard = ({ destination }: IFinancialHelpCardProps) => {
             color: colors.matteBlack,
           }}
         >
-          Для фінансової допомоги
+          {t('finHelpCard.forFinHelp')}
         </Typography>
         <Grid paddingTop={'7px'}>
-          <Typography sx={credentialsTextStyle}>Приватбанк 5168 7574 0663 0931</Typography>
-          <Typography sx={credentialsTextStyle}>Голова ГО Трухан Наталія</Typography>
-          <Typography sx={credentialsTextStyle}>
-            Збережи дитини благодійний проект у підтримку вагітності
-          </Typography>
+          <Typography sx={credentialsTextStyle}>{t('finHelpCard.bank')}</Typography>
+          <Typography sx={credentialsTextStyle}>{t('finHelpCard.head')}</Typography>
+          <Typography sx={credentialsTextStyle}>{t('finHelpCard.projectDesc')}</Typography>
         </Grid>
         <Typography paddingTop={'6px'} sx={credentialsTextStyle}>
-          ПРИЗНАЧЕННЯ: <Typography display={'inline'}>{destination}</Typography>{' '}
+          {t('finHelpCard.dest')} <Typography display={'inline'}>{destination}</Typography>{' '}
         </Typography>
       </Grid>
     </Grid>
