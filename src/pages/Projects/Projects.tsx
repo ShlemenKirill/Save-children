@@ -10,8 +10,10 @@ import {
 } from 'core/constants/navigation';
 import ProjectCard from 'components/ProjectCard/ProjectCard';
 import { Outlet } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
+  const { t } = useTranslation();
   return (
     <Grid
       sx={{
@@ -27,7 +29,7 @@ const Projects = () => {
                 ...fonts.montserratMedium85,
               }}
             >
-              Наші проекти
+              {t('ourProjectsPage.h1')}
             </Typography>
             <Grid
               display={'flex'}
@@ -39,18 +41,14 @@ const Projects = () => {
             >
               <ProjectCard
                 imageUrl={'/images/projects/pregnant.png'}
-                headerText={'Допомога кризовим вагітним'}
-                text={
-                  'Психологи служби консультують жінок, які зіткнулися з проблемою незапланованої вагітності'
-                }
+                headerText={t('ourProjectsPage.projectHeader1')}
+                text={t('ourProjectsPage.projectDescription1')}
                 pathUrl={PROJECTS_PREGNANT_HELP}
               />
               <ProjectCard
                 imageUrl={'/images/projects/hartHouse.png'}
-                headerText={'Дім-турботи "СЕРДЕНЬКО \u2764\uFE0F"'}
-                text={
-                  'Будинок турботи це не гуртожиток для переселенців. У нього зовсім інші задачі, вони більші та глибші. '
-                }
+                headerText={`${t('ourProjectsPage.projectHeader2')} \u2764\uFE0F`}
+                text={t('ourProjectsPage.projectDescription2')}
                 pathUrl={PROJECTS_HART_HOUSE}
               />
             </Grid>
@@ -64,16 +62,14 @@ const Projects = () => {
             >
               <ProjectCard
                 imageUrl={'/images/projects/evacuation.png'}
-                headerText={'Допомога в евакуації'}
-                text={'Евакуація жінок та дітей це тривала робота по багатьом напрямкам.'}
+                headerText={t('ourProjectsPage.projectHeader3')}
+                text={t('ourProjectsPage.projectDescription3')}
                 pathUrl={PROJECTS_EVACUATION_HELP}
               />
               <ProjectCard
                 imageUrl={'/images/projects/largeFamily.png'}
-                headerText={`Допомога багатодітним сім'ям`}
-                text={
-                  'Особливо ми любимо працювати з багатодітними родинами, бо діти це благословіння. '
-                }
+                headerText={t('ourProjectsPage.projectHeader4')}
+                text={t('ourProjectsPage.projectDescription4')}
                 pathUrl={PROJECTS_LARGE_FAMILY_HELP}
               />
             </Grid>

@@ -3,8 +3,10 @@ import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import { ContainerTypes } from 'core/constants/common';
 import DetailedInformationPageContainer from 'containers/DetailedInformationPageContainer';
+import { useTranslation } from 'react-i18next';
 
 const HelpInEvacuation = () => {
+  const { t } = useTranslation();
   const normalTextStyle = {
     color: colors.matteBlack,
     ...fonts.montserratNormal16,
@@ -30,18 +32,12 @@ const HelpInEvacuation = () => {
   };
   return (
     <DetailedInformationPageContainer
-      name={'Допомога в евакуацii'}
+      name={t('ourProjectsPage.helpInEvacuation.header')}
       containerType={ContainerTypes.projects}
     >
       <>
         <Grid paddingTop={'17px'}>
-          <Typography sx={normalTextStyle}>
-            Евакуація жінок та дітей це тривала робота по багатьом напрямкам. Вилучити людей з
-            небезпеки це перший крок, другий це — вилучити небезпеку з людей. Психологічна
-            реабілітація важлива як один з компонентів комплексної допомоги. Наші волонтери з
-            початку війни допомогли багатьом родинам виїхати з небезпечних місць. Також ми допомогли
-            в евакуації дітям-сиротам.
-          </Typography>
+          <Typography sx={normalTextStyle}>{t('ourProjectsPage.helpInEvacuation.p1')}</Typography>
         </Grid>
         <Grid display={'flex'} flexDirection={'row'} gap={'50px'} paddingTop={'17px'}>
           <Grid>
@@ -51,79 +47,67 @@ const HelpInEvacuation = () => {
                 ...fonts.montserratSemibold28,
               }}
             >
-              Правила поведінки під час евакуації для дітей.
+              {t('ourProjectsPage.helpInEvacuation.listHeader')}
             </Typography>
             <Grid sx={rowItemStyle}>
               <Typography sx={numbersStyle}>1</Typography>
               <Typography sx={normalTextStyle}>
-                Інформація щодо евакуації повинна бути перевірена на достовірність з надійних джерел
-                державних та місцевих органів влади. Ви маєте бути впевнені, що евакуація не
-                ініційована силами окупанта! Будьте уважні та обережні!
+                {t('ourProjectsPage.helpInEvacuation.listItem1')}
               </Typography>
             </Grid>
             <Grid sx={rowItemStyle}>
               <Typography sx={numbersStyle}>2</Typography>
               <Typography sx={normalTextStyle}>
-                Не зволікайте з евакуацією! Якщо є така можливість, обов’язково скористайтесь нею.
-                Це може врятувати вам життя.
+                {t('ourProjectsPage.helpInEvacuation.listItem2')}
               </Typography>
             </Grid>
             <Grid sx={rowItemStyle}>
               <Typography sx={numbersStyle}>3</Typography>
               <Typography sx={normalTextStyle}>
-                Якщо дитина достатньо доросла, щоб зрозуміти батьків, повідомте її, чому і куди ви
-                зараз прямуєте. Якщо дитина продовжуватиме вас перепитувати «чому» і «куди»,
-                намагайтеся кожного разу давати відповідь.
+                {t('ourProjectsPage.helpInEvacuation.listItem3')}
               </Typography>
             </Grid>
             <Grid sx={rowItemStyle}>
               <Typography sx={numbersStyle}>4</Typography>
               <Typography sx={normalTextStyle}>
-                Спілкуйтеся з дитиною спокійно, впевнено та чітко. Не забувайте, що ваш емоційний
-                стан передається вашій дитині.
+                {t('ourProjectsPage.helpInEvacuation.listItem4')}
               </Typography>
             </Grid>
             <Grid sx={rowItemStyle}>
               <Typography sx={numbersStyle}>5</Typography>
               <Typography sx={normalTextStyle}>
-                З дитиною повинна бути інформація, що допоможе їй повернутися до батьків, в разі,
-                якщо вона загубилася. Це може бути навіть записка з контактними даними (ПІБ дитини,
-                дата народження, контактний телефон батьків) в кишені одягу або в рюкзаку. Напишіть
-                цю ж саму інформацію на руці дитини (ближче до ліктя, де напис довше не буде
-                стиратися). До рюкзака, за можливості, також покладіть копії свідоцтва про
-                народження дитини та паспортних даних батьків.
+                {t('ourProjectsPage.helpInEvacuation.listItem5')}
               </Typography>
             </Grid>
             <Grid sx={rowItemStyle}>
               <Typography sx={numbersStyle}>6</Typography>
               <Typography sx={normalTextStyle}>
-                Одягніть дітей по погоді та візьміть з собою додаткові теплі речі, пледи. Також воду
-                та напої. Важко завчасно визначити, скільки потрібно буде очікувати на вулиці та в
-                холодних/жарких приміщеннях.
+                {t('ourProjectsPage.helpInEvacuation.listItem6')}
               </Typography>
             </Grid>
             <Grid sx={rowItemStyle}>
               <Typography sx={numbersStyle}>7</Typography>
               <Typography sx={normalTextStyle}>
-                Навчіть дітей основним правилам поведінки в незнайомих місцях та з незнайомцями:
+                {t('ourProjectsPage.helpInEvacuation.listItem7')}
                 <List sx={listStyle}>
                   <ListItem sx={listItemsStyle}>
-                    <Typography sx={normalTextStyle}>не відходити від батьків</Typography>
-                  </ListItem>
-                  <ListItem sx={listItemsStyle}>
-                    <Typography sx={normalTextStyle}>не спілкуватися з чужими людьми</Typography>
-                  </ListItem>
-                  <ListItem sx={listItemsStyle}>
                     <Typography sx={normalTextStyle}>
-                      коли ти загубився: звернися до дорослих, в першу чергу, якщо ти бачиш
-                      поліцейського або військового у формі, якщо їх немає — до інших дорослих
+                      {t('ourProjectsPage.helpInEvacuation.listItem7p1')}
                     </Typography>
                   </ListItem>
                   <ListItem sx={listItemsStyle}>
                     <Typography sx={normalTextStyle}>
-                      бути слухняним: вести себе тихо або взагалі не говорити, не бігти, не
-                      повертатися назад, виконувати прохання батьків з першого разу та бути
-                      помічником у всьому
+                      {t('ourProjectsPage.helpInEvacuation.listItem7p2')}
+                    </Typography>
+                  </ListItem>
+                  <ListItem sx={listItemsStyle}>
+                    <Typography sx={normalTextStyle}>
+                      {t('ourProjectsPage.helpInEvacuation.listItem7p3')}
+                    </Typography>
+                  </ListItem>
+                  <ListItem sx={listItemsStyle}>
+                    <Typography sx={normalTextStyle}>
+                      {t('ourProjectsPage.helpInEvacuation.listItem7p4')}
                     </Typography>
                   </ListItem>
                 </List>
@@ -132,20 +116,13 @@ const HelpInEvacuation = () => {
             <Grid sx={rowItemStyle}>
               <Typography sx={numbersStyle}>8</Typography>
               <Typography sx={normalTextStyle}>
-                Якщо поруч ви почули вибухи чи постріли, треба лягти на землю головою в бік,
-                протилежний до вибухів і прикрити її руками або речами. Після того, як все
-                припинилося, треба перечекати ще до 10 хвилин, а потім просуватися до укриття, не
-                піднімаючись повністю. Якщо сховища поблизу немає, використовуйте нерівності рельєфу
-                (канави, окопи, вирви від вибухів). Або виконуйте вказівки посадових осіб
-                евакуаційних органів та органів охорони громадського порядку на місцях.
+                {t('ourProjectsPage.helpInEvacuation.listItem8')}
               </Typography>
             </Grid>
             <Grid sx={rowItemStyle}>
               <Typography sx={numbersStyle}>9</Typography>
               <Typography sx={normalTextStyle}>
-                Поясніть дітям, якщо вони побачили кинуту валізу чи будь-який інший предмет
-                (мобільний телефон, іграшки тощо), суворо забороняється його торкатися, нахиляти,
-                відкривати, переміщувати чи підіймати. Треба негайно попередити про нього батьків!
+                {t('ourProjectsPage.helpInEvacuation.listItem9')}
               </Typography>
             </Grid>
           </Grid>
