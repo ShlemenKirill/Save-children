@@ -4,8 +4,10 @@ import { fonts } from 'core/constants/fonts';
 import { PROJECTS, PROJECTS_PREGNANT_HELP } from 'core/constants/navigation';
 import { linkStyle } from 'core/constants/styles';
 import ProjectCard from 'components/ProjectCard/ProjectCard';
+import { useTranslation } from 'react-i18next';
 
 const OurProjects = () => {
+  const { t } = useTranslation();
   return (
     <Grid
       display={'flex'}
@@ -40,10 +42,10 @@ const OurProjects = () => {
               color: colors.mainText,
             }}
           >
-            Наші проекти
+            {t('mainPage.ourProjects.header')}
           </Typography>
           <Link href={PROJECTS} sx={linkStyle}>
-            Дивитися все
+            {t('mainPage.ourProjects.t1')}
           </Link>
         </Grid>
         <Grid
@@ -56,18 +58,14 @@ const OurProjects = () => {
         >
           <ProjectCard
             imageUrl={'/images/projects/pregnant.png'}
-            headerText={'Допомога кризовим вагітним'}
-            text={
-              'Психологи служби консультують жінок, які зіткнулися з проблемою незапланованої вагітності'
-            }
+            headerText={t('mainPage.ourProjects.projectHeader1')}
+            text={t('mainPage.ourProjects.projectDescription1')}
             pathUrl={PROJECTS_PREGNANT_HELP}
           />
           <ProjectCard
             imageUrl={'/images/projects/hartHouse.png'}
-            headerText={'Дім-турботи "СЕРДЕНЬКО \u2764\uFE0F"'}
-            text={
-              'Будинок турботи це не гуртожиток для переселенців. У нього зовсім інші задачі, вони більші та глибші. '
-            }
+            headerText={`${t('mainPage.ourProjects.projectHeader2')} \u2764\uFE0F`}
+            text={t('mainPage.ourProjects.projectDescription2')}
             pathUrl={'/projects'}
           />
         </Grid>

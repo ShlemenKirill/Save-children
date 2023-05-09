@@ -2,8 +2,10 @@ import { Box, Grid, Link, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import { linkStyle } from 'core/constants/styles';
+import { useTranslation } from 'react-i18next';
 
 const AboutUs = () => {
+  const { t } = useTranslation();
   return (
     <Grid
       display={'flex'}
@@ -34,7 +36,7 @@ const AboutUs = () => {
                 ...fonts.montserratSemibold50,
               }}
             >
-              Про нас
+              {t('mainPage.aboutUs.h1')}
             </Typography>
           </Grid>
           <Grid>
@@ -45,10 +47,7 @@ const AboutUs = () => {
                 paddingTop: '16px',
               }}
             >
-              Діяльність благодійної громадської організації «Збережи дитину» спрямована на
-              збереження життя дітей та підтримку матерів, які потрапили у складну життєву ситуацію
-              та які приймають рішення народжувати, багатодітним матерям та дітям сиротам під час
-              війни в Україні.
+              {t('mainPage.aboutUs.p1')}
             </Typography>
           </Grid>
           <Grid display={'flex'} flexDirection={'row'} justifyContent={'flex-end'}>
@@ -59,7 +58,7 @@ const AboutUs = () => {
                 paddingRight: '10px',
               }}
             >
-              Докладно
+              {t('mainPage.aboutUs.t1')}
             </Link>
           </Grid>
           <Grid

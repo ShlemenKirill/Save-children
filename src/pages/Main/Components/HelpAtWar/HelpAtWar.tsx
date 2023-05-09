@@ -2,8 +2,10 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Box, Grid, List, ListItem, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
+import { useTranslation } from 'react-i18next';
 
 const HelpAtWar = () => {
+  const { t } = useTranslation();
   const listItemStyle = {
     display: 'list-item',
     padding: 0,
@@ -41,7 +43,7 @@ const HelpAtWar = () => {
               color: colors.mainText,
             }}
           >
-            ГО “ЗБЕРЕЖИ ДИТИНУ” на час вiйни надає:
+            {t('mainPage.helpAtWar.listHeader')}
           </Typography>
           <Grid
             sx={{
@@ -61,7 +63,7 @@ const HelpAtWar = () => {
                     ...fonts.montserratNormal24,
                   }}
                 >
-                  Психологiчну пiдтримку
+                  {t('mainPage.helpAtWar.listItem1')}
                 </Typography>
               </ListItem>
               <ListItem sx={listItemStyle}>
@@ -70,7 +72,7 @@ const HelpAtWar = () => {
                     ...fonts.montserratNormal24,
                   }}
                 >
-                  Продуктову допомогу (по Києву)
+                  {t('mainPage.helpAtWar.listItem2')}
                 </Typography>
               </ListItem>
               <ListItem sx={listItemStyle}>
@@ -79,7 +81,7 @@ const HelpAtWar = () => {
                     ...fonts.montserratNormal24,
                   }}
                 >
-                  Продукти та лiки для підопічних родин
+                  {t('mainPage.helpAtWar.listItem3')}
                 </Typography>
               </ListItem>
               <ListItem sx={listItemStyle}>
@@ -88,7 +90,7 @@ const HelpAtWar = () => {
                     ...fonts.montserratNormal24,
                   }}
                 >
-                  Пiдтримку для сирiт
+                  {t('mainPage.helpAtWar.listItem4')}
                 </Typography>
               </ListItem>
               <ListItem sx={listItemStyle}>
@@ -97,7 +99,7 @@ const HelpAtWar = () => {
                     ...fonts.montserratNormal24,
                   }}
                 >
-                  Допомагаємо з перевезенням до безпечних мiст
+                  {t('mainPage.helpAtWar.listItem5')}
                 </Typography>
               </ListItem>
             </List>

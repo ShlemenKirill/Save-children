@@ -3,8 +3,10 @@ import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import ChevronRight from 'components/Icons/ChevronRight';
 import { IDetailedLinkProps } from 'types/propTypes';
+import { useTranslation } from 'react-i18next';
 
 const DetailedLink = ({ handler }: IDetailedLinkProps) => {
+  const { t } = useTranslation();
   return (
     <Grid display={'flex'} flexDirection={'row'} justifyContent={'flex-end'} alignItems={'center'}>
       <Typography
@@ -19,7 +21,7 @@ const DetailedLink = ({ handler }: IDetailedLinkProps) => {
           },
         }}
       >
-        Докладно
+        {t('common.more')}
       </Typography>
       <Grid
         sx={{

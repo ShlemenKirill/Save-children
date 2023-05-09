@@ -1,7 +1,8 @@
 {
   "translation": {
     "common": {
-      "download": "Download"
+      "download": "Download",
+      "more": "In detail"
     },
     "logo": "Save the child",
     "header": {
@@ -67,6 +68,46 @@
         "p3": "More than 200 children were saved in their mothers' wombs in almost 4 weeks of work.",
         "p4": "Every mother needs a strong support, unfortunately it happens that circumstances decide for us.",
         "p5": "To stop this social collapse, WE \"Save the Child\" united not only to save future lives, but also to prevent existing lives from being lost in this world."
+      }
+    },
+    "mainPage": {
+      "mainContent": {
+        "t1": "Save",
+        "t2": "a child",
+        "t3": "Charity project",
+        "t4": "to support pregnancy",
+        "t5": "Join"
+      },
+      "helpAtWar": {
+        "listHeader": "NGO \"SAVE THE CHILD\" during the war provides:",
+        "listItem1": "Psychological support",
+        "listItem2": "Food assistance (in Kyiv)",
+        "listItem3": "Products and medicines for foster families",
+        "listItem4": "Support for orphans",
+        "listItem5": "We help with transportation to safe cities"
+      },
+      "ourProjects": {
+        "header": "Our projects",
+        "t1": "Watch everything",
+        "t2": "In detail",
+        "projectHeader1": "Assistance to crisis pregnant women",
+        "projectDescription1": "Psychologists of the service advise women who are faced with the problem of unplanned pregnancy",
+        "projectHeader2": "Care home \"SERTENKO\"",
+        "projectDescription2": "The House of Care is not a dormitory for immigrants. "
+      },
+      "aboutUs": {
+        "h1": "About us",
+        "p1": "The activities of the charitable public organization \"Save the Child\" are aimed at preserving the lives of children and supporting mothers who are in a difficult life situation and who decide to give birth, mothers with many children and orphaned children during the war in Ukraine.",
+        "t1": "In detail"
+      },
+      "information": {
+        "h1": "Information",
+        "t1": "Watch everything",
+        "t2": "In detail",
+        "informationHeader1": "\"Help, my child is stressed\"",
+        "informationDescription1": "The first thing a mother needs to know is that you and your child need time. ",
+        "informationHeader2": "How we work during wartime",
+        "informationDescription2": "Our main tasks and almost daily affairs."
       }
     }
   }

@@ -3,8 +3,10 @@ import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import { ButtonVariants, VOLUNTEERS_LINK } from 'core/constants/common';
 import StyledButton from 'components/StyledButton';
+import { useTranslation } from 'react-i18next';
 
 const MainContent = () => {
+  const {t} = useTranslation();
   return (
     <Grid
       sx={{
@@ -45,15 +47,16 @@ const MainContent = () => {
                   ...fonts.stixSemibold90,
                 }}
               >
-                Збережи
+                {t('mainPage.mainContent.t1')}
+
               </Typography>
               <Typography
                 color={colors.violet}
                 sx={{
                   ...fonts.stixSemibold90,
                 }}
-              >
-                дитину
+              >{t('mainPage.mainContent.t2')}
+
               </Typography>
             </Grid>
             <Grid
@@ -66,16 +69,16 @@ const MainContent = () => {
                 sx={{
                   ...fonts.montserratNormal24,
                 }}
-              >
-                Благодійний проект
+              >{t('mainPage.mainContent.t3')}
+
               </Typography>
               <Typography
                 color={colors.mainText}
                 sx={{
                   ...fonts.montserratNormal24,
                 }}
-              >
-                у підтримку вагітності
+              >{t('mainPage.mainContent.t4')}
+
               </Typography>
             </Grid>
             <Grid
@@ -97,8 +100,8 @@ const MainContent = () => {
                     sx={{
                       ...fonts.montserratBold16,
                     }}
-                  >
-                    Приєднатися
+                  >{t('mainPage.mainContent.t5')}
+
                   </Typography>
                 </StyledButton>
               </Link>
