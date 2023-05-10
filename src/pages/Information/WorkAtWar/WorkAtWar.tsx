@@ -1,6 +1,6 @@
 import { Box, Grid, Typography } from '@mui/material';
 import DetailedInformationPageContainer from 'containers/DetailedInformationPageContainer';
-import { ContainerTypes, NAVIGATION_INFORMATION } from 'core/constants/common';
+import { ContainerTypes } from 'core/constants/common';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import { useTranslation } from 'react-i18next';
