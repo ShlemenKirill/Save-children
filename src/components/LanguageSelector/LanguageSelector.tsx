@@ -10,8 +10,15 @@ export const LanguageSelector = () => {
   };
 
   return (
-    <FormControl sx={{ m: 1, minWidth: 80 }}>
-      <Select value={i18n.language} onChange={onLanguageChange}>
+    <FormControl sx={{ m: 1, minWidth: 80, margin: 0 }}>
+      <Select
+        value={i18n.language}
+        onChange={onLanguageChange}
+        sx={{
+          height: '45px',
+          borderColor: 'red',
+        }}
+      >
         <MenuItem value={Languages.en}>EN</MenuItem>
         <MenuItem value={Languages.ukr}>UKR</MenuItem>
       </Select>
