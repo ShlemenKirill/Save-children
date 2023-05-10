@@ -238,6 +238,29 @@
       "header": "Our contacts",
       "t1": "Free hot line",
       "t2": "Telephone number Head of NGO - Trukhan Nataliya"
+    },
+    "volunteersPage": {
+      "header": "Volunteers",
+      "p1": "The public organization \"Save the Child\" invites you to join the team.",
+      "p2": "Life support, pregnancy and maternity support are the main activities of our public organization. We PROVIDE qualified psychological, legal and other assistance to families who suffered during the war, to women who are in a difficult life situation, who are thinking about termination of pregnancy or simply need support.",
+      "p3": "We invite you to join our team of volunteers!",
+      "listHeader": "We invite:",
+      "listItem1": "Psychologists and psychotherapists;",
+      "listItem2": "Lawyers and advocates;",
+      "listItem3": "Specialists in working with pregnant women;",
+      "listItem4": "Early childhood educators and instructors;",
+      "listItem5": "SMM — managers and people who can help promote our idea;",
+      "listItem6": "Patrons and sponsors;",
+      "listItem7": "Volunteers who simply have a desire to help and all who are not indifferent to human life!",
+      "p4": "Let's save life together! If you are already 18 years old, fill out the Questionnaire for volunteers",
+      "t1": "Questionnaire for volunteers"
+    },
+    "partnersPage": {
+      "header": "Partners",
+      "p1": "Responsible business in 2022 is no longer a phenomenon, but commonplace. Therefore, the commercial sector can also become part of charitable activities. What is needed for this? Desire and a little effort!",
+      "p2": "In cooperation with the corporate sector, small and medium-sized businesses, public organizations and charitable foundations, we go to VICTORY, where the children of the winners live in a safe and prosperous country.",
+      "p3": "Become a partner! By cooperating with us, you help families and children \"here and now\". Transparency and openness to benefactors is one of the key foundations of the existence of our public organization. Our reporting has been public and available to everyone since 2019. You can follow the organization's purchases and expenses on a separate page (reporting separately).",
+      "p4": "Thanks to your donations, we can meet the needs of needy foster families in a timely manner."
     }
   }
 }
