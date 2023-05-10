@@ -15,8 +15,8 @@ export const NAVIGATION_VOLUNTEERS = i18n.t('navigation.volunteers');
 export const NAVIGATION_CONTACTS = i18n.t('navigation.contacts');
 
 export enum ContainerTypes {
-  projects = 'Наши проекты',
-  information = 'Iнформація',
+  projects,
+  information,
 }
 
 export enum Languages {

@@ -5,12 +5,18 @@ import { INFORMATION, PROJECTS } from 'core/constants/navigation';
 import { fonts } from 'core/constants/fonts';
 import { ContainerTypes } from 'core/constants/common';
 import { IDetailedInformationPageContainerProps } from 'types/propTypes';
+import { useTranslation } from 'react-i18next';
 
 const DetailedInformationPageContainer = ({
   children,
   name,
   containerType,
 }: IDetailedInformationPageContainerProps) => {
+  const { t } = useTranslation();
+  const containerTypeName =
+    containerType === ContainerTypes.information
+      ? t('navigation.information')
+      : t('navigation.projects');
   const linkToParent = containerType === ContainerTypes.information ? INFORMATION : PROJECTS;
   return (
     <Grid
@@ -29,7 +35,7 @@ const DetailedInformationPageContainer = ({
                   ...fonts.montserratNormal14,
                 }}
               >
-                {containerType}
+                {containerTypeName}
               </Typography>
             </Link>
             <Typography

@@ -311,7 +311,55 @@
       "projectHeader4": "Brochure \"Say STOP to violence\"",
       "projectDescription4": "The brochure was prepared with the aim of preventing violence against women, supporting crisis pregnant women...",
       "projectHeader5": "The book \"Saved lives\"",
-      "projectDescription5": "The main task of the book is to help preserve life in the womb."
+      "projectDescription5": "The main task of the book is to help preserve life in the womb.",
+      "bookSaveChildren": {
+        "p1": "We have been collecting maternal stories from our book \"Saved Lives\" for more than a year. The book includes more than 50 stories when a mother was faced with a choice - life or abortion, and chose life. Here are a few of them.",
+        "p2": "\"There is a way out of crisis pregnancy, but it is not an abortion! I give life!\"",
+        "p3": "Life does not always paint us the pictures we would like to see. There is a time when everything around stops. You lose yourself, lose time, lose all landmarks.",
+        "p4": "Thank you very much for supporting Save the Child. Words of the psychologist \"Save the child\": \"There is a way out of a crisis pregnancy, but it is not an abortion. Abortion will not solve any problem, it will only complicate it!\" — are very important to me.",
+        "p5": "At one time, psychological support gave faith and saved my baby. And I give life! Today I take vitamins, walk more in the fresh air and paint the image of my motherhood. Thank you for the saved life!",
+        "p6": "\"The time will come when the saved child will save you too!\"",
+        "p7": "I am a mother of four children. Of course, my life was different: both difficult and a lot. Especially when you live not only by your whims. But over time, life shows that everything is possible in it.",
+        "p8": "As a mother of many children, I understand that financial situation is not the main thing, especially when it comes to life. The little doll that lives in you will bring a lot of joy and happiness...",
+        "p9": "After the birth of my children, I realized that the most important thing for a child is not expensive toys and clothes, but mother's love!",
+        "p10": "Dear women, save your life, do not take an irreparable step. Everything will definitely be fine. Believe me, the time will come when a saved child will save you too!",
+        "p11": "\"The question of abortion arose in front of me at the age of 19, although I dreamed of starting a family after 28 years. But everything in life did not turn out as planned.\"",
+        "p12": "I wanted to run away from home as soon as possible. Fights, quarrels - the horror in which I grew up. And so I wanted family comfort, support, a simple mother's: \"I love you!\". Not having received love and warmth from my relatives, I received it from my future husband. My future husband was six years older than me. Then it seemed to me that he was so mature, authoritative and, of course, I fell in love. Unfortunately, he did not come from a prosperous family, but it did not scare me at the time. I loved and was loved.",
+        "p13": "Our relationship developed rapidly, soon we started living together and I became pregnant. After learning about the pregnancy, I was filled with fear. I confess that I was not able to share the news with my mother then, I was too afraid of her. We never had such conversations and my mother painted my future in a completely different way.",
+        "p14": "And later it turned out that the husband was not ready for family life either. I told my mother about my pregnancy in the 8th week of pregnancy. Instead of greetings and happiness, she heard a cold: \"Abortion! Or you are not my daughter!\". I admit, I wanted to have an abortion until the last moment, but I couldn't. How many different thoughts then ate away at my heart, and sometimes regret about the lost own life tormented me mercilessly.",
+        "p15": "After childbirth and the birth of my daughter, everything got worse. My mother hated me, and her newborn daughter and her husband even more. Negative thoughts destroyed even more from the inside. And then... Then there was a divorce, and after the shocks I experienced - an illness... It was at that time that I reevaluated my own life and realized that my daughter is the most valuable gift given to me by God... The time even came when my child saved me from suicide. It was then that I thought: \"Eight years ago I saved a little life, and now my angel is saving me!\"",
+        "p16": "My daughter gives me faith and an incentive to fight for life. I love her more than life! And all the time I remind her about my feelings. Remind children of your love as often as possible... Love is the greatest power that saves."
+      },
+      "childInStress": {
+        "p1": "The first thing a mother needs to know is that you and your child need time. Everything that the mother feels, the child also feels. A mother can understand what emotions she has and why, a small child cannot.",
+        "p2": "All that the child now expects from his mother is a hug. So that the child feels protected. Sing together those songs that you sang in peacetime, take the baby in your arms, wrap him in a blanket and just rock and sing lullabies. Unload your body and your child's. From fear, the body shrinks, tenses up, the body begins to shake.",
+        "p3": "It's your job as a mom to create a safe space, even if it's just under a blanket or blanket. Warm sweet tea, a blanket and mom's lullabies are all a stressed child needs to calm down.",
+        "p4": "When the body will feel safe, tears and emotions may go away, this is normal. After some time, start drawing, sculpting, playing.",
+        "p5": "Be prepared that the child may not get sick for a long time due to such tension, develop a temperature, this is also normal. Repeat - warm sweet tea, a blanket, hugs, lullabies or good children's songs.",
+        "p6": "The mother should become a container for the child's emotions. Take care of yourself, because you are the whole universe for a child.",
+        "p7": "Psychologist Natalia Trukhan ❤\uFE0F"
+      },
+      "motherSaveMyLife": {
+        "p1": "We want to tell you about a real miracle - a person who has not yet been born. About what the baby feels, how it develops from the moment of conception. The main purpose of this brochure is to SAVE THE LIVES OF CHILDREN FROM ABORTION.",
+        "p2": "The two cells of mom and dad have just met, there is no brain or heart yet, but the child is already responding to mom's mood. Mom is happy - a small speck, which can only be seen under a microscope, swings slowly. A mother is sad, worried or crying - the baby beats the way our heart beats when we are worried.",
+        "p3": "\"Hello, I am a small person at the very beginning of my life. From the moment of conception until today, I am a real person. I have a head, body, arms and legs, I can hear and feel pain. I am unique, because there is no other like me in the world.\""
+      },
+      "stopViolence": {
+        "p1": "The brochure was prepared with the aim of preventing violence against women, supporting crisis pregnant women who are in difficult life circumstances. According to statistics, about 90% of complaints about domestic violence come from women."
+      },
+      "workAtWar": {
+        "listHeader": "Our main tasks and almost daily tasks:",
+        "listItem1": "The hotline is open, pregnant women in crisis and mothers, grandmothers with children who need help call. During the war, psychologists and I managed to save the lives of 7 children, these are the crisis pregnant women who hesitated whether to save their lives or go for an abortion. Thanks to the psychologists for their support in saving lives.",
+        "listItem2": "We organized housing assistance for women with children in the Ternopil region and orphans (more than 300 people).",
+        "listItem3": "Humanitarian aid was organized to provide shelters with food, baby food, hygiene, and medicine.",
+        "listItem4": "From the Kyiv warehouse, they helped (with food, medicine, baby food) many cities and villages that were under temporary occupation.",
+        "listItem5": "Our volunteers worked in Buchi and Irpin. They helped everyone there, both people (women, children) and animals (cats, dogs).",
+        "listItem6": "Help with the organization of evacuation from hot spots of orphaned children, women with children (more than 300 women with children).",
+        "listItem7": "Supporting daily consultations for women who were evacuated or who were under occupation.",
+        "listItem8": "Almost daily deliveries of food packages to families who have nothing to eat (women with children).",
+        "listItem9": "Purchase of the care home \"SERDENKO ❤\uFE0F\", which became a temporary shelter for families. Children and mothers will be able to receive free help from a psychologist, legal advice, assistance with processing payments, and evacuation or finding a house for further residence.",
+        "listItem10": "We established cooperation with volunteers from other countries, namely, Croatia, Germany, Bulgaria, England, France, America. And also with local TsNAP."
+      }
     }
   }
 }

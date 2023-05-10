@@ -4,8 +4,10 @@ import { fonts } from 'core/constants/fonts';
 import { ContainerTypes } from 'core/constants/common';
 import DownloadLink from 'components/DownloadLink';
 import DetailedInformationPageContainer from 'containers/DetailedInformationPageContainer/DetailedInformationPageContainer';
+import { useTranslation } from 'react-i18next';
 
 const StopViolence = () => {
+  const { t } = useTranslation();
   const normalTextStyle = {
     color: colors.matteBlack,
     ...fonts.montserratNormal16,
@@ -21,15 +23,13 @@ const StopViolence = () => {
   ];
   return (
     <DetailedInformationPageContainer
-      name={'Брошура «Скажи СТОП насиллю»'}
+      name={t('informationPage.projectHeader4')}
       containerType={ContainerTypes.information}
     >
       <>
         <Grid>
           <Typography sx={normalTextStyle} paddingTop={'21px'}>
-            Брошура пiдготована з метою попередження насильства над жiнками, пiдтримки кризових
-            вагiтних якi перебуваютъ у скдаданих життєвих обставинах. За статистикою близько 90%
-            випадкiв звернення щодо насильства в сiм’i надходить вiд жiнок.
+            {t('informationPage.stopViolence.p1')}
             <DownloadLink
               fileName={'Stop Violence broshure'}
               src={'/documents/stop_violence.pdf'}
