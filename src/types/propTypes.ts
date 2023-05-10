@@ -1,5 +1,5 @@
 import { ButtonProps } from '@mui/material';
-import { ButtonVariants, ContainerTypes, NAVIGATION_INFORMATION, NAVIGATION_OUR_PROJECTS } from 'core/constants/common';
+import { ButtonVariants, ContainerTypes } from 'core/constants/common';
 
 export interface IStyledButtonProps extends ButtonProps {
   buttonVariant: ButtonVariants;
