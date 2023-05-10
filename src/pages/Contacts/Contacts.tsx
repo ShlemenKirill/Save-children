@@ -13,8 +13,10 @@ import Phone from 'components/Icons/Phone';
 import MailIcon from 'components/Icons/MailIcon';
 import FacebookIcon from 'components/Icons/FacebookIcon';
 import InstagramIcon from 'components/Icons/InstagramIcon';
+import { useTranslation } from 'react-i18next';
 
 const Contacts = () => {
+  const { t } = useTranslation();
   const mainTextStyle = {
     ...fonts.montserratMedium16,
     color: colors.matteBlack,
@@ -43,7 +45,7 @@ const Contacts = () => {
               ...fonts.montserratMedium85,
             }}
           >
-            Наші контакти
+            {t('contactsPage.header')}
           </Typography>
           <Grid paddingTop={'17px'} width={'max-content'}>
             <Link underline='none' target={'_blank'} rel={'noreferrer'} href={MAP_LINK}>
@@ -63,7 +65,7 @@ const Contacts = () => {
                     paddingLeft: '17px',
                   }}
                 >
-                  Безкоштовна гаряча линия
+                  {t('contactsPage.t1')}
                 </Typography>
               </Grid>
             </Link>
@@ -78,7 +80,7 @@ const Contacts = () => {
                     paddingLeft: '17px',
                   }}
                 >
-                  Телефон Голови ГО - Трухан Наталії
+                  {t('contactsPage.t2')}
                 </Typography>
               </Grid>
             </Link>
