@@ -16,7 +16,7 @@ const DetailedInformationPageContainer = ({
   const containerTypeName =
     containerType === ContainerTypes.information
       ? t('navigation.information')
-      : t('navigation.projects');
+      : t('navigation.ourProjects');
   const linkToParent = containerType === ContainerTypes.information ? INFORMATION : PROJECTS;
   return (
     <Grid

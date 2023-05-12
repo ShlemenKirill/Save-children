@@ -14,17 +14,13 @@ const CareHome = () => {
   };
   return (
     <DetailedInformationPageContainer
-      name={`${t('ourProjectsPage.careHomeProjectPage.header')} \u2764\uFE0F"`}
+      name={`${t('ourProjectsPage.careHomeProjectPage.header')}"`}
       containerType={ContainerTypes.projects}
     >
       <>
         <Grid paddingTop={'17px'}>
           <Typography sx={normalTextStyle}>
-            {t(
-              `${t('ourProjectsPage.careHomeProjectPage.p1')} \u2764\uFE0F${t(
-                'ourProjectsPage.careHomeProjectPage.p2',
-              )}`,
-            )}
+            {t('ourProjectsPage.careHomeProjectPage.p1')}
           </Typography>
         </Grid>
         <Grid paddingTop={'25px'} display={'flex'} flexDirection={'row'} gap={'40px'}>
@@ -42,9 +38,7 @@ const CareHome = () => {
           </Grid>
           <Grid>
             <Typography sx={normalTextStyle}>
-              {`${t('ourProjectsPage.careHomeProjectPage.p3')}\u2764\uFE0F${t(
-                'ourProjectsPage.careHomeProjectPage.p4',
-              )}\u2764\uFE0F ${t('ourProjectsPage.careHomeProjectPage.p5')}`}
+              {t('ourProjectsPage.careHomeProjectPage.p2')}
             </Typography>
 
             <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>

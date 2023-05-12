@@ -4,14 +4,14 @@
       "download": "Download",
       "more": "In detail"
     },
-    "logo": "Save the child",
+    "logo": "Save a child",
     "header": {
       "hotLine": "Free hotline",
       "wantToHelp": "I want to help"
     },
     "finHelpCard": {
       "forFinHelp": "For financial assistance",
-      "projectDesc": "Save the child charity project in support of pregnancy",
+      "projectDesc": "Save a child charity project in support of pregnancy",
       "dest": "APPOINTMENT:",
       "head": "Head of NGO Trukhan Nataliya",
       "bank": "Privatbank 5168 7574 0663 0931"
@@ -48,10 +48,10 @@
     "aboutPage": {
       "aboutUs": "About us",
       "activity": {
-        "p1": "The activities of the charitable public organization \"Save the Child\" are aimed at saving the lives of children and supporting mothers who are in a difficult life situation and who decide to give birth, mothers with many children and orphaned children during the war in Ukraine, namely:",
+        "p1": "The activities of the charitable public organization \"Save a Child\" are aimed at saving the lives of children and supporting mothers who are in a difficult life situation and who decide to give birth, mothers with many children and orphaned children during the war in Ukraine, namely:",
         "listItem1": "Provision of psychological, food, financial, and legal assistance to socially vulnerable pregnant women, mothers and their children",
         "listItem2": "Restoration of the existing and construction of a new shelter for mothers and their children who suffered during the war, lost their homes, were forced to evacuate",
-        "listItem3": "Creation of a network of branches of the charitable public organization \"Save the Child\" throughout Ukraine",
+        "listItem3": "Creation of a network of branches of the charitable public organization \"Save a Child\" throughout Ukraine",
         "p2": "During its existence, the specialists of the Organization created:",
         "listItem4": "A free hotline to help women",
         "listItem5": "Psychological service",
@@ -59,15 +59,15 @@
       },
       "activityDescription": {
         "p1": "Our activity is cooperation with the police, social services, orphanages, houses of mercy, leading gynecologists, doctors, maternity hospitals, social persons, the best specialists in the field of finance, jurisprudence, psychology, priesthood, sisters of mercy, mother and child homes, and in reality ",
-        "p2": "In 2022, a book will be published with powerful therapeutic stories of our foster mothers about saving life — ",
+        "p2": "NGO is preparing for publishing a book with powerful therapeutic stories of our foster mothers and about saving lives — ",
         "link1": "\"LIVES SAVED\""
       },
       "volunteersTeam": {
-        "p1": "\"Save the Child\" is a powerful team of volunteers.",
+        "p1": "\"Save a Child\" is a powerful team of volunteers.",
         "p2": "Dozens of educational events have been held, we have issued about 10,000 brochures that save the lives of children and women every day.",
         "p3": "More than 200 children were saved in their mothers' wombs in almost 4 weeks of work.",
         "p4": "Every mother needs a strong support, unfortunately it happens that circumstances decide for us.",
-        "p5": "To stop this social collapse, WE \"Save the Child\" united not only to save future lives, but also to prevent existing lives from being lost in this world."
+        "p5": "To stop this social collapse, WE \"Save a Child\" united not only to save future lives, but also to prevent existing lives from being lost in this world."
       }
     },
     "mainPage": {
@@ -79,7 +79,7 @@
         "t5": "Join"
       },
       "helpAtWar": {
-        "listHeader": "NGO \"SAVE THE CHILD\" during the war provides:",
+        "listHeader": "NGO \"SAVE A CHILD\" during the war provides:",
         "listItem1": "Psychological support",
         "listItem2": "Food assistance (in Kyiv)",
         "listItem3": "Products and medicines for foster families",
@@ -92,12 +92,12 @@
         "t2": "In detail",
         "projectHeader1": "Assistance to crisis pregnant women",
         "projectDescription1": "Psychologists of the service advise women who are faced with the problem of unplanned pregnancy",
-        "projectHeader2": "Care home \"SERTENKO\"",
+        "projectHeader2": "Project Shelter House SERDENKO (“Heart”)",
         "projectDescription2": "The House of Care is not a dormitory for immigrants. "
       },
       "aboutUs": {
         "h1": "About us",
-        "p1": "The activities of the charitable public organization \"Save the Child\" are aimed at preserving the lives of children and supporting mothers who are in a difficult life situation and who decide to give birth, mothers with many children and orphaned children during the war in Ukraine.",
+        "p1": "The activities of the charitable public organization \"Save a Child\" are aimed at preserving the lives of children and supporting mothers who are in a difficult life situation and who decide to give birth, mothers with many children and orphaned children during the war in Ukraine.",
         "t1": "In detail"
       },
       "information": {
@@ -114,31 +114,28 @@
       "h1": "Our projects",
       "projectHeader1": "Assistance to crisis pregnant women",
       "projectDescription1": "Psychologists of the service advise women who are faced with the problem of unplanned pregnancy",
-      "projectHeader2": "Care home \"SERTENKO\"",
+      "projectHeader2": "Care home \"SERDENKO\"",
       "projectDescription2": "The House of Care is not a dormitory for immigrants. ",
       "projectHeader3": "Assistance in evacuation",
       "projectDescription3": "Evacuation of women and children is long-term work in many directions.",
       "projectHeader4": "Assistance to large families",
       "projectDescription4": "We especially like to work with large families, because children are a blessing.",
       "careHomeProjectPage": {
-        "header": "House of care \"SERDENKO",
-        "p1": "House of care \"SERTENKO",
-        "p2": "\", this is not a hostel for immigrants. ",
-        "p3": "In \"SERDENKO",
-        "p4": "» four rooms for temporary accommodation of mothers with children, but this is TEMPORARY accommodation. In \"SERDENKO",
-        "p5": "forced migrants will be able to receive:",
+        "header": "Shelter House \"SERDENKO ❤\uFE0F\" (“Heart”)",
+        "p1": "Shelter House \"SERDENKO ❤\uFE0F\" is a permanent safe house, which was founded to ensure a shelter to the families, which require protection during the war. It became an apparent necessity after several months of intense work of NGO in the Western part of Ukraine.",
+        "p2": "The safe house provides the following support:",
         "li1": "1. A clear description of one's rights and opportunities provided by the state (payment of funds, how to issue, obtain, registration at the TsNAP as an internally displaced person, the possibility to move abroad with verified volunteers under official programs if one wishes to obtain refugee status abroad)",
-        "li2": "2. Consultation and assistance in case of desire to return home to mother with children.",
-        "li3": "3. Free psychological consultations for women and children (internally displaced persons).",
-        "li4": "4. Free legal consultations for women and children (internally displaced persons).",
+        "li2": "2. Consultation and assistance in cases when a mother with children decides to come back home.",
+        "li3": "3. Free of charge psychological consultations for women and children (internally displaced persons).",
+        "li4": "4. Free of charge legal consultations for women and children (internally displaced persons).",
         "li5": "5. Receiving humanitarian aid if available (things, products, hygiene, medicine).",
-        "li6": "6. Free master classes for children and women.",
+        "li6": "6. Free of charge educational  programs for children and women.",
         "li7": "7. Cooperation with doctors. ",
         "li8": "8. Work with crisis pregnant women.",
-        "li9": "9. If there are free rooms, temporary accommodation in the care home is free of charge.",
-        "li10": "10. We will always wait for the family for a free lunch.",
-        "li11": "11. Help with job search, education for children. ",
-        "li12": "12. Control of the stay of families abroad. "
+        "li9": "9. Accommodation in case of availability of free rooms",
+        "li10": "10. Free lunches for families.",
+        "li11": "11. Assistance in job search and education for children. ",
+        "li12": "12. Support of families staying abroad. "
       },
       "helpInEvacuation": {
         "header": "Assistance in evacuation",
@@ -160,10 +157,10 @@
       },
       "largeFamilyHelp": {
         "header": "Assistance to large families",
-        "p1": "Every day, the team of the NGO \"SAVE THE CHILD\" does good deeds. We especially like to work with large families, because children are a blessing. We help: single mothers, families with many children, families raising children with disabilities, pregnant women in crisis.",
+        "p1": "Every day, the team of the NGO \"SAVE A CHILD\" does good deeds. We especially like to work with large families, because children are a blessing. We help: single mothers, families with many children, families raising children with disabilities, pregnant women in crisis.",
         "listItem1": "To apply for assistance, you need to contact the Viber number of the head of the NGO Trukhan Nataliya ",
         "listItem2": "Submit a request for assistance, clearly stating the basic needs.",
-        "listItem3": "We need the following information to establish your identity, to confirm the compliance of your request with the statutory activities of the NGO \"SAVE THE CHILD\":",
+        "listItem3": "We need the following information to establish your identity, to confirm the compliance of your request with the statutory activities of the NGO \"SAVE A CHILD\":",
         "listItem3p1": "photo of your passport, identification code",
         "listItem3p2": "birth certificates of the child/children",
         "listItem3p3": "a photo of your family",
@@ -174,8 +171,8 @@
       },
       "pregnantHelp": {
         "header": "Assistance to crisis pregnant women",
-        "p1": "If you are faced with the choice of saving life or having an abortion, contact the \"SAVE THE CHILD\" public organization, the psychologists of the service advise women who have faced the problem of unplanned pregnancy.",
-        "p2": "In addition, the \"Save the Child\" organization operates a crisis telephone line for unplanned pregnancy, and psychological consultations are provided via the Internet. The wards of \"Save the Child\" are women who have decided to keep the pregnancy and give birth to a child. as well as large families — receive social and household, material, legal and other assistance.",
+        "p1": "If you are faced with the choice of saving life or having an abortion, contact the \"SAVE A CHILD\" public organization, the psychologists of the service advise women who have faced the problem of unplanned pregnancy.",
+        "p2": "In addition, the \"Save a Child\" organization operates a crisis telephone line for unplanned pregnancy, and psychological consultations are provided via the Internet. The wards of \"Save a Child\" are women who have decided to keep the pregnancy and give birth to a child. as well as large families — receive social and household, material, legal and other assistance.",
         "p3": "If you need psychological support for issues related to unplanned pregnancy, you can call the Unplanned Pregnancy Hotline: ",
         "p4": "A woman who is in a difficult life situation can be helped.",
         "t1": "10 important questions that can prevent a woman from hastily deciding to have an abortion",
@@ -211,7 +208,7 @@
           "listHeader": "Data:",
           "listItem1": "abortion as a cause of secondary infertility is up to 41%;",
           "listItem2": "after abortion, the frequency of spontaneous abortions increases 8-10 times;",
-          "listItem3": "about 60% of first-borns of women over the age of 30 suffer from miscarriage due to previous multiple abortions;",
+          "listItem3": "about 60% of first-born of women over the age of 30 suffer from miscarriage due to previous multiple abortions;",
           "listItem4": "in 38% of patients after an artificial abortion, the menstrual cycle cannot normalize for at least two months.",
           "content1": "After telling the woman about the medical consequences of abortion, you can ask her if she knows that there are not only physical, but also mental consequences of abortion?",
           "content2": "Are you familiar with the term post-abortion syndrome?"
@@ -241,9 +238,9 @@
     },
     "volunteersPage": {
       "header": "Volunteers",
-      "p1": "The public organization \"Save the Child\" invites you to join the team.",
-      "p2": "Life support, pregnancy and maternity support are the main activities of our public organization. We PROVIDE qualified psychological, legal and other assistance to families who suffered during the war, to women who are in a difficult life situation, who are thinking about termination of pregnancy or simply need support.",
-      "p3": "We invite you to join our team of volunteers!",
+      "p1": "NGO \"Save a Child\" invites you to join the Team.",
+      "p2": "Our NGO dedicates its activities to supporting life, pregnancy and maternity. NGO provides qualified psychological, legal and other assistance to families who suffered during the war, to women who are in a difficult life situation, pregnant women who are thinking to terminate their pregnancy or simply need any kind of support.",
+      "p3": "We invite you to join our Team of volunteers!",
       "listHeader": "We invite:",
       "listItem1": "Psychologists and psychotherapists;",
       "listItem2": "Lawyers and advocates;",
@@ -251,54 +248,54 @@
       "listItem4": "Early childhood educators and instructors;",
       "listItem5": "SMM — managers and people who can help promote our idea;",
       "listItem6": "Patrons and sponsors;",
-      "listItem7": "Volunteers who simply have a desire to help and all who are not indifferent to human life!",
-      "p4": "Let's save life together! If you are already 18 years old, fill out the Questionnaire for volunteers",
+      "listItem7": "Volunteers who simply desire to help and all who are not indifferent to human life!",
+      "p4": "Let's save life together! If you are already 18 years old, fill out the Questionnaire for volunteers or contact us directly.",
       "t1": "Questionnaire for volunteers"
     },
     "partnersPage": {
       "header": "Partners",
-      "p1": "Responsible business in 2022 is no longer a phenomenon, but commonplace. Therefore, the commercial sector can also become part of charitable activities. What is needed for this? Desire and a little effort!",
-      "p2": "In cooperation with the corporate sector, small and medium-sized businesses, public organizations and charitable foundations, we go to VICTORY, where the children of the winners live in a safe and prosperous country.",
-      "p3": "Become a partner! By cooperating with us, you help families and children \"here and now\". Transparency and openness to benefactors is one of the key foundations of the existence of our public organization. Our reporting has been public and available to everyone since 2019. You can follow the organization's purchases and expenses on a separate page (reporting separately).",
-      "p4": "Thanks to your donations, we can meet the needs of needy foster families in a timely manner."
+      "p1": "Responsible and ethical business is no longer a phenomenon, but a notion, which becomes an integral part of our lives. Therefore, we see involvement of commercial sector into charitable activities happens more often now.",
+      "p2": "There are studies and examples, how charity initiatives can improve business allowing companies differentiate them from the competition, supporting company brand and making stand out to potential job applicants,improve public image and increase employees` morale. If you are interested to support projects of NGO Save a Child, you can become our partner! ",
+      "p3": "By cooperating with us, you will help many families and children \"here and now\". Transparency and openness with our partners is one of the key pillars of the NGO existence. Our reporting has been public and available to everyone since 2019. Partners and donors can follow the organization's purchases and expenses on a separate page (reporting separately).",
+      "p4": "Thank you for your donations, so we can help those in need. Truthfully, we could not do this without you. We, and everyone we serve, sincerely appreciate your generosity."
     },
     "reportsPage": {
       "header": "Reporting",
-      "list1Header": "Over four years of activity, the \"Save the Child\" NGO managed to:",
+      "list1Header": "Over four years of its activities the \"Save a Child\" NGO managed to:",
       "list1item1": {
         "t1": "Save ",
         "t2": "more than 200 ",
-        "t3": "children from abuse. Abortions were prevented and newborn life was saved."
+        "t3": "children from abuse. Many abortions were prevented and newborn lives were saved."
       },
       "list1item2": {
         "t1": "Provide more than ",
         "t2": "20 tons of food aid."
       },
-      "p1": "Report on the activities of the charitable PUBLIC ORGANIZATION GO \"SAVE THE CHILD\".",
-      "list2item1": "1. The hotline for CRISIS pregnant women is fully operational. We remind you that we work on weekdays from 09:00 to 19:00. In total, more than 500 women contacted the hotline.",
-      "list2item2": "2. We conduct and support sports, educational, cognitive projects aimed at saving life.",
-      "list2item3": "3. We prepared and published two brochures on SAVE LIFE and STOP VIOLENCE. Brochures help women, children, families, social workers, police, medical institutions.",
-      "list2item4": "4. There are 5 psychologists working stably who conduct counseling and provide psychological support free of charge.",
-      "list2item5": "5. Lawyers and lawyers work stably for free.",
-      "list2item6": "6. We began to professionally advise our colleagues from other NGOs and charitable foundations.",
-      "list2item7": "7. Educational activities for orphans are held on a permanent basis. On a regular basis, we conduct psychological classes for orphans.",
+      "p1": "Report on the activities of the charitable PUBLIC ORGANIZATION \"SAVE A CHILD\".",
+      "list2item1": "1. NGO created and maintains the hotline for pregnant women in crisis. In total, more than 500 women contacted the hotline over the years.",
+      "list2item2": "2. NGO conducts and supports sports, educational, cognitive projects aimed at saving life.",
+      "list2item3": "3. Prepared and published two brochures: SAVE LIFE and STOP VIOLENCE. These brochures help women, children, families, social workers, police, medical institutions.",
+      "list2item4": "4. There are 5 psychologists working on a permanent basis counseling and providing psychological support free of charge.",
+      "list2item5": "5. NGO facilitates free legal support.",
+      "list2item6": "6. NGO started to advise colleagues from other NGOs and charitable foundations.",
+      "list2item7": "7. Organizes educational activities for orphans, including psychology classes for orphans.",
       "list2item8": "8. There is a YouTube channel with lectures on family and motherhood, the consequences of abortion",
-      "t1": "Save the child Support for motherhood and family",
-      "list2item9": "9. Established fruitful cooperation with children's social centers, social services and other charitable and social projects.",
-      "list2item10": "10. We advise social workers, doctors, and workers of shelters for women with children.",
-      "list2item11": "11. We consistently give families more than 200 kg of food aid per month. And more than 200 kg of material, household aid.",
-      "list2item12": "12. They opened the care home \"SERDENKO\".",
-      "list2item13": "13. We supported families under care during the pandemic and war with medicines in the amount of more than 70,000 hryvnias.",
+      "t1": "Save a child Support for motherhood and family",
+      "list2item9": "9. Established fruitful cooperation with social centers for children, social services and other charitable and social projects.",
+      "list2item10": "10. NGO advises social workers, doctors and workers of shelters for women with children.",
+      "list2item11": "11. NGO consistently gives families more than 200 kg of food aid per month. And more than 200 kg of material, household aid.",
+      "list2item12": "12. NGO opened the shelter home \"SERDENKO\" (Heart).",
+      "list2item13": "13. NGO supported families in need during the pandemic and continues to provide such support during the war,supplying medicines. Currently supplied medicine with a total value of more than 70,000 hryvnias.",
       "list2item14": "14. Provided psychological, legal, and financial support to 340 families who found themselves in difficult life situations during the war.",
-      "list2item15": "15. Provided support to 14 pregnant women who did not have a permanent place of residence and work to stop begging.",
-      "list2item16": "16. We work in the office of pre-abortion counseling at the women's consultation in Krasnoy Khutor.",
-      "list2item17": "17. We conduct training for sisters of mercy.",
-      "list2item18": "18. They helped a boy with a prosthetic leg to stand on two legs and go to the first grade.",
-      "list2item19": "19. Helped pay for four very expensive and serious operations for children.",
+      "list2item15": "15. Provided support to 14 pregnant women who did not have a permanent place of residence and work, so they could stop begging.",
+      "list2item16": "16. NGO has an office of pre-abortion counseling at the women's consultation in Krasnoy Khutor.",
+      "list2item17": "17. NGO conducts training for sisters of mercy.",
+      "list2item18": "18. Helped a boy with a prosthetic leg to stand on two legs and go to the first grade.",
+      "list2item19": "19. Helped pay for four very expensive and serious surgeries for children.",
       "list2item20": "20. 48 mothers were brought to the maternity hospital.",
-      "list2item21": "21. We are preparing for publication a book about saved lives, which should be published by the end of 2022.",
-      "list2item22": "22. We provide regular food assistance to the charity house.",
-      "list2item23": "23. We have our own anthem #Zberezhiditynu\"."
+      "list2item21": "21. Preparing for a publication a book about saved lives and the work we do.",
+      "list2item22": "22. Provide regular food assistance to the charity houses.",
+      "list2item23": "23. NGO has its own anthem #Zberezhiditynu\"."
     },
     "informationPage": {
       "header": "Information",
@@ -316,7 +313,7 @@
         "p1": "We have been collecting maternal stories from our book \"Saved Lives\" for more than a year. The book includes more than 50 stories when a mother was faced with a choice - life or abortion, and chose life. Here are a few of them.",
         "p2": "\"There is a way out of crisis pregnancy, but it is not an abortion! I give life!\"",
         "p3": "Life does not always paint us the pictures we would like to see. There is a time when everything around stops. You lose yourself, lose time, lose all landmarks.",
-        "p4": "Thank you very much for supporting Save the Child. Words of the psychologist \"Save the child\": \"There is a way out of a crisis pregnancy, but it is not an abortion. Abortion will not solve any problem, it will only complicate it!\" — are very important to me.",
+        "p4": "Thank you very much for supporting Save a Child. Words of the psychologist \"Save a child\": \"There is a way out of a crisis pregnancy, but it is not an abortion. Abortion will not solve any problem, it will only complicate it!\" — are very important to me.",
         "p5": "At one time, psychological support gave faith and saved my baby. And I give life! Today I take vitamins, walk more in the fresh air and paint the image of my motherhood. Thank you for the saved life!",
         "p6": "\"The time will come when the saved child will save you too!\"",
         "p7": "I am a mother of four children. Of course, my life was different: both difficult and a lot. Especially when you live not only by your whims. But over time, life shows that everything is possible in it.",
@@ -333,9 +330,9 @@
       "childInStress": {
         "p1": "The first thing a mother needs to know is that you and your child need time. Everything that the mother feels, the child also feels. A mother can understand what emotions she has and why, a small child cannot.",
         "p2": "All that the child now expects from his mother is a hug. So that the child feels protected. Sing together those songs that you sang in peacetime, take the baby in your arms, wrap him in a blanket and just rock and sing lullabies. Unload your body and your child's. From fear, the body shrinks, tenses up, the body begins to shake.",
-        "p3": "It's your job as a mom to create a safe space, even if it's just under a blanket or blanket. Warm sweet tea, a blanket and mom's lullabies are all a stressed child needs to calm down.",
+        "p3": "It's your job as a mom to create a safe space, even if it's just under a blanket. Warm sweet tea, a blanket and mom's lullabies are all a stressed child needs to calm down.",
         "p4": "When the body will feel safe, tears and emotions may go away, this is normal. After some time, start drawing, sculpting, playing.",
-        "p5": "Be prepared that the child may not get sick for a long time due to such tension, develop a temperature, this is also normal. Repeat - warm sweet tea, a blanket, hugs, lullabies or good children's songs.",
+        "p5": "Be prepared that the child may get a bit sick for a long time due to such tension, develop a temperature, this is also normal. Repeat - warm sweet tea, a blanket, hugs, lullabies or good children's songs.",
         "p6": "The mother should become a container for the child's emotions. Take care of yourself, because you are the whole universe for a child.",
         "p7": "Psychologist Natalia Trukhan ❤\uFE0F"
       },
@@ -348,17 +345,17 @@
         "p1": "The brochure was prepared with the aim of preventing violence against women, supporting crisis pregnant women who are in difficult life circumstances. According to statistics, about 90% of complaints about domestic violence come from women."
       },
       "workAtWar": {
-        "listHeader": "Our main tasks and almost daily tasks:",
-        "listItem1": "The hotline is open, pregnant women in crisis and mothers, grandmothers with children who need help call. During the war, psychologists and I managed to save the lives of 7 children, these are the crisis pregnant women who hesitated whether to save their lives or go for an abortion. Thanks to the psychologists for their support in saving lives.",
-        "listItem2": "We organized housing assistance for women with children in the Ternopil region and orphans (more than 300 people).",
-        "listItem3": "Humanitarian aid was organized to provide shelters with food, baby food, hygiene, and medicine.",
-        "listItem4": "From the Kyiv warehouse, they helped (with food, medicine, baby food) many cities and villages that were under temporary occupation.",
-        "listItem5": "Our volunteers worked in Buchi and Irpin. They helped everyone there, both people (women, children) and animals (cats, dogs).",
-        "listItem6": "Help with the organization of evacuation from hot spots of orphaned children, women with children (more than 300 women with children).",
+        "listHeader": "",
+        "listItem1": "NGO maintains the hotline for pregnant women in crisis and mothers, grandmothers with children who need. During the war, psychologists of NGO managed to save the lives of 7 children, these are the crisis pregnant women who hesitated whether to save their pregnancies or go for an abortion.",
+        "listItem2": "NGO organized housing assistance for women with children in the Ternopil region and orphans (more than 300 people).",
+        "listItem3": "Humanitarian aid was organized to provide shelters with food, baby food, hygiene products and medicine.",
+        "listItem4": "Food, medicine and baby food was delivered to many cities and villages that were under temporary occupation.",
+        "listItem5": "Our volunteers worked in Bucha and Irpin, helping people (women, children) and animals (cats, dogs).",
+        "listItem6": "NGO provides help with the organization of evacuation from hot spots of orphaned children, women with children (more than 300 women with children).",
         "listItem7": "Supporting daily consultations for women who were evacuated or who were under occupation.",
-        "listItem8": "Almost daily deliveries of food packages to families who have nothing to eat (women with children).",
-        "listItem9": "Purchase of the care home \"SERDENKO ❤\uFE0F\", which became a temporary shelter for families. Children and mothers will be able to receive free help from a psychologist, legal advice, assistance with processing payments, and evacuation or finding a house for further residence.",
-        "listItem10": "We established cooperation with volunteers from other countries, namely, Croatia, Germany, Bulgaria, England, France, America. And also with local TsNAP."
+        "listItem8": "Organizes almost daily deliveries of food packages to families who have nothing to eat (women with children).",
+        "listItem9": "NGO purchased of the shelter home \"SERDENKO (Heart) ❤\uFE0F\", which became a temporary shelter for families. Children and mothers will be able to receive free help from a psychologist, legal advice, assistance with processing payments, and evacuation or finding a house for further residence.",
+        "listItem10": "NGO established cooperation with volunteers from other countries, namely, Croatia, Germany, Bulgaria, England, France, United States of America. And also with local social services."
       }
     }
   }
