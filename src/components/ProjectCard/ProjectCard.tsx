@@ -13,7 +13,8 @@ const ProjectCard = ({ imageUrl, headerText, text, pathUrl }: IProjectCardProps)
   return (
     <Grid
       width={'34.18rem'}
-      height={'37.125rem'}
+      minHeight={'37.125rem'}
+      maxHeight={'max-content'}
       display={'flex'}
       flexDirection={'column'}
       justifyContent={'space-between'}

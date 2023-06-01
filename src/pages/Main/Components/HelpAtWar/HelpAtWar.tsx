@@ -10,11 +10,6 @@ const HelpAtWar = () => {
     display: 'list-item',
     padding: 0,
   };
-  const listRef = useRef<HTMLUListElement>(null);
-  const [height, setHeight] = useState(0);
-  useEffect(() => {
-    setHeight(listRef.current ? listRef.current.offsetHeight : 0);
-  }, [listRef.current]);
   return (
     <Grid
       display={'flex'}
@@ -50,13 +45,10 @@ const HelpAtWar = () => {
               paddingTop: '20px',
               display: 'flex',
               flexDirection: 'row',
-              height: height,
+              height: 'max-content',
             }}
           >
-            <List
-              ref={listRef}
-              sx={{ listStyleType: 'disc', padding: '0 0 0 30px', height: 'max-content' }}
-            >
+            <List sx={{ listStyleType: 'disc', padding: '0 0 0 30px', height: 'max-content' }}>
               <ListItem sx={listItemStyle}>
                 <Typography
                   sx={{
