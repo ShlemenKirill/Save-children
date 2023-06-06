@@ -11,7 +11,7 @@
     },
     "finHelpCard": {
       "forFinHelp": "For financial assistance",
-      "projectDesc": "Save a child charity project in support of pregnancy",
+      "projectDesc": "NGO Save a Child supports pregnant women and mothers",
       "dest": "APPOINTMENT:",
       "head": "Head of NGO Trukhan Nataliya",
       "bank": "Privatbank 5168 7574 0663 0931"
@@ -48,23 +48,23 @@
     "aboutPage": {
       "aboutUs": "About us",
       "activity": {
-        "p1": "The activities of the nonprofit organization \"Save a Child\" are aimed at saving lives of children and supporting mothers who are in difficult life situation, mothers with many children and orphaned children. What our NGO does:",
-        "listItem1": "Provides psychological assistance, food aid, financial and legal help to socially vulnerable pregnant women, mothers and their children",
+        "p1": "The nonprofit organization \"Save a Child\" works to save lives of children and support mothers who are in difficult life situation, mothers with many children and orphaned children. NGO Save a Child:",
+        "p2": "",
+        "listItem1": "Provides psychological assistance, food, financial and legal help to socially vulnerable pregnant women, mothers and their children",
         "listItem2": "Runs a shelter for mothers with children who lost their homes due to the war and were forced to evacuate",
         "listItem3": "Helps to establish and run efficiently NGO branches throughout Ukraine",
-        "p2": "During NGO time of existence, its employees and volunteers have created:",
-        "listItem4": "Free and efficient hotline to help women",
-        "listItem5": "Ongoing psychological support",
-        "listItem6": "Legal and social assistance services"
+        "listItem4": "Maintains free and efficient hotline to help women in need",
+        "listItem5": "Coordinates cooperation with social services",
+        "listItem6": ""
       },
       "activityDescription": {
         "p1": "NGO actively and efficiently cooperates with police, social services, orphanages, houses of mercy, leading gynecologists, doctors, maternity hospitals, the best specialists in the fields of finance, jurisprudence and psychology, priesthood, sisters of mercy, mother and children homes.",
-        "p2": "Currently NGO is preparing for publishing a book with powerful therapeutic stories of foster mothers and about saved lives — ",
+        "p2": "Currently NGO is preparing for publishing a book with many powerful therapeutic stories of foster mothers and about saved lives — ",
         "link1": "\"LIVES SAVED\""
       },
       "volunteersTeam": {
         "p1": "\"Save a Child\" is a powerful team of volunteers.",
-        "p2": "NGO organized dozens of educational events, issued about 10,000 brochures that save the lives of children and women every day.",
+        "p2": "NGO organized dozens of educational events, issued about 10,000 brochures that save lives of children and women every day.",
         "p3": "NGO conducts efficient educational campaigns and provides important assistance to single mothers. As an example more than 200 children`s lives were saved in almost 4 weeks of work.",
         "p4": "Every mother needs a strong support, unfortunately sometimes circumstances of life are very difficult.",
         "p5": "To stop social collapse, NGO united not only to save lives of unborn children, but also to support children who were born into very challenging life situations."
@@ -73,17 +73,17 @@
     "mainPage": {
       "mainContent": {
         "t1": "Save",
-        "t2": "a child",
-        "t3": "Charity project",
-        "t4": "to support pregnancy",
+        "t2": "a Child",
+        "t3": "NGO to support",
+        "t4": " pregnant women and mothers",
         "t5": "Join"
       },
       "helpAtWar": {
-        "listHeader": "NGO \"SAVE A CHILD\" is very active during the war in Ukraine and provides following support:",
+        "listHeader": "Currently NGO \"SAVE A CHILD\" dedicates its work and efforts to help families suffering from war in Ukraine",
         "listItem1": "Psychological assistance",
-        "listItem2": "Food help (in Kyiv region)",
-        "listItem3": "Supply of hygienic products and medicines for foster families",
-        "listItem4": "Different support of orphaned children",
+        "listItem2": "Supply of food, hygiene products and medicine",
+        "listItem3": "",
+        "listItem4": "Required assistance to orphaned children",
         "listItem5": "Transportation to safe locations in Ukraine and abroad"
       },
       "ourProjects": {
@@ -93,11 +93,11 @@
         "projectHeader1": "Assistance to pregnant women in critical life situations",
         "projectDescription1": "Psychological support in cases of unplanned pregnancy",
         "projectHeader2": "Project Shelter House SERDENKO (Heart)",
-        "projectDescription2": "The Shelter was launched to help families of refugees to stay over for a short period of time while looking for more permanent housing during the ongoing war in Ukraine."
+        "projectDescription2": "The Shelter was launched to provide short term safe housing to families of refugees while looking for more permanent accommodation during the ongoing war in Ukraine."
       },
       "aboutUs": {
         "h1": "About us",
-        "p1": "The activities of the NGO \"Save a Child\" are aimed at preserving the lives of children and supporting mothers who are in a difficult life situation and who decide to give birth, mothers with many children and orphaned children during the war in Ukraine.",
+        "p1": "The activities of the NGO \"Save a Child\" are aimed at preserving the lives of children and supporting mothers who are in a difficult life situation and who decided to give birth, mothers with many children and orphaned children during the war in Ukraine.",
         "t1": "In detail"
       },
       "information": {
@@ -117,9 +117,9 @@
       "projectHeader2": "Project Shelter House SERDENKO (Heart)",
       "projectDescription2": "The Shelter was launched to help families of refugees to stay over for a short period of time while looking for more permanent housing during the ongoing war in Ukraine.",
       "projectHeader3": "Assistance in evacuation",
-      "projectDescription3": "Evacuation of women and children is long-term work in many directions.",
+      "projectDescription3": "Evacuation of women and children is a complex task, where NGO ensures help in various ways.",
       "projectHeader4": "Assistance to large families",
-      "projectDescription4": "NGO Team especially enjoys working with families having a lot of childless, because we believe that children are a blessing.",
+      "projectDescription4": "NGO Team enjoys working with big families.",
       "careHomeProjectPage": {
         "header": "Shelter House \"SERDENKO (Heart)",
         "p1": "Shelter House \"SERDENKO (Heart) is\" a permanent safe house which was founded to ensure a shelter to the families which require protection during the war. The Shelter was launched to help families of refugees to stay over for a short period of time while looking for more permanent housing. It became an apparent necessity after several months of intense work of NGO in the Western part of Ukraine.",
@@ -139,8 +139,8 @@
       },
       "helpInEvacuation": {
         "header": "Assistance in evacuation",
-        "p1": "Evacuation of women and children is a complex task, where NGO helps to evacuate from danger zones, provides psychological rehabilitation to ensure all necessary components of comprehensive care. Since the beginning of the war, NGO volunteers have helped many families to leave dangerous places. As well as helped in the evacuation of orphans.",
-        "listHeader": "Rules of conduct during evacuation for children.",
+        "p1": "Evacuation of women and children is a complex task, where NGO helps to evacuate families from combat zones and ensures psychological rehabilitation. Since the beginning of the war, NGO volunteers have helped many families and orphanages to evacuate from combat zones.",
+        "listHeader": "Guidance on children's evacuation.",
         "listItem1": "Evacuation information should be verified from reliable sources of state and local authorities. One must be sure that the evacuation is not initiated by the occupying forces. Be attentive and careful.",
         "listItem2": "Evacuation shall not be delayed. If there is such an opportunity, it shall be used as it can save one`s life.",
         "listItem3": "If a child is old enough to understand their parents, a child shall be explained why and where they are going. If a child continues to ask questions \"why\" and \"where\", an answer should be given every time.",
@@ -234,34 +234,36 @@
     "contactsPage": {
       "header": "Our contacts",
       "t1": "Free hot line",
-      "t2": "Telephone number Head of NGO - Trukhan Nataliya"
+      "t2": "Telephone number of Nataliya Trukhan, Head of NGO"
     },
     "volunteersPage": {
       "header": "Volunteers",
       "p1": "NGO \"Save a Child\" invites you to join the Team.",
-      "p2": "Our NGO dedicates its activities to supporting life, pregnancy and maternity. NGO provides qualified psychological, legal and other assistance to families who suffered during the war, to women who are in a difficult life situations, pregnant women who are thinking to terminate their pregnancy or simply need any kind of support.",
-      "p3": "We invite you to join our Team of volunteers!",
+      "p2": "NGO dedicates its activities to supporting life, pregnancy and maternity. NGO provides qualified psychological, legal and other assistance to families who are suffering from the war, women in need, pregnant women who are thinking to terminate their pregnancy due to the critical circumstances or simply require support.",
+      "p3": "We invite you to join NGO`s Team of volunteers!",
       "listHeader": "We invite:",
-      "listItem1": "Psychologists and psychotherapists;",
-      "listItem2": "Lawyers and advocates;",
-      "listItem3": "Specialists in working with pregnant women;",
-      "listItem4": "Early childhood educators and instructors;",
-      "listItem5": "SMM — managers and people who can help promote our ideas;",
-      "listItem6": "Patrons and sponsors;",
-      "listItem7": "Volunteers who simply would like to help and all who are not indifferent to human life!",
+      "listItem1": "Psychologists and psychotherapists",
+      "listItem2": "Lawyers",
+      "listItem3": "Specialists in working with pregnant women",
+      "listItem4": "Early childhood educators and instructors",
+      "listItem5": "SMM — managers and people who can help promote NGO`s ideas",
+      "listItem6": "Patrons and sponsors",
+      "listItem7": "Volunteers who just want to help and all those, who are not indifferent to human life!",
       "p4": "Let's save lives together! If you are already 18 years old, fill out the Questionnaire for volunteers or contact us directly.",
-      "t1": "Questionnaire for volunteers"
+      "t1": "Link to the Questionnaire for volunteers in Ukrainian. Our international partners are advised to contact us directly."
     },
     "partnersPage": {
       "header": "Partners",
-      "p1": "Responsible and ethical business is no longer a phenomenon, but a notion, which becomes an integral part of our lives. Therefore, we see involvement of commercial sector into charitable activities happens more often now. If you are interested to support projects of NGO Save a Child, you can become our partner!",
-      "p2": "There are studies and examples, how charity initiatives can improve business allowing companies differentiate them from the competition, supporting company brand and making stand out to potential job applicants,improve public image and increase employees` morale.",
-      "p3": "By cooperating with us, you will help many families and children \"here and now\". Transparency and openness with our partners is one of the key pillars of the NGO existence. Our reporting has been public and available to everyone since 2019. Partners and donors can follow the organization's purchases and expenses on a separate page.",
-      "p4": "Thank you for your donations, so we can help those in need. Truthfully, we could not do this without you. We, and everyone we serve, sincerely appreciate your generosity."
+      "p1": "Responsible and ethical business is no longer a phenomenon, but a notion, which becomes an integral part of our lives. Therefore, we observed an increased involvement of the commercial sector into charitable activities and projects. If you are interested in supporting the projects of NGO Save a Child, please join us and become our partner!",
+      "p2": "There are numerous studies and examples, how charity initiatives can improve business allowing companies differentiate them from the competition, supporting company brand and making stand out to potential job applicants,as well as to improve public image and increase employees` morale.",
+      "p3": "By cooperating with us, you will help many families and children. Transparency and openness with our partners is one of the key pillars of the NGO existence. Our reporting has been public and available to everyone since 2019. Partners and donors are able to follow NGO's purchases and expenses since we provide regular updates.",
+      "p4": "Thank you for your donations, so NGO can help those in need. Truthfully, we could not do this without you. We, and everyone we serve, sincerely appreciate your generosity."
     },
     "reportsPage": {
       "header": "Reporting",
-      "list1Header": "Over four years of its activities NGO \"Save a Child\" managed to:",
+      "list1Header": "Since its foundation, NGO \"Save a Child\" have saved more than 200 children from abuse, prevented numerous abortions and saved many newborn lives.",
+      "t1": "YouTube channel",
+      "p1": "Since 2019 NGO \"SAVE A CHILD\" completed various projects and provides a lot assistance to many women and families, specifically",
       "list1item1": {
         "t1": "Save ",
         "t2": "more than 200 ",
@@ -271,42 +273,40 @@
         "t1": "Provide more than ",
         "t2": "20 tons of food aid."
       },
-      "p1": "Report on the activities of NGO \"SAVE A CHILD\".",
-      "list2item1": "1. Created and maintains the hotline for pregnant women in critical life situations. In total, more than 500 women contacted the hotline over the years.",
-      "list2item2": "2. Conducts and supports sport, educational and cognitive projects aimed at saving life.",
-      "list2item3": "3. Prepared and published two brochures: SAVE LIFE and STOP VIOLENCE. These brochures help women, children, families, social workers, police, medical institutions.",
-      "list2item4": "4. There are 5 psychologists working on a permanent basis counseling and providing psychological support free of charge.",
-      "list2item5": "5. Facilitates free legal support.",
-      "list2item6": "6. Started to advise colleagues from other NGOs and charitable foundations.",
-      "list2item7": "7. Organizes educational activities for orphans, including psychology classes.",
-      "list2item8": "8. There is a YouTube channel with lectures on family, motherhood and consequences of abortion",
-      "t1": "NGO Support for motherhood and family",
-      "list2item9": "9. Established fruitful cooperation with social centers for children, social services and other charitable and social projects.",
-      "list2item10": "10. Provides professional advices to social workers, doctors and workers of shelters for women with children.",
-      "list2item11": "11. Consistently gives families more than 200 kg of food aid per month. And more than 200 kg of material, household aid.",
-      "list2item12": "12. Opened the shelter \"SERDENKO\" (Heart).",
-      "list2item13": "13. Supported families in need during the pandemic and continues to provide such support during the war,supplying medicines and other help. Already supplied medicine with a total value of more than 70,000 hryvnias.",
-      "list2item14": "14. Provided psychological, legal, and financial support to 340 families who found themselves in difficult life situations during the war.",
-      "list2item15": "15. Provided support to 14 pregnant women who did not have a permanent place of residence and work, so they could stop street begging.",
-      "list2item16": "16. Has an office of pre-abortion counseling at the women's consultation in Krasnoy Khutor, Ukraine.",
-      "list2item17": "17. Conducts training for sisters of mercy.",
-      "list2item18": "18. Helped a boy with a prosthetic leg to stand on two legs and go to the first grade.",
-      "list2item19": "19. Helped to pay for 4 very expensive and serious surgeries for children.",
-      "list2item20": "20. Brought 48 mothers to the maternity hospitals.",
-      "list2item21": "21. Preparing a book for a publication about saved lives and the work NGO does.",
-      "list2item22": "22. Provides regular food help to other charity organizations.",
-      "list2item23": "23. Has its own anthem #Zberezhiditynu\"."
+      "list2item1": "- Created and maintains the hotline for pregnant women in critical life situations. In total, more than 500 women contacted the hotline over the past years.",
+      "list2item2": "- Organizes and supports sport, educational and cognitive projects aimed at saving life.",
+      "list2item3": "- Prepared and published two brochures: SAVE LIFE and STOP VIOLENCE. These brochures help women, children, families, social workers, police, medical institutions.",
+      "list2item4": "- Ensures free of charge counselling from 5 psychologists working on a permanent.",
+      "list2item5": "- Facilitates free legal support.",
+      "list2item6": "- Advises colleagues from other NGOs and charitable foundations.",
+      "list2item7": "- Organizes educational activities for orphans, including psychology classes.",
+      "list2item8": "- Launched YouTube channel with lectures on family, motherhood and consequences of abortion",
+      "list2item9": "- Established efficient cooperation with social centers for children, social services and other charitable projects.",
+      "list2item10": "- Provides professional advices to social workers, doctors and shelters` employees for women with children.",
+      "list2item11": "- Supplies families with more than 200 kg of food and 200 kg of household items per month.",
+      "list2item12": "- Opened Shelter \"SERDENKO\" (Heart) after the start of war for families evacuated from combat zones.",
+      "list2item13": "- Supported families in need during the pandemic and continues to provide such support during the war. NGO have already delivered required medicine with a total value of more than UAH70,000.",
+      "list2item14": "- Provided psychological, legal and financial support to more than 300 families in need during the war.",
+      "list2item15": "- Provided support to many pregnant women who did not have a permanent home and work, so they could stop begging on streets.",
+      "list2item16": "- Launched an office of pre-abortion counseling at the women's consultation in Krasnoy Khutor, Ukraine.",
+      "list2item17": "- Conducts training for sisters of mercy.",
+      "list2item18": "- Helps large families, who have children with disabilities. As example organized required help to a boy with a prosthetic leg, so he can stand on two legs and enabled him to go to the first grade.",
+      "list2item19": "- Coordinated fundraising for 4 very expensive and serious surgeries for children.",
+      "list2item20": "- Ensured that 48 mothers were delivered to the maternity hospitals in time.",
+      "list2item21": "- Preparing a book for a publication about saved lives and the work NGO does.",
+      "list2item22": "- Coordinates and provides regular food supply to other charity projects and organizations.",
+      "list2item23": "- Has its own anthem #Zberezhiditynu\"."
     },
     "informationPage": {
       "header": "Information",
-      "projectHeader1": "\"Help, my child is stressed\"",
+      "projectHeader1": "\"Help, my child is in stress\"",
       "projectDescription1": "The first thing a mother needs to know is that you and your child need time. Everything that a mother feels, feels a child. A mother can understand what emotions she has and why, a small child cannot.",
-      "projectHeader2": "How we work during wartime",
-      "projectDescription2": "Our main tasks.",
-      "projectHeader3": "Brochure \"Mother, save my life!\"",
-      "projectDescription3": "We want to tell you about a real miracle - a person who has not yet been born.",
+      "projectHeader2": "How we work during the war in Ukraine",
+      "projectDescription2": "NGO`s main areas of responsibilities during the war.",
+      "projectHeader3": "Brochure \"Mom, save my life!\"",
+      "projectDescription3": "The story of a real miracle - a person who has not yet been born.",
       "projectHeader4": "Brochure \"Say STOP to violence\"",
-      "projectDescription4": "The brochure was prepared with the aim of preventing violence against women, supporting pregnant women in critical life situations...",
+      "projectDescription4": "The aim of the brochure to prevent violence against women and support pregnant women in need.",
       "projectHeader5": "The book \"Saved lives\"",
       "projectDescription5": "The main idea of the book is to help preserving lives of unborn children.",
       "bookSaveChildren": {

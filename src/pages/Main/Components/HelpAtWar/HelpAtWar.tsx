@@ -5,7 +5,7 @@ import { fonts } from 'core/constants/fonts';
 import { useTranslation } from 'react-i18next';
 
 const HelpAtWar = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const listItemStyle = {
     display: 'list-item',
     padding: 0,
@@ -67,15 +67,17 @@ const HelpAtWar = () => {
                   {t('mainPage.helpAtWar.listItem2')}
                 </Typography>
               </ListItem>
-              <ListItem sx={listItemStyle}>
-                <Typography
-                  sx={{
-                    ...fonts.montserratNormal24,
-                  }}
-                >
-                  {t('mainPage.helpAtWar.listItem3')}
-                </Typography>
-              </ListItem>
+              {i18n.language !== 'en' && (
+                <ListItem sx={listItemStyle}>
+                  <Typography
+                    sx={{
+                      ...fonts.montserratNormal24,
+                    }}
+                  >
+                    {t('mainPage.helpAtWar.listItem3')}
+                  </Typography>
+                </ListItem>
+              )}
               <ListItem sx={listItemStyle}>
                 <Typography
                   sx={{

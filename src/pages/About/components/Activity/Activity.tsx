@@ -6,7 +6,7 @@ import { imageStyle } from 'core/constants/styles';
 import { useTranslation } from 'react-i18next';
 
 const Activity = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   return (
     <Grid
       id={'activity'}
@@ -51,9 +51,11 @@ const Activity = () => {
           <ListItem sx={listItemStyle}>
             <Typography sx={listItemTextStyle}>{t('aboutPage.activity.listItem5')}</Typography>
           </ListItem>
-          <ListItem sx={listItemStyle}>
-            <Typography sx={listItemTextStyle}>{t('aboutPage.activity.listItem6')}</Typography>
-          </ListItem>
+          {i18n.language !== 'en' && (
+            <ListItem sx={listItemStyle}>
+              <Typography sx={listItemTextStyle}>{t('aboutPage.activity.listItem6')}</Typography>
+            </ListItem>
+          )}
         </List>
       </Grid>
       <Grid

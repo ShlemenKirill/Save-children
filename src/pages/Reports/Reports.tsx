@@ -5,7 +5,7 @@ import { fonts } from 'core/constants/fonts';
 import { useTranslation } from 'react-i18next';
 
 const Reports = () => {
-  const {t} = useTranslation();
+  const { t, i18n } = useTranslation();
   const mainImagesSrc = ['/images/reports/report2.png', '/images/reports/report3.png'];
   const additionalImagesSrc = [
     '/images/reports/report4.png',
@@ -55,25 +55,28 @@ const Reports = () => {
               <Typography sx={headerTextStyle} paddingTop={'30px'}>
                 {t('reportsPage.list1Header')}
               </Typography>
-              <List sx={listStyle}>
-                <ListItem sx={listItemsStyle}>
-                  <Typography sx={normalTextStyle} paddingTop={'5px'}>
-                    {t('reportsPage.list1item1.t1')}
-                    <Typography display={'inline'} sx={semiboldTextStyle}>
-                      {t('reportsPage.list1item1.t2')}
-                    </Typography>{' '}
-                    {t('reportsPage.list1item1.t3')}
-                  </Typography>
-                </ListItem>
-                <ListItem sx={listItemsStyle}>
-                  <Typography sx={normalTextStyle} paddingTop={'5px'}>
-                    {t('reportsPage.list1item2.t1')}
-                    <Typography display={'inline'} sx={semiboldTextStyle}>
-                      {t('reportsPage.list1item2.t2')}
+
+              {i18n.language !== 'en' && (
+                <List sx={listStyle}>
+                  <ListItem sx={listItemsStyle}>
+                    <Typography sx={normalTextStyle} paddingTop={'5px'}>
+                      {t('reportsPage.list1item1.t1')}
+                      <Typography display={'inline'} sx={semiboldTextStyle}>
+                        {t('reportsPage.list1item1.t2')}
+                      </Typography>{' '}
+                      {t('reportsPage.list1item1.t3')}
                     </Typography>
-                  </Typography>
-                </ListItem>
-              </List>
+                  </ListItem>
+                  <ListItem sx={listItemsStyle}>
+                    <Typography sx={normalTextStyle} paddingTop={'5px'}>
+                      {t('reportsPage.list1item2.t1')}
+                      <Typography display={'inline'} sx={semiboldTextStyle}>
+                        {t('reportsPage.list1item2.t2')}
+                      </Typography>
+                    </Typography>
+                  </ListItem>
+                </List>
+              )}
               <Typography sx={headerTextStyle} paddingTop={'60px'}>
                 {t('reportsPage.p1')}
               </Typography>
@@ -111,9 +114,7 @@ const Reports = () => {
               })}
             </Grid>
             <Grid>
-              <Typography sx={normalTextStyle}>
-                {t('reportsPage.list2item4')}
-              </Typography>
+              <Typography sx={normalTextStyle}>{t('reportsPage.list2item4')}</Typography>
               <Typography sx={normalTextStyle} paddingTop={'10px'}>
                 {t('reportsPage.list2item5')}
               </Typography>
@@ -182,9 +183,7 @@ const Reports = () => {
           </Typography>
           <Grid display={'flex'} flexDirection={'row'} gap={'90px'} paddingTop={'10px'}>
             <Grid>
-              <Typography sx={normalTextStyle}>
-                {t('reportsPage.list2item16')}
-              </Typography>
+              <Typography sx={normalTextStyle}>{t('reportsPage.list2item16')}</Typography>
               <Typography sx={normalTextStyle} paddingTop={'10px'}>
                 {t('reportsPage.list2item17')}
               </Typography>
