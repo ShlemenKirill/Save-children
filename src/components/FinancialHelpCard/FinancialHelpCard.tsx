@@ -28,9 +28,13 @@ const FinancialHelpCard = ({ destination }: IFinancialHelpCardProps) => {
           {t('finHelpCard.forFinHelp')}
         </Typography>
         <Grid paddingTop={'7px'}>
-          <Typography sx={credentialsTextStyle}>{t('finHelpCard.bank')}</Typography>
+          <Typography sx={credentialsTextStyle}>{t('finHelpCard.accountNumber')}</Typography>
+          <Typography sx={credentialsTextStyle}>{t('finHelpCard.swiftCode')}</Typography>
+          <Typography sx={credentialsTextStyle}>{t('finHelpCard.bankName')}</Typography>
+          <Typography sx={credentialsTextStyle}>{t('finHelpCard.bankAddress')}</Typography>
           <Typography sx={credentialsTextStyle}>{t('finHelpCard.head')}</Typography>
           <Typography sx={credentialsTextStyle}>{t('finHelpCard.projectDesc')}</Typography>
+          <Typography sx={credentialsTextStyle}>{t('finHelpCard.payPal')}</Typography>
         </Grid>
         <Typography paddingTop={'6px'} sx={credentialsTextStyle}>
           {t('finHelpCard.dest')} <Typography display={'inline'}>{destination}</Typography>{' '}

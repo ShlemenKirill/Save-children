@@ -14,7 +14,11 @@
       "projectDesc": "Збережи дитини благодійний проект у підтримку вагітності",
       "dest": "ПРИЗНАЧЕННЯ:",
       "head": "Голова ГО Трухан Наталія",
-      "bank": "Приватбанк 5168 7574 0663 0931"
+      "payPal": "PayPal: zberezhyd@gmail.com",
+      "swiftCode": "",
+      "bankName": "Приватбанк",
+      "accountNumber": "5168 7574 0663 0931",
+      "bankAddress": "Kyiv, Ukraine"
     },
     "footer": {
       "about": "Про нас",
