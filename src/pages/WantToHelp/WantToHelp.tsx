@@ -6,7 +6,7 @@ import FinancialHelpCard from 'components/FinancialHelpCard';
 import { useTranslation } from 'react-i18next';
 
 const WantToHelp = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const normalTextStyle = {
     color: colors.matteBlack,
     ...fonts.montserratNormal16,
@@ -56,15 +56,19 @@ const WantToHelp = () => {
                   {t('wantToHelpPage.t3')}
                 </Typography>
               </Typography>
-              <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                {t('wantToHelpPage.listHeader')}
-              </Typography>
-              <Grid paddingLeft={'15px'}>
-                <Typography sx={normalTextStyle}>{t('wantToHelpPage.listItem1')}</Typography>
-                <Typography sx={normalTextStyle}>{t('wantToHelpPage.listItem2')}</Typography>
-                <Typography sx={normalTextStyle}>{t('wantToHelpPage.listItem3')}</Typography>
-                <Typography sx={normalTextStyle}>{t('wantToHelpPage.listItem4')}</Typography>
-              </Grid>
+              {i18n.language !== 'en' && (
+                <Typography sx={normalTextStyle} paddingTop={'10px'}>
+                  {t('wantToHelpPage.listHeader')}
+                </Typography>
+              )}
+              {i18n.language !== 'en' && (
+                <Grid paddingLeft={'15px'}>
+                  <Typography sx={normalTextStyle}>{t('wantToHelpPage.listItem1')}</Typography>
+                  <Typography sx={normalTextStyle}>{t('wantToHelpPage.listItem2')}</Typography>
+                  <Typography sx={normalTextStyle}>{t('wantToHelpPage.listItem3')}</Typography>
+                  <Typography sx={normalTextStyle}>{t('wantToHelpPage.listItem4')}</Typography>
+                </Grid>
+              )}
               <Grid paddingTop={'10px'}>
                 <FinancialHelpCard destination={t('wantToHelpPage.t4')} />
               </Grid>
@@ -88,9 +92,7 @@ const WantToHelp = () => {
               </Typography>
             </Grid>
             <Grid>
-              <Typography sx={normalTextStyle}>
-                {t('wantToHelpPage.p7')}
-              </Typography>
+              <Typography sx={normalTextStyle}>{t('wantToHelpPage.p7')}</Typography>
               <Grid paddingTop={'10px'}>
                 <FinancialHelpCard destination={t('wantToHelpPage.t6')} />
               </Grid>
