@@ -3,9 +3,22 @@ import DetailedInformationPageContainer from 'containers/DetailedInformationPage
 import { ContainerTypes } from 'core/constants/common';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
-import { text } from './text';
+import { useTranslation } from 'react-i18next';
 
 const WorkAtWar = () => {
+  const { t } = useTranslation();
+  const text = [
+    t('informationPage.workAtWar.listItem1'),
+    t('informationPage.workAtWar.listItem2'),
+    t('informationPage.workAtWar.listItem3'),
+    t('informationPage.workAtWar.listItem4'),
+    t('informationPage.workAtWar.listItem5'),
+    t('informationPage.workAtWar.listItem6'),
+    t('informationPage.workAtWar.listItem7'),
+    t('informationPage.workAtWar.listItem8'),
+    t('informationPage.workAtWar.listItem9'),
+    t('informationPage.workAtWar.listItem10'),
+  ];
   const normalTextStyle = {
     color: colors.matteBlack,
     ...fonts.montserratNormal16,
@@ -16,12 +29,12 @@ const WorkAtWar = () => {
   };
   return (
     <DetailedInformationPageContainer
-      name={'Як ми працюємо під час війни'}
+      name={t('informationPage.projectHeader2')}
       containerType={ContainerTypes.information}
     >
       <>
         <Typography sx={normalTextStyle} paddingTop={'30px'}>
-          Наші основні задачі, та майже щоденні справи:
+          {t('informationPage.workAtWar.listHeader')}
         </Typography>
         <Grid display={'flex'} flexDirection={'row'}>
           <Grid>

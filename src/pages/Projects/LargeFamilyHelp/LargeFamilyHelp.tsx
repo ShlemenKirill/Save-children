@@ -3,8 +3,10 @@ import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import { ContainerTypes } from 'core/constants/common';
 import DetailedInformationPageContainer from 'containers/DetailedInformationPageContainer';
+import { useTranslation } from 'react-i18next';
 
 const LargeFamilyHelp = () => {
+  const { t } = useTranslation();
   const normalTextStyle = {
     color: colors.matteBlack,
     ...fonts.montserratNormal16,
@@ -20,16 +22,12 @@ const LargeFamilyHelp = () => {
   };
   return (
     <DetailedInformationPageContainer
-      name={'Допомога багатодітним сім\'ям'}
+      name={t('ourProjectsPage.largeFamilyHelp.header')}
       containerType={ContainerTypes.projects}
     >
       <>
         <Grid paddingTop={'17px'}>
-          <Typography sx={normalTextStyle}>
-            Щодня команда ГО «ЗБЕРЕЖИ ДИТИНУ» робить добрі справи. Особливо ми любимо працювати з
-            багатодітними родинами, бо діти це благословіння. Ми допомагаємо: самотнім матусям,
-            багатодітним родинам, родинам що виховують дітей з інвалідністю, кризовим вагітним.
-          </Typography>
+          <Typography sx={normalTextStyle}>{t('ourProjectsPage.largeFamilyHelp.p1')}</Typography>
         </Grid>
         <Grid display={'flex'} flexDirection={'row'} gap={'120px'} paddingTop={'17px'}>
           <Box
@@ -43,8 +41,7 @@ const LargeFamilyHelp = () => {
             <List sx={{ listStyleType: 'decimal', padding: 0 }}>
               <ListItem sx={listItemStyle}>
                 <Typography sx={normalTextStyle}>
-                  Для оформлення допомоги вам потрібно звернутись на вайбер номер голови ГО Трухан
-                  Наталії{' '}
+                  {t('ourProjectsPage.largeFamilyHelp.listItem1')}
                   <Typography sx={normalTextStyleBold} display={'inline'}>
                     0504453445
                   </Typography>
@@ -53,48 +50,49 @@ const LargeFamilyHelp = () => {
               </ListItem>
               <ListItem sx={listItemStyle}>
                 <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>
-                  Подати прохання на отримання допомоги, чітко прописав основні потреби.
+                  {t('ourProjectsPage.largeFamilyHelp.listItem2')}
                 </Typography>
               </ListItem>
               <ListItem sx={listItemStyle}>
                 <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>
-                  Для встановлення вашої особи, підтвердження відповідності вашого запиту до
-                  статутної діяльності ГО «ЗБЕРЕЖИ ДИТИНУ», нам необхідна наступна інформація:
+                  {t('ourProjectsPage.largeFamilyHelp.listItem3')}
                   <List sx={{ listStyleType: 'disc', padding: '0 0 0 20px' }}>
                     <ListItem sx={listItemStyle}>
                       <Typography sx={normalTextStyle}>
-                        фото вашого паспорту, ідентифікаційного коду
+                        {t('ourProjectsPage.largeFamilyHelp.listItem3p1')}
                       </Typography>
                     </ListItem>
                     <ListItem sx={listItemStyle}>
                       <Typography sx={normalTextStyle}>
-                        фсвідоцтва про народження дитини/дітей
+                        {t('ourProjectsPage.largeFamilyHelp.listItem3p2')}
                       </Typography>
                     </ListItem>
                     <ListItem sx={listItemStyle}>
-                      <Typography sx={normalTextStyle}>фото вашої сім‘ї</Typography>
+                      <Typography sx={normalTextStyle}>
+                        {t('ourProjectsPage.largeFamilyHelp.listItem3p3')}
+                      </Typography>
                     </ListItem>
                     <ListItem sx={listItemStyle}>
-                      <Typography sx={normalTextStyle}>короткий опис вашої ситуації</Typography>
+                      <Typography sx={normalTextStyle}>
+                        {t('ourProjectsPage.largeFamilyHelp.listItem3p4')}
+                      </Typography>
                     </ListItem>
                   </List>
                 </Typography>
               </ListItem>
               <ListItem sx={listItemStyle}>
                 <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>
-                  Анкета буде оброблена співробітниками ГО на протязі 5 днів.
+                  {t('ourProjectsPage.largeFamilyHelp.listItem4')}
                 </Typography>
               </ListItem>
               <ListItem sx={{ ...listItemStyle, paddingTop: '10px' }}>
                 <Typography sx={normalTextStyle}>
-                  За необхідності ми з вами зв’яжемся для додаткових уточнень.
+                  {t('ourProjectsPage.largeFamilyHelp.listItem5')}
                 </Typography>
               </ListItem>
               <ListItem sx={listItemStyle}>
                 <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>
-                  Надсилаючи це звернення, ви даєте згоду на обробку, зберігання і використання
-                  конфіденційної інформації, наведеної у зверненні, зокрема на надання цієї
-                  інформації експертам ГО для отримання їх експертної думки.
+                  {t('ourProjectsPage.largeFamilyHelp.listItem6')}
                 </Typography>
               </ListItem>
             </List>

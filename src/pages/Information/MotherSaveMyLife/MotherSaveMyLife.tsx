@@ -4,8 +4,10 @@ import { fonts } from 'core/constants/fonts';
 import { ContainerTypes } from 'core/constants/common';
 import DownloadLink from 'components/DownloadLink';
 import DetailedInformationPageContainer from 'containers/DetailedInformationPageContainer';
+import { useTranslation } from 'react-i18next';
 
 const MotherSaveMyLife = () => {
+  const { t } = useTranslation();
   const normalTextStyle = {
     color: colors.matteBlack,
     ...fonts.montserratNormal16,
@@ -16,26 +18,19 @@ const MotherSaveMyLife = () => {
   ];
   return (
     <DetailedInformationPageContainer
-      name={'Брошура «Матусю, збережи менi життя!»'}
+      name={t('informationPage.projectHeader3')}
       containerType={ContainerTypes.information}
     >
       <>
         <Grid>
           <Typography sx={normalTextStyle} paddingTop={'29px'}>
-            Ми хочемо розповісти вам про справжнісіньке диво — людину, яка ще не народилася. Про те,
-            що малюк відчуває, як розвивається з моменту зачаття. Головна мета цієї брошури —
-            ЗБЕРЕГТИ ЖИТТЯ ДІТЕЙ ВІД АБОРТІВ.
+            {t('informationPage.motherSaveMyLife.p1')}
           </Typography>
           <Typography sx={normalTextStyle} paddingTop={'10px'}>
-            Тільки-но дві клітини мами і татка зустрілися, ще немає ні мозку, ні серця, але дитина
-            вже реагує на настрій мами. Мама радіє — маленька цяточка, яку видно лише під
-            мікроскопом, гойдається повільно. Мама сумує, переживає або плаче — дитина стукає так,
-            як стукає наше серце, коли ми стривожені.
+            {t('informationPage.motherSaveMyLife.p2')}
           </Typography>
           <Typography sx={normalTextStyle} paddingTop={'10px'}>
-            “Привіт, я маленька людина на самому початку свого життя. З моменту зачаття і до
-            сьогодні я - справжнісінька людина. У мене є голова, тулуб, ручки і ніжки, я можу чути і
-            відчувати біль. Я - унікальний, адже іншого такого, як я, у світі не існує.”{' '}
+            {t('informationPage.motherSaveMyLife.p3')}
             <DownloadLink
               fileName={'mother_save_my_life_broshure'}
               src={'/documents/mother_save_my_life_broshure.pdf'}

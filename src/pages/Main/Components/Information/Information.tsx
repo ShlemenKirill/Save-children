@@ -4,8 +4,10 @@ import { fonts } from 'core/constants/fonts';
 import { linkStyle } from 'core/constants/styles';
 import { INFORMATION_CHILDREN_IN_STRESS, INFORMATION_WAR } from 'core/constants/navigation';
 import InfoCard from 'components/InfoCard/InfoCard';
+import { useTranslation } from 'react-i18next';
 
 const Information = () => {
+  const { t } = useTranslation();
   return (
     <Grid
       display={'flex'}
@@ -39,7 +41,7 @@ const Information = () => {
               ...fonts.montserratSemibold50,
             }}
           >
-            Iнформація
+            {t('mainPage.information.h1')}
           </Typography>
           <Link
             href={'/info'}
@@ -49,7 +51,7 @@ const Information = () => {
               paddingRight: '30px',
             }}
           >
-            Дивитися все
+            {t('mainPage.information.t1')}
           </Link>
         </Grid>
         <Grid
@@ -62,16 +64,14 @@ const Information = () => {
         >
           <InfoCard
             imageUrl={'/images/information/childrenInStress.png'}
-            headerText={'“Допоможiть, моя дитина в стресi”'}
-            text={
-              'Перше що потрібно знати мамі — вам і дитині потрібен час. Все що почуває мама- почуває і дитина. Матуся може зрозуміти які ємоції в неї і чому, маленька дитина ні.'
-            }
+            headerText={t('mainPage.information.informationHeader1')}
+            text={t('mainPage.information.informationDescription1')}
             pathUrl={INFORMATION_CHILDREN_IN_STRESS}
           />
           <InfoCard
             imageUrl={'/images/information/flag.png'}
-            headerText={'Як ми працюємо під час війни'}
-            text={'Наші основні задачі, та майже щоденні справи.'}
+            headerText={t('mainPage.information.informationHeader2')}
+            text={t('mainPage.information.informationDescription2')}
             pathUrl={INFORMATION_WAR}
           />
         </Grid>

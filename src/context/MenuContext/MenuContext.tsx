@@ -1,9 +1,9 @@
 import React from 'react';
 import { IMenuContext } from 'types/commonTypes';
-import { NavigationMenuItems } from 'core/constants/common';
+import { NAVIGATION_MAIN } from 'core/constants/common';
 
 export const MenuContext = React.createContext<IMenuContext>({
-  currentMenuItem: NavigationMenuItems.main,
+  currentMenuItem: NAVIGATION_MAIN,
   setCurrentMenuItem: () => {
     /**
      * void function

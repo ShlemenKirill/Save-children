@@ -10,8 +10,10 @@ import {
   INFORMATION_STOP_VIOLENCE,
   INFORMATION_WAR,
 } from 'core/constants/navigation';
+import { useTranslation } from 'react-i18next';
 
 const Information = () => {
+  const { t } = useTranslation();
   return (
     <Grid
       sx={{
@@ -26,43 +28,37 @@ const Information = () => {
               ...fonts.montserratMedium85,
             }}
           >
-            Iнформація
+            {t('informationPage.header')}
           </Typography>
           <Grid display={'flex'} flexDirection={'column'} gap={'45px'} paddingTop={'50px'}>
             <InfoCard
               imageUrl={'/images/information/childrenInStress.png'}
-              headerText={'“Допоможiть, моя дитина в стресi”'}
-              text={
-                'Перше що потрібно знати мамі — вам і дитині потрібен час. Все що почуває мама- почуває і дитина. Матуся може зрозуміти які ємоції в неї і чому, маленька дитина ні.'
-              }
+              headerText={t('informationPage.projectHeader1')}
+              text={t('informationPage.projectDescription1')}
               pathUrl={INFORMATION_CHILDREN_IN_STRESS}
             />
             <InfoCard
               imageUrl={'/images/information/flag.png'}
-              headerText={'Як ми працюємо під час війни'}
-              text={'Наші основні задачі, та майже щоденні справи.'}
+              headerText={t('informationPage.projectHeader2')}
+              text={t('informationPage.projectDescription2')}
               pathUrl={INFORMATION_WAR}
             />
             <InfoCard
               imageUrl={'/images/information/saveChildren.png'}
-              headerText={'Брошура “Матусю, збережи менi життя!”'}
-              text={
-                'Ми хочемо розповісти вам про справжнісіньке диво — людину, яка ще не народилася.'
-              }
+              headerText={t('informationPage.projectHeader3')}
+              text={t('informationPage.projectDescription3')}
               pathUrl={INFORMATION_MOTHER_SAVE_MY_LIFE}
             />
             <InfoCard
               imageUrl={'/images/information/stopViolence.png'}
-              headerText={' Брошура “Скажи СТОП насиллю”'}
-              text={
-                'Брошура пiдготована з метою попереждення насильства над жiнками, пiдтримки кризових вагiтних...'
-              }
+              headerText={t('informationPage.projectHeader4')}
+              text={t('informationPage.projectDescription4')}
               pathUrl={INFORMATION_STOP_VIOLENCE}
             />
             <InfoCard
               imageUrl={'/images/information/bookSaveChildren.png'}
-              headerText={'Книга “Збереженi життя”'}
-              text={'Головне завдання книги - допомогти зберегти життя в утробi.'}
+              headerText={t('informationPage.projectHeader5')}
+              text={t('informationPage.projectDescription5')}
               pathUrl={INFORMATION_SAVE_CHILDREN_BOOK}
             />
           </Grid>

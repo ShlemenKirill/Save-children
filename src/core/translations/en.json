@@ -1,0 +1,383 @@
+{
+  "translation": {
+    "common": {
+      "download": "Download",
+      "more": "In detail"
+    },
+    "logo": "Save a child",
+    "header": {
+      "hotLine": "Free hotline",
+      "wantToHelp": "I want to help"
+    },
+    "finHelpCard": {
+      "forFinHelp": "For financial assistance",
+      "projectDesc": "NGO Save a Child supports pregnant women and mothers",
+      "dest": "Purpose:",
+      "head": "Nataliia Trukhan, Kharkivs'ke Hwy, 148, App. 121, 02000 Kyiv",
+      "swiftCode": "PBANUA2XXXX",
+      "bankName": "JSC CB PRIVATBANK",
+      "accountNumber": "UA28 3052 9900 0002 6207 6640 9094 0",
+      "bankAddress": "KYIV, Ukraine",
+      "payPal": "PayPal: zberezhyd@gmail.com"
+    },
+    "footer": {
+      "about": "About us",
+      "projects": "Our projects",
+      "reports": "Reporting",
+      "partners": "To partners",
+      "volunteers": "Volunteers",
+      "info": "Information",
+      "contacts": "Contacts",
+      "address": "Kyiv, Ukraine",
+      "menu": "Menu"
+    },
+    "navigation": {
+      "evacuationHelp": "Assistance in evacuation",
+      "pregnantHelp": "Assistance to pregnant women in critical situations",
+      "largeFamilyHelp": "Assistance to families with many children",
+      "hartHouse": "Shelter House SERDENKO (Heart)",
+      "infoWar": "How we work during wartime in Ukraine",
+      "stressChild": "\"Help, my child is stressed\"",
+      "motherSaveMyLife": "Brochure \"Mother, save my life!\"",
+      "stopViolence": "Brochure \"Say STOP to violence\"",
+      "saveLife": "The book \"Saving Life\"",
+      "aboutUs": "About us",
+      "ourProjects": "Our projects",
+      "information": "Information",
+      "reports": "Reporting",
+      "partners": "To partners",
+      "volunteers": "Volunteers",
+      "contacts": "Contacts"
+    },
+    "aboutPage": {
+      "aboutUs": "About us",
+      "activity": {
+        "p1": "The nonprofit organization \"Save a Child\" works to save lives of children and support mothers who are in difficult life situation, families with many children and orphans. NGO Save a Child:",
+        "p2": "",
+        "listItem1": "Provides psychological assistance, food, financial and legal help to socially vulnerable pregnant women, mothers and their children",
+        "listItem2": "Runs a shelter for mothers with children who lost their homes due to the war and were forced to evacuate",
+        "listItem3": "Helps to establish and run efficiently NGO branches throughout Ukraine",
+        "listItem4": "Maintains free and efficient hotline to help women in need",
+        "listItem5": "Coordinates cooperation with social services",
+        "listItem6": ""
+      },
+      "activityDescription": {
+        "p1": "NGO actively and efficiently cooperates with police, social services, orphanages, houses of mercy, leading gynecologists, doctors, maternity hospitals, the best specialists in the fields of finance, jurisprudence and psychology, priesthood, sisters of mercy, mother and children homes.",
+        "p2": "Currently NGO is preparing for publishing a book with many powerful therapeutic stories of foster mothers and about saved lives — ",
+        "link1": "\"LIVES SAVED\""
+      },
+      "volunteersTeam": {
+        "p1": "\"Save a Child\" is a powerful team of volunteers.",
+        "p2": "NGO organized dozens of educational events, issued about 10,000 brochures that save lives of children and women every day.",
+        "p3": "NGO conducts efficient educational campaigns and provides important assistance to single mothers. As an example more than 200 children`s lives were saved in almost 4 weeks of work.",
+        "p4": "Every mother needs a strong support, unfortunately sometimes circumstances of life are very difficult.",
+        "p5": "To stop social collapse, NGO united not only to save lives of unborn children, but also to support children who were born into very challenging life situations."
+      }
+    },
+    "mainPage": {
+      "mainContent": {
+        "t1": "Save",
+        "t2": "a Child",
+        "t3": "NGO to support",
+        "t4": " pregnant women and mothers",
+        "t5": "Join"
+      },
+      "helpAtWar": {
+        "listHeader": "Currently NGO \"SAVE A CHILD\" dedicates its work and efforts to help families suffering from war in Ukraine",
+        "listItem1": "Psychological assistance",
+        "listItem2": "Supply of food, hygiene products and medicine",
+        "listItem3": "",
+        "listItem4": "Required assistance to orphans",
+        "listItem5": "Transportation to safe locations in Ukraine and abroad"
+      },
+      "ourProjects": {
+        "header": "Our projects",
+        "t1": "Watch everything",
+        "t2": "In detail",
+        "projectHeader1": "Assistance to pregnant women in critical life situations",
+        "projectDescription1": "Psychological support in cases of unplanned pregnancy",
+        "projectHeader2": "Project Shelter House SERDENKO (Heart)",
+        "projectDescription2": "The Shelter was launched to provide short term safe housing to families of refugees while looking for more permanent accommodation during the war in Ukraine."
+      },
+      "aboutUs": {
+        "h1": "About us",
+        "p1": "The activities of the NGO \"Save a Child\" are aimed at preserving the lives of children and supporting mothers who are in a difficult life situation and who decided to give birth, mothers with many children and orphans during the war in Ukraine.",
+        "t1": "In detail"
+      },
+      "information": {
+        "h1": "Information",
+        "t1": "Watch everything",
+        "t2": "In detail",
+        "informationHeader1": "\"Help, my child is stressed\"",
+        "informationDescription1": "The first thing a mother needs to know is that she and her child need time. ",
+        "informationHeader2": "How we work during wartime",
+        "informationDescription2": "Our main daily tasks."
+      }
+    },
+    "ourProjectsPage": {
+      "h1": "Our projects",
+      "projectHeader1": "Assistance to pregnant women in difficult life situations",
+      "projectDescription1": "Psychological support in cases of unplanned pregnancy",
+      "projectHeader2": "Project Shelter House SERDENKO (Heart)",
+      "projectDescription2": "The Shelter was launched to help families of refugees to stay over for a short period of time while looking for more permanent housing during the war in Ukraine.",
+      "projectHeader3": "Assistance in evacuation",
+      "projectDescription3": "Evacuation of women and children is a complex task, where NGO ensures help in various ways.",
+      "projectHeader4": "Assistance to large families",
+      "projectDescription4": "NGO Team enjoys working with big families.",
+      "careHomeProjectPage": {
+        "header": "Shelter House \"SERDENKO (Heart)",
+        "p1": "Shelter House \"SERDENKO (Heart) is\" a permanent safe house which was founded to ensure a shelter to the families which require protection during the war. The Shelter was launched to help families of refugees to stay over for a short period of time while looking for more permanent housing. It became an apparent necessity after several months of intense work of NGO in the Western part of Ukraine.",
+        "p2": "The safe house provides the following support:",
+        "li1": "Description of refugees rights and opportunities ensured by the state (social payments, registration with local authorities as an internally displaced person, possibility to move abroad with verified volunteers under official programs to obtain refugee status abroad)",
+        "li2": "Consultation and assistance in cases when a mother with children decides to come back home.",
+        "li3": "Free of charge psychological consultations for women and children (internally displaced persons).",
+        "li4": "Free of charge legal consultations for women and children (internally displaced persons).",
+        "li5": "Assistance in receiving humanitarian aid if available (food, hygiene products and medicine).",
+        "li6": "Free educational  programs for children and women.",
+        "li7": "Assistance in arranging medical help. ",
+        "li8": "Helping pregnant women in difficult life situations.",
+        "li9": "Temporary accommodation in the Shelter",
+        "li10": "Free lunches for families.",
+        "li11": "Assistance in job search and education for children. ",
+        "li12": "Help to families staying abroad. "
+      },
+      "helpInEvacuation": {
+        "header": "Assistance in evacuation",
+        "p1": "Evacuation of women and children is a complex task, where NGO helps to evacuate families from combat zones and ensures psychological rehabilitation. Since the beginning of the war, NGO volunteers have helped many families and orphanages to evacuate from combat zones.",
+        "listHeader": "Guidance on children's evacuation.",
+        "listItem1": "Evacuation information should be verified from reliable sources of state and local authorities. One must be sure that the evacuation is not initiated by the occupying forces. Be attentive and careful.",
+        "listItem2": "Evacuation shall not be delayed. If there is such an opportunity, it shall be used as it can save one`s life.",
+        "listItem3": "If a child is old enough to understand their parents, a child shall be explained why and where they are going. If a child continues to ask questions \"why\" and \"where\", an answer should be given every time.",
+        "listItem4": "Communication with a child shall be calm, confidently and clear. Emotional state of parents is transmitted to a child.",
+        "listItem5": "Children should have information that will help them to return to their parents in case they get lost. It can even be a note with contact information (child's name, date of birth, parents' contact phone number) in a pocket of clothes or in a backpack. The same information can be written on a child's hand (closer to the elbow, where the inscription will not be erased longer). If possible, copies of a child's birth certificate and parents' passport data shall be in a backpack.",
+        "listItem6": "Children shall be dressed according to the weather and bring extra warm things, blankets, water and drinks.",
+        "listItem7": "Children shall be explained the basic rules of behavior in unfamiliar places and with strangers:",
+        "listItem7p1": "Do not leave your parents",
+        "listItem7p2": "Do not communicate with strangers",
+        "listItem7p3": "When you are lost: turn to adults, first of all, if you see a policeman or a soldier in uniform, if they are not there, to other adults",
+        "listItem7p4": "Be obedient: behave quietly or not speak at all, do not run, do not turn back, obey parents' requests the first time and be a helper in everything",
+        "listItem8": "If you heard explosions or shots nearby, you should lie on the ground with your head in the direction opposite to the explosions and cover it with your hands or things. After everything has stopped, you need to wait another 10 minutes, and then move to the shelter without rising completely. If there is no shelter nearby, use uneven terrain (ditches, trenches, explosion holes) or follow the instructions of officials of evacuation authorities and public order protection authorities on the ground.",
+        "listItem9": "Children shall be explained that if they see a discarded suitcase or any other object (mobile phone, toys, etc.), it is strictly forbidden to touch, tilt, open, move or pick it up and they shall immediately warn the parents about it!"
+      },
+      "largeFamilyHelp": {
+        "header": "Assistance to families with many children",
+        "p1": "NGO Team especially enjoys working with families with many children. NGO helps single mothers, families with many children, families raising children with disabilities, pregnant women in critical life situations.",
+        "listItem1": "In order to ask for assistance families or mothers shall contact Head of the NGO Nataliya Trukhan",
+        "listItem2": "Request for assistance shall contain clear statements with indication of a type of assistance required.",
+        "listItem3": "NGO establishes identity of a requester to confirm the compliance of such request with the statutory activities of the NGO. The following documents are required:",
+        "listItem3p1": "Photocopy of a passport, identification code",
+        "listItem3p2": "Birth certificates of a child/children",
+        "listItem3p3": "Photo of a family",
+        "listItem3p4": "Brief description of a situation",
+        "listItem4": "The documents are processed by the NGO within 5 days.",
+        "listItem5": "If necessary NGO contacts a requester for additional details.",
+        "listItem6": "By sending an application to the NGO a requester consents to the processing, storage and use of confidential information provided in the application, in particular, to the provision of such information to NGO experts to obtain their expert opinion."
+      },
+      "pregnantHelp": {
+        "header": "Assistance to pregnant women in critical life situations",
+        "p1": "If women are faced with the choice of saving a life or having an abortion, they can contact NGO Save a Child to receive professional psychological support.",
+        "p2": "NGO operates a crisis telephone line for unplanned pregnancy. Also psychological consultations are provided online.",
+        "p3": "When women need psychological support for issues related to unplanned pregnancy, they can call the Unplanned Pregnancy Hotline: ",
+        "p4": "A woman who is in a difficult life situation can be helped.",
+        "t1": "10 important questions that can prevent a woman from rashly taken decision to have an abortion",
+        "p5": "This section is meant for psychologists working in a pre-abortion clinics, relatives or acquaintances of women who are considering to have an abortion and turn for advice. NGO offers ten questions, which can be asked by those who want to help in a difficult situation:",
+        "listItem1": {
+          "header": "1. How do you imagine the child you are carrying now?",
+          "content": "This question is important because at the moment of making the decision to have an abortion, a woman's consciousness is often tightly tied to life circumstances, which forces her to have an abortion, and she sees nothing else. Psychologists call this state \"tunnel consciousness\". When we ask a woman how she imagines a child, she should turn not to the circumstances that push her to have an abortion (we will talk about them later), but to a baby."
+        },
+        "listItem2": {
+          "header": "2. What name would you give to your child? Would you like to have a boy or a girl?",
+          "content": "These questions also help a woman to shift her attention from the circumstances to a child, to dream a little."
+        },
+        "listItem3": {
+          "header": "3. How does this unborn child differ from your older child?",
+          "content1": "This is a question for a woman who already has children. \"And how does a child that has not yet been born differ from one that has been born for you?\" An additional question on this topic: \"Did everything go well with your first child?",
+          "content2": "\"Did you have to overcome any difficulties for her to be born?\"",
+          "content3": "As a rule, with a previous child, a woman had to overcome some difficulties, if not during pregnancy, then already after the birth of a child."
+        },
+        "listItem4": {
+          "header": "4. Do you want to have children?",
+          "content": "This question is very subtle and very difficult. It must be asked very timely, with great tact and attention to a woman. The task of this question is to give a woman the opportunity to think about her life in general, about her destiny, so that she can imagine her life in perspective, remember her values, think about her her needs and she will no longer be tied specifically to this life situation that she has now and because of which she wants to have an abortion. She will think about herself as a person and a woman. Does she even want to have children? What will her life be filled with? Answering this question, a woman can talk about her fears, about rejecting femininity, about rebelling against her role as a woman and more. You can listen to her, discuss some important points, maybe help get rid of some fears or stereotypes."
+        },
+        "listItem5": {
+          "header": "5. What prevents you from giving birth to a child?",
+          "content": "Now we give a woman the opportunity to talk about the circumstances that push her to have an abortion. This is a very important question, because these circumstances must be discussed with her. To give an opportunity to answer this question in detail, to talk about the problems, fears, doubts that made her think about abortion. You need to listen to her sensitively and carefully, because these problems are really serious for her, even if they do not seem so to you. Perhaps a woman will feel better just because you listened to her with understanding."
+        },
+        "listItem6": {
+          "header": "6. Why do you think you have the right to have an abortion?",
+          "content": "You can ask such a global question. This is actually a very large topic. The conversation can turn in different directions, depending on what the woman answers. She can say: \"It is legally allowed.\" Then you can ask the question whether she thinks that everything that is legally allowed is morally permissible? Yes, after an abortion, of course, she will not be put in prison. But from a moral point of view, how will her act look to herself? A pregnant woman can answer : \"But I can manage my body!\" Then you can ask: \"Why are you sure that this is completely your body? Are you sure that this part of your body has the same gender as the rest of your body? And where have you seen parts of the body that would be with another blood group than the rest of the body?\""
+        },
+        "listItem7": {
+          "header": "7. How do you imagine the abortion procedure, do you know anything about its consequences?",
+          "listHeader": "Data on abortions:",
+          "listItem1": "Abortion as a cause of secondary infertility is up to 41%;",
+          "listItem2": "After abortion, the frequency of spontaneous abortions increases 8-10 times;",
+          "listItem3": "About 60% of first-born of women over the age of 30 suffer from miscarriage due to previous multiple abortions;",
+          "listItem4": "In 38% of patients after an artificial abortion, the menstrual cycle cannot normalize for at least two months.",
+          "content1": "After telling the woman about the medical consequences of abortion, you can ask her if she knows that there are not only physical, but also mental consequences of abortion?",
+          "content2": "Are you familiar with the term post-abortion syndrome?"
+        },
+        "listItem8": {
+          "header": "8. Have you ever wondered who benefits from mass abortions?",
+          "content1": "The attitude towards abortion has fundamentally changed. And in connection with this, the question arises: \"If the attitude is changing so much, then there is someone who is interested in such public opinion. Who could it be, and what are there interests?\"",
+          "content2": "Abortive raw materials are the placenta and stem cells, and they are very expensive raw materials that are widely used and need to be extracted on an industrial scale. Of course, it is unlikely that abortions were legalized precisely for the purpose of obtaining these materials, but now these materials are actively searched for. There is a pragmatic interest that the number of abortions does not decrease, or if it decreases, it is insignificant. And then you can ask the woman if she agrees to be used by organizations and entities, who have nothing to do with her life and who are deeply indifferent to her fate."
+        },
+        "listItem9": {
+          "header": "9. Who in your family is against the child and who supports you to have a child?",
+          "content1": "Returning to the life circumstances of the woman, it may turn out that one of the relatives is really against it. What arguments do they give? Why do they do it? Did they themselves perform abortions and how do they feel about such a step? After finding out these important circumstances, it is necessary to help a woman fight against pressure within the family and even, perhaps, with violence - physical, emotional, moral, material, etc.",
+          "content2": "It is very important to find out if there anyone who supports a woman to have a child and if they could help her, including, for example, confronting those who are against.",
+          "content3": ""
+        },
+        "listItem10": {
+          "header": "10. What help can I provide to help you to take the decision to have a child?",
+          "content1": "Finally, it's good to ask the woman what exactly you can do to help her. It's more correct to ask this question at the end of the conversation, so that a woman has time to express her doubts and fears and after some of them turn out to be \"shaken\" when an alternative to abortion appears before a woman.",
+          "content2": "When a woman says that she wants to have an abortion, she is completely connected to the circumstances that prevent her from keeping a child. And if at this moment she is asked: \"And what can I do?\", - she will most likely answer that nothing, and that, in general, she does not really need this help. But when a woman has detached herself at least a little from her life circumstances, then you can tell her about how these circumstances can be changed."
+        }
+      }
+    },
+    "contactsPage": {
+      "header": "Our contacts",
+      "t1": "Free hot line",
+      "t2": "Telephone number of Nataliya Trukhan, Head of NGO"
+    },
+    "volunteersPage": {
+      "header": "Volunteers",
+      "p1": "NGO \"Save a Child\" invites you to join the Team.",
+      "p2": "NGO dedicates its activities to supporting life, pregnancy and maternity. NGO provides qualified psychological, legal and other assistance to families who are suffering from the war, women in need, pregnant women who are thinking to terminate their pregnancy due to the critical circumstances or simply require support.",
+      "p3": "We invite you to join NGO`s Team of volunteers!",
+      "listHeader": "We invite:",
+      "listItem1": "Psychologists and psychotherapists",
+      "listItem2": "Lawyers",
+      "listItem3": "Specialists in working with pregnant women",
+      "listItem4": "Early childhood educators and instructors",
+      "listItem5": "SMM — managers and people who can help promote NGO`s ideas",
+      "listItem6": "Patrons and sponsors",
+      "listItem7": "Volunteers who just want to help and all those, who are not indifferent to human life!",
+      "p4": "Let's save lives together! If you are already 18 years old, fill out the Questionnaire for volunteers or contact us directly.",
+      "t1": "Link to the Questionnaire for volunteers in Ukrainian. Our international partners are advised to contact us directly."
+    },
+    "partnersPage": {
+      "header": "Partners",
+      "p1": "Responsible and ethical business is no longer a phenomenon, but a notion, which becomes an integral part of our lives. Therefore, we observed an increased involvement of the commercial sector into charitable activities and projects. If you are interested in supporting the projects of NGO Save a Child, please join us and become our partner!",
+      "p2": "There are numerous studies and examples how charity initiatives can improve business allowing companies differentiate them from the competition, supporting company brand and making it stand out to potential job applicants, as well as to improve public image and increase employees` morale.",
+      "p3": "By cooperating with us, you will help many families and children. Transparency and openness with our partners is one of the key pillars of the NGO existence. Our reporting has been public and available to everyone since 2019. Partners and donors are able to follow NGO's purchases and expenses since we provide regular updates.",
+      "p4": "Thank you for your donations, because you enable our NGO to help families in need. Truthfully, we could not do this without you. We, and everyone we serve, sincerely appreciate your generosity. Follow to \"I want to help\" to see bank details and PayPal information for donations."
+    },
+    "reportsPage": {
+      "header": "Reporting",
+      "list1Header": "Since its foundation, NGO \"Save a Child\" have saved more than 200 children from abuse, prevented numerous abortions and saved many newborn lives.",
+      "t1": "YouTube channel",
+      "p1": "Since 2019 NGO \"SAVE A CHILD\" completed numerous projects and provided assistance to many women and families, specifically",
+      "list1item1": {
+        "t1": "Save ",
+        "t2": "more than 200 ",
+        "t3": "children from abuse. Many abortions were prevented and newborn lives were saved."
+      },
+      "list1item2": {
+        "t1": "Provide more than ",
+        "t2": "20 tons of food aid."
+      },
+      "list2item1": "- Created and maintains the hotline for pregnant women in need. In total, more than 500 women contacted the hotline over the past years.",
+      "list2item2": "- Organizes and supports sport, educational and cognitive projects aimed at saving lives.",
+      "list2item3": "- Prepared and published two brochures: SAVE LIFE and STOP VIOLENCE. These brochures help women, children, families, social workers, police and medical institutions.",
+      "list2item4": "- Ensures free of charge counselling from 5 psychologists working on a permanent basis.",
+      "list2item5": "- Facilitates free legal support.",
+      "list2item6": "- Advises colleagues from other NGOs and charitable projects.",
+      "list2item7": "- Organizes educational activities for orphans, including psychology classes.",
+      "list2item8": "- Launched YouTube channel with lectures on family, motherhood and consequences of abortion",
+      "list2item9": "- Established efficient cooperation with social centers for children, social services and other charitable projects.",
+      "list2item10": "- Provides professional advices to social workers, doctors and shelters` employees for women with children.",
+      "list2item11": "- Supplies families with more than 200 kg of food and 200 kg of household items per month.",
+      "list2item12": "- Opened Shelter \"SERDENKO\" (Heart) after the start of war for families evacuated from combat zones.",
+      "list2item13": "- Supported families in need during the pandemic and continues to provide such support during the war. NGO have already delivered medicine with a total value of more than UAH70,000.",
+      "list2item14": "- Provided psychological, legal and financial support to more than 300 families in need during the war.",
+      "list2item15": "- Provided support to many pregnant women who did not have a permanent home and work, so they could stop begging on streets.",
+      "list2item16": "- Launched an office of pre-abortion counseling at the women's consultation in Krasnoy Khutor, Ukraine.",
+      "list2item17": "- Conducts training for sisters of mercy.",
+      "list2item18": "- Helps large families, who have children with disabilities. As example NGO has organized so much needed help for a boy with a prosthetic leg, who could stand on two legs as a result and was able to go to the first grade.",
+      "list2item19": "- Coordinated fundraising for 4 expensive and complex surgeries for children.",
+      "list2item20": "- Ensured that 48 mothers were delivered to the maternity hospitals in time.",
+      "list2item21": "- Preparing a book for a publication about saved lives and the work NGO does.",
+      "list2item22": "- Coordinates and provides regular food supply to other charity projects and organizations.",
+      "list2item23": "- Has its own anthem #Zberezhiditynu\"."
+    },
+    "informationPage": {
+      "header": "Information",
+      "projectHeader1": "\"Help, my child is in stress\"",
+      "projectDescription1": "The first thing a mother needs to know is that both her and her child need time. Everything that a mother feels, feels a child. A mother can understand why she has certain emotions, while a small child struggles.",
+      "projectHeader2": "How we work during the war in Ukraine",
+      "projectDescription2": "NGO`s main areas of responsibilities during the war.",
+      "projectHeader3": "Brochure \"Mom, save my life!\"",
+      "projectDescription3": "The story of a real miracle - a person who has not yet been born.",
+      "projectHeader4": "Brochure \"Say STOP to violence\"",
+      "projectDescription4": "The aim of the brochure to prevent violence against women and support pregnant women in need.",
+      "projectHeader5": "The book \"Saved lives\"",
+      "projectDescription5": "The main idea of the book is to help preserving lives of unborn children.",
+      "bookSaveChildren": {
+        "p1": "We have been collecting stories from our book \"Saved Lives\" for more than a year. The book includes more than 50 stories of mothers, who were facing difficult choice - life or abortion, and chose life. Here are a few of them.",
+        "p2": "\"There is a way out of crisis pregnancy, but it is not an abortion! I give life!\"",
+        "p3": "Life does not always paint us the pictures we would like to see. There is a time when everything around stops. You lose yourself, lose time, lose all landmarks.",
+        "p4": "Thank you very much for supporting Save a Child. Words of the psychologist \"Save a child\": \"There is a way out of a crisis pregnancy, but it is not an abortion. Abortion will not solve any problem, it will only complicate it!\" — are very important to me.",
+        "p5": "Psychological support gave me faith and saved my baby. And I give life! Today I take vitamins, walk more in the fresh air and paint the image of my motherhood. Thank you for the saved life!",
+        "p6": "\"The time will come when a saved child will save you too!\"",
+        "p7": "I am a mother of four children. Of course, my life was different: both difficult and a lot. Especially when you live not only by your whims. But over time, life shows that everything is possible in it.",
+        "p8": "As a mother of many children, I understand that financial situation is not the main thing, especially when it comes to life. The little doll that lives in you will bring a lot of joy and happiness...",
+        "p9": "After the birth of my children, I realized that the most important thing for a child is not expensive toys and clothes, but mother's love!",
+        "p10": "Dear women, save your life, do not take an irreparable step. Everything will definitely be fine. Believe me, the time will come when a saved child will save you too!",
+        "p11": "\"The question of abortion arose in front of me at the age of 19, although I dreamed of starting a family after 28 years. But everything in life did not turn out as planned.\"",
+        "p12": "I wanted to run away from home as soon as possible. Fights, quarrels - the horror in which I grew up. And so I wanted family comfort, support, a simple mother's: \"I love you!\". Not having received love and warmth from my relatives, I received it from my future husband. My future husband was six years older than me. Then it seemed to me that he was so mature, authoritative and, of course, I fell in love. Unfortunately, he did not come from a prosperous family, but it did not scare me at the time. I loved and was loved.",
+        "p13": "Our relationship developed rapidly, soon we started living together and I became pregnant. After learning about the pregnancy, I was filled with fear. I confess that I was not able to share the news with my mother then, I was too afraid of her. We never had such conversations and my mother painted my future in a completely different way.",
+        "p14": "And later it turned out that the husband was not ready for family life either. I told my mother about my pregnancy in the 8th week of pregnancy. Instead of greetings and happiness, she heard a cold: \"Abortion! Or you are not my daughter!\". I admit, I wanted to have an abortion until the last moment, but I couldn't. How many different thoughts then ate away at my heart, and sometimes regret about the lost own life tormented me mercilessly.",
+        "p15": "After childbirth and the birth of my daughter, everything got worse. My mother hated me, and her newborn daughter and her husband even more. Negative thoughts destroyed even more from the inside. And then... Then there was a divorce, and after the shocks I experienced - an illness... It was at that time that I reevaluated my own life and realized that my daughter is the most valuable gift given to me by God... The time even came when my child saved me from suicide. It was then that I thought: \"Eight years ago I saved a little life, and now my angel is saving me!\"",
+        "p16": "My daughter gives me faith and an incentive to fight for life. I love her more than life! And all the time I remind her about my feelings. Remind children of your love as often as possible... Love is the greatest power that saves."
+      },
+      "childInStress": {
+        "p1": "The first thing a mother needs to know is that both her and her child need time. Everything that a mother feels, feels a child. A mother can understand why she has certain emotions, while a small child struggles.",
+        "p2": "All that the child now expects from his mother is a hug. So that the child feels protected. Sing together those songs that you sang in peacetime, take the baby in your arms, wrap him in a blanket and just rock and sing lullabies. Unload your body and your child's. From fear, the body shrinks, tenses up, the body begins to shake.",
+        "p3": "It's your job as a mom to create a safe space, even if it's just under a blanket. Warm sweet tea, a blanket and mom's lullabies are all a stressed child needs to calm down.",
+        "p4": "When the body will feel safe, tears and emotions may go away, this is normal. After some time, start drawing, sculpting, playing.",
+        "p5": "Be prepared that the child may get a bit sick for a long time due to such tension, develop a temperature, this is also normal. Repeat - warm sweet tea, a blanket, hugs, lullabies or good children's songs.",
+        "p6": "The mother should become a container for the child's emotions. Take care of yourself, because you are the whole universe for a child.",
+        "p7": "Psychologist Natalia Trukhan ❤\uFE0F"
+      },
+      "motherSaveMyLife": {
+        "p1": "We want to tell you about a real miracle - a person who has not yet been born. About what a baby feels, how it develops from the moment of conception. The main purpose of this brochure is to SAVE LIVES OF CHILDREN FROM ABORTION.",
+        "p2": "The two cells of mom and dad have just met, there is no brain or heart yet, but the child is already responding to mom's mood. Mom is happy - a small speck, which can only be seen under a microscope, swings slowly. A mother is sad, worried or crying - the baby beats the way our heart beats when we are worried.",
+        "p3": "\"Hello, I am a small person at the very beginning of my life. From the moment of conception until today, I am a real person. I have a head, body, arms and legs, I can hear and feel pain. I am unique, because there is no other like me in the world.\""
+      },
+      "stopViolence": {
+        "p1": "The brochure was prepared with the aim of preventing violence against women, supporting pregnant women in critical life situations. According to statistics, about 90% of complaints about domestic violence come from women."
+      },
+      "workAtWar": {
+        "listHeader": "",
+        "listItem1": "NGO maintains the hotline for pregnant women, mothers and grandmothers with children in need. During the war, psychologists of NGO managed to save the lives of 7 children, these are the crisis pregnant women who hesitated whether to save their pregnancies or go for an abortion.",
+        "listItem2": "NGO organized housing assistance for women with children in the Ternopil region and orphans (more than 300 people).",
+        "listItem3": "Humanitarian aid was organized to provide shelters with food, baby food, hygiene products and medicine.",
+        "listItem4": "Food, medicine and baby food was delivered to many cities and villages that were under temporary occupation.",
+        "listItem5": "NGO volunteers worked in Bucha and Irpin, helping people and animals.",
+        "listItem6": "NGO provides help organizing evacuation of orphans from combat zones, women with children (more than 300 women with children have been evacuated).",
+        "listItem7": "Provides daily consultations for women who were evacuated or who were under occupation.",
+        "listItem8": "Organizes almost daily deliveries of food packages to families who have nothing to eat.",
+        "listItem9": "NGO purchased a house and created \"SERDENKO ❤\\ (Heart)uFE0F\", which serves as a temporary shelter for families. Children and mothers will be able to receive free help from a psychologist, legal advice, assistance with processing payments and evacuation or finding a new home.",
+        "listItem10": "NGO established efficient cooperation with volunteers from other countries, namely, Croatia, Germany, Bulgaria, England, France, United States of America, as well as with local social services."
+      }
+    },
+    "wantToHelpPage": {
+      "header": "I want to help",
+      "p1": "Thanks to you, our dear benefactors, we manage to support and help our families. Together we are the Power of Love and Light.",
+      "t1": "Assistance to families",
+      "p2": "The number of children affected by the war is increasing every day. They need different help, including psychological assistance, medicine, hygiene products, clothes etc. If you want to contribute, join and help.",
+      "p3": "We support families from all regions in Ukraine.",
+      "t2": "Write to ",
+      "t3": "Viber 0038 (050) 445 34 45.",
+      "t4": "HELP FOR FAMILIES",
+      "p4": "When helping, do it with the feeling that you are helping every living creature on the planet. When transferring one Dollar or Euro, do it with the feeling that you are covering all the financial needs of this world. By buying food, feel like you are feeding all those in need. Our INTENT is 90% of the result.",
+      "p5": "How can this be?",
+      "p6": "When we give, according to our capabilities, BUT with an open and generous heart, in which there is a desire to help, then with this powerful energy, we will attract many new people who will come like angels to help! We are like lanterns that will illuminate this need to the world and it will definitely be solved and closed",
+      "t5": "\"Cup of coffee\" promotion",
+      "p7": "Thank you to everyone who participates in our \"Cup of goodness/coffee\" charity event. And when you send the next cup, remember the power of your intention, which will become light.",
+      "p8": "All the children in the photos were saved by mothers who wanted to have an abortion. The \"Cup of Coffee\" campaign helped to collect the necessary sums and cover all the needs of mothers and children in order to preserve life in the womb.",
+      "t6": "CUP OF COFFEE PROMOTION"
+    }
+  }
+}

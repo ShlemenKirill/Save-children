@@ -4,24 +4,23 @@ import { fonts } from 'core/constants/fonts';
 import { ContainerTypes } from 'core/constants/common';
 import PDFIcon from 'components/Icons/PDFIcon';
 import DetailedInformationPageContainer from 'containers/DetailedInformationPageContainer';
+import { useTranslation } from 'react-i18next';
 
 const CareHome = () => {
+  const { t } = useTranslation();
   const normalTextStyle = {
     color: colors.matteBlack,
     ...fonts.montserratNormal16,
   };
   return (
     <DetailedInformationPageContainer
-      name={'Дiм турботы "СЕРДЕНЬКО \u2764\uFE0F"'}
+      name={`${t('ourProjectsPage.careHomeProjectPage.header')}"`}
       containerType={ContainerTypes.projects}
     >
       <>
         <Grid paddingTop={'17px'}>
           <Typography sx={normalTextStyle}>
-            Будинок турботи «СЕРДЕНЬКО{'\u2764\uFE0F'}», це не гуртожиток для переселенців. У нього зовсім
-            інші задачі, вони більші та глибші. Основна задача це інформаційна, психологічна та
-            юридична ПІДТРИМКА кризових вагітних, жінок із дітьми, сиріт -вимушено евакуйованих із
-            горячих точок. Ми співпрацюємо з місцевими волонтерами, ЦНАП, пологовими будинками.
+            {t('ourProjectsPage.careHomeProjectPage.p1')}
           </Typography>
         </Grid>
         <Grid paddingTop={'25px'} display={'flex'} flexDirection={'row'} gap={'40px'}>
@@ -39,20 +38,15 @@ const CareHome = () => {
           </Grid>
           <Grid>
             <Typography sx={normalTextStyle}>
-              В «СЕРДЕНЬКО{'\u2764\uFE0F'}» чотири кімнати для тимчасового проживання матусь із дітками, але це
-              ТИМЧАСОВЕ проживання. Звернувшись до «СЕРДЕНЬКО{'\u2764\uFE0F'}», вимушені переселенці зможуть
-              отримати :
+              {t('ourProjectsPage.careHomeProjectPage.p2')}
             </Typography>
 
             <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>
-              1. Чіткий опис своїх прав та можливостей які надає держава ( виплата коштів, як
-              оформити, отримати, оформлення в ЦНАП як внутрішньо переміщенного, можливості
-              переїхати з перевіренними волонтерами закордон по офіційним программам при бажанні
-              отримання статусу біженця закордоном)
+              {t('ourProjectsPage.careHomeProjectPage.li1')}
             </Typography>
 
             <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>
-              2. Консультація і допомога при бажанні повернутись додому мамі із дітками.
+              {t('ourProjectsPage.careHomeProjectPage.li2')}
             </Typography>
 
             <Box
@@ -65,26 +59,23 @@ const CareHome = () => {
             />
 
             <Typography sx={{ ...normalTextStyle, paddingTop: '27px' }}>
-              3. Безкоштовні психологічні консультації для жінок та дітей ( внутрішньо переміщених
-              осіб).
+              {t('ourProjectsPage.careHomeProjectPage.li3')}
             </Typography>
 
             <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>
-              4. Безкоштовні юридичні консультації для жінок та дітей ( внутрішньо переміщених
-              осіб).
+              {t('ourProjectsPage.careHomeProjectPage.li4')}
             </Typography>
 
             <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>
-              5. Отримання гуманітарної допомоги при її наявності ( речі, продукти, гігієна, ліки).
+              {t('ourProjectsPage.careHomeProjectPage.li5')}
             </Typography>
 
             <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>
-              6. Безкоштовні майстер-класи для діток та жінок.
+              {t('ourProjectsPage.careHomeProjectPage.li6')}
             </Typography>
 
             <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>
-              7. Співпраця з лікарями. Особливо при роботі з постраждалими від насилля на окупованих
-              територіях
+              {t('ourProjectsPage.careHomeProjectPage.li7')}
             </Typography>
 
             <Box
@@ -97,25 +88,23 @@ const CareHome = () => {
             />
 
             <Typography sx={{ ...normalTextStyle, paddingTop: '27px' }}>
-              8. Робота з кризовими вагітними.
+              {t('ourProjectsPage.careHomeProjectPage.li8')}
             </Typography>
 
             <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>
-              9. При наявності вільних кімнат — тимчасове розміщення в будинку турботи безкоштовно.
+              {t('ourProjectsPage.careHomeProjectPage.li9')}
             </Typography>
 
             <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>
-              10. Ми завжди будемо чекати родини на безкоштовний обід.
+              {t('ourProjectsPage.careHomeProjectPage.li10')}
             </Typography>
 
             <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>
-              11. Допомога з пошуком роботи, навчанням для дітей. Є можливість допомогти з навчанням
-              закордоном.
+              {t('ourProjectsPage.careHomeProjectPage.li11')}
             </Typography>
 
             <Typography sx={{ ...normalTextStyle, paddingTop: '10px' }}>
-              12. Контроль перебування родин закордоном. Допомога при потребах. Ми раз в тиждень
-              спілкуємось зі всіма нашими біженцями які проживають закордоном.мм
+              {t('ourProjectsPage.careHomeProjectPage.li12')}
             </Typography>
 
             <Grid paddingTop={'17px'} display={'flex'} flexDirection={'row'} gap={'7px'}>

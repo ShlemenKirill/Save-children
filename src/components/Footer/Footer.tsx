@@ -14,15 +14,17 @@ import Logo from 'components/Logo';
 import MailIconWithBackground from 'components/Icons/MailIconWithBackground';
 import InstagramIconWithBackground from 'components/Icons/InstagramIconWithBackground';
 import FacebookIconWithBackground from 'components/Icons/FacebookIconWithBackground';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  const { t } = useTranslation();
   const menuItems = [
-    { name: 'Про нас', path: ABOUT_US },
-    { name: 'Нашi проекти', path: PROJECTS },
-    { name: 'Звітність', path: REPORTS },
-    { name: 'Партнерам', path: PARTNERS },
-    { name: 'Волонтерам', path: VOLUNTEERS },
-    { name: 'Iнформація', path: INFORMATION },
+    { name: t('footer.about'), path: ABOUT_US },
+    { name: t('footer.projects'), path: PROJECTS },
+    { name: t('footer.reports'), path: REPORTS },
+    { name: t('footer.partners'), path: PARTNERS },
+    { name: t('footer.volunteers'), path: VOLUNTEERS },
+    { name: t('footer.info'), path: INFORMATION },
   ];
   const navigate = useNavigate();
   const secondaryText = {
@@ -67,8 +69,8 @@ const Footer = () => {
       >
         <Logo />
         <Grid>
-          <Typography sx={menuHeaderStyle}>Контакти</Typography>
-          <Typography sx={secondaryText}>Kyiv, Ukraine</Typography>
+          <Typography sx={menuHeaderStyle}>{t('footer.contacts')}</Typography>
+          <Typography sx={secondaryText}>{t('footer.address')}</Typography>
           <Typography sx={secondaryText}>+380 800 213 452</Typography>
           <Grid
             display={'flex'}
@@ -84,7 +86,7 @@ const Footer = () => {
           </Grid>
         </Grid>
         <Grid>
-          <Typography sx={menuHeaderStyle}>Меню</Typography>
+          <Typography sx={menuHeaderStyle}>{t('footer.menu')}</Typography>
           {menuItems.map(({ name, path }) => {
             return (
               <Typography

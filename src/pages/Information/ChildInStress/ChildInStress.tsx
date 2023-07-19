@@ -3,22 +3,23 @@ import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import { ContainerTypes } from 'core/constants/common';
 import DetailedInformationPageContainer from 'containers/DetailedInformationPageContainer';
+import { useTranslation } from 'react-i18next';
 
 const ChildInStress = () => {
+  const { t } = useTranslation();
   const normalTextStyle = {
     color: colors.matteBlack,
     ...fonts.montserratNormal16,
   };
   return (
     <DetailedInformationPageContainer
-      name={'«Допоможiть, моя дитина в стресi»'}
+      name={t('informationPage.projectHeader1')}
       containerType={ContainerTypes.information}
     >
       <>
         <Grid>
           <Typography sx={normalTextStyle} paddingTop={'20px'}>
-            Перше що потрібно знати мамі — вам і дитині потрібен час. Все що почуває мама- почуває і
-            дитина. Матуся може зрозуміти які ємоції в неї і чому, маленька дитина ні.
+            {t('informationPage.childInStress.p1')}
           </Typography>
           <Grid display={'grid'} gridTemplateColumns={'45% 55%'} paddingTop={'13px'}>
             <Grid
@@ -38,31 +39,22 @@ const ChildInStress = () => {
 
             <Grid>
               <Typography sx={normalTextStyle}>
-                Все що дитина зараз чекає від мами- це обійми. Щоб дитина почувала себе захищеною.
-                Співайте разом ті пісеньки які ви співали в мирний час, візьміть на руки дитиниту,
-                загорніть в плед і просто качайте і співайте колискові. Розвантажте тіло своє і
-                дитини. Від страху тіло зжимається, напружується, тіло починає трясти.
+                {t('informationPage.childInStress.p2')}
               </Typography>
               <Typography sx={normalTextStyle} paddingTop={'12px'}>
-                Ваша задача як мами — створити безпечний простір, навіть якщо він буде лише під
-                пледом чи ковдрою. Теплий солодкий чай, ковдра і мамини колискові — це все що
-                потрібно в стресі дитині щоб заспокоїтися.
+                {t('informationPage.childInStress.p3')}
               </Typography>
               <Typography sx={normalTextStyle} paddingTop={'12px'}>
-                Коли тіло буде почувати безпеку, можуть піти сльози, емоції, це нормально. Через
-                деякий час, починайте малювати, ліпити, гратися.
+                {t('informationPage.childInStress.p4')}
               </Typography>
               <Typography sx={normalTextStyle} paddingTop={'12px'}>
-                Будьте готові що від такої напруги дитина може не на довго прихворіти, дати
-                температуру, це також нормально. Повторюйте — теплий солодкий чай, плед, обійми,
-                колискові чи добрі дитячі пісні.
+                {t('informationPage.childInStress.p5')}
               </Typography>
               <Typography sx={normalTextStyle} paddingTop={'12px'}>
-                Мама повинна стати контейнером для емоцій дитини. Бережіть себе, бо ви цілий Всесвіт
-                для дитини.
+                {t('informationPage.childInStress.p6')}
               </Typography>
               <Typography sx={normalTextStyle} paddingTop={'12px'}>
-                Психолог Наталия Трухан ❤
+                {t('informationPage.childInStress.p7')}
               </Typography>
             </Grid>
           </Grid>

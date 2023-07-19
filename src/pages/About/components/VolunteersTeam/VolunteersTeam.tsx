@@ -3,8 +3,10 @@ import { fonts } from 'core/constants/fonts';
 import { colors } from 'core/constants/colors';
 import { listItemTextStyle } from 'pages/About/styles';
 import { imageStyle } from 'core/constants/styles';
+import { useTranslation } from 'react-i18next';
 
 const VolunteersTeam = () => {
+  const { t } = useTranslation();
   return (
     <Grid
       sx={{
@@ -25,7 +27,7 @@ const VolunteersTeam = () => {
             color: colors.matteBlack,
           }}
         >
-          «Збережи дитину» це потужна команда волонтерiв.
+          {t('aboutPage.volunteersTeam.p1')}
         </Typography>
         <Typography
           sx={{
@@ -33,8 +35,7 @@ const VolunteersTeam = () => {
             paddingTop: '16px',
           }}
         >
-          Десятки проведених освітніх заходів, ми випустили біля 10000 тисяч брошур які щодня
-          зберігають життя дітям та жінкам.
+          {t('aboutPage.volunteersTeam.p2')}
         </Typography>
         <Typography
           sx={{
@@ -42,7 +43,7 @@ const VolunteersTeam = () => {
             paddingTop: '10px',
           }}
         >
-          Майже за 4 оки праці збережено більше ніж 200 дітей в утробі матерів.
+          {t('aboutPage.volunteersTeam.p3')}
         </Typography>
         <Typography
           sx={{
@@ -50,8 +51,7 @@ const VolunteersTeam = () => {
             paddingTop: '10px',
           }}
         >
-          Кожній мамі потрібна сильна опора, нажаль стається так, що обставини вирішують замість
-          нас.
+          {t('aboutPage.volunteersTeam.p4')}
         </Typography>
         <Typography
           sx={{
@@ -59,8 +59,7 @@ const VolunteersTeam = () => {
             paddingTop: '10px',
           }}
         >
-          Щоб зупинити цей соціальний колапс МИ «Збережи дитину» об’єднались не тільки щоб врятувати
-          майбутнє життя, але й для того, щоб не дати існуючим життям загубитися у цьому світі.
+          {t('aboutPage.volunteersTeam.p5')}
         </Typography>
       </Grid>
       <Grid

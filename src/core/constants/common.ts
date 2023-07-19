@@ -1,23 +1,27 @@
+import i18n from '../../i18n';
+
 export enum ButtonVariants {
   primary,
   secondary,
   primaryGreen,
 }
-
-export enum NavigationMenuItems {
-  main = 'main',
-  aboutUs = 'Про нас',
-  ourProjects = 'Нашi проекти',
-  information = 'Iнформація',
-  reports = 'Звiтнiсть',
-  partners = 'Партнерам',
-  volunteers = 'Волонтерам',
-  contacts = 'Контакти',
-}
+export const NAVIGATION_MAIN = i18n.t('navigation.main');
+export const NAVIGATION_ABOUT = i18n.t('navigation.aboutUs');
+export const NAVIGATION_OUR_PROJECTS = i18n.t('navigation.ourProjects');
+export const NAVIGATION_INFORMATION = i18n.t('navigation.information');
+export const NAVIGATION_REPORTS = i18n.t('navigation.reports');
+export const NAVIGATION_PARTNERS = i18n.t('navigation.partners');
+export const NAVIGATION_VOLUNTEERS = i18n.t('navigation.volunteers');
+export const NAVIGATION_CONTACTS = i18n.t('navigation.contacts');
 
 export enum ContainerTypes {
-  projects = 'Наши проекты',
-  information = 'Iнформація',
+  projects,
+  information,
+}
+
+export enum Languages {
+  en = 'en',
+  ukr = 'ukr',
 }
 
 export const FACEBOOK_LINK_SHELTER =

@@ -1,11 +1,11 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Grid, MenuItem, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import ChevronDown from 'components/Icons/ChevronDown';
 import StyledMenu from 'components/StyledMenu';
-import { NavigationMenuItems } from 'core/constants/common';
 import {
   ABOUT_US,
   CONTACTS,
@@ -24,8 +24,19 @@ import {
   REPORTS,
   VOLUNTEERS,
 } from 'core/constants/navigation';
+import { useNavigationHeaders } from 'core/hooks/useNavigationHeaders';
 
 const Navigation = () => {
+  const {
+    NAVIGATION_ABOUT,
+    NAVIGATION_CONTACTS,
+    NAVIGATION_INFORMATION,
+    NAVIGATION_OUR_PROJECTS,
+    NAVIGATION_PARTNERS,
+    NAVIGATION_REPORTS,
+    NAVIGATION_VOLUNTEERS,
+  } = useNavigationHeaders();
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const { pathname } = useLocation();
   const [projectsMenu, setProjectsMenu] = React.useState<null | HTMLElement>(null);
@@ -69,7 +80,7 @@ const Navigation = () => {
             ...fonts.montserratMedium16,
           }}
         >
-          {NavigationMenuItems.aboutUs}
+          {NAVIGATION_ABOUT}
         </Typography>
       </Grid>
       <Grid>
@@ -90,7 +101,7 @@ const Navigation = () => {
               ...fonts.montserratMedium16,
             }}
           >
-            {NavigationMenuItems.ourProjects}
+            {NAVIGATION_OUR_PROJECTS}
           </Typography>
           <Grid
             display={'flex'}
@@ -117,7 +128,7 @@ const Navigation = () => {
               navigate(PROJECTS_PREGNANT_HELP);
             }}
           >
-            Допомога кризовим вагітним
+            {t('navigation.pregnantHelp')}
           </MenuItem>
           <MenuItem
             onClick={() => {
@@ -125,7 +136,7 @@ const Navigation = () => {
               navigate(PROJECTS_EVACUATION_HELP);
             }}
           >
-            Допомога в евакуацii
+            {t('navigation.evacuationHelp')}
           </MenuItem>
           <MenuItem
             onClick={() => {
@@ -133,7 +144,7 @@ const Navigation = () => {
               navigate(PROJECTS_LARGE_FAMILY_HELP);
             }}
           >
-            Допомога багатодітним сімям
+            {t('navigation.largeFamilyHelp')}
           </MenuItem>
           <MenuItem
             onClick={() => {
@@ -141,8 +152,7 @@ const Navigation = () => {
               navigate(PROJECTS_HART_HOUSE);
             }}
           >
-            {/* eslint-disable-next-line react/no-unescaped-entities */}
-            Дiм турботы "СЕРДЕНЬКО"
+            {t('navigation.hartHouse')}
           </MenuItem>
         </StyledMenu>
       </Grid>
@@ -166,7 +176,7 @@ const Navigation = () => {
               ...fonts.montserratMedium16,
             }}
           >
-            {NavigationMenuItems.information}
+            {NAVIGATION_INFORMATION}
           </Typography>
           <Grid
             paddingLeft={'7px'}
@@ -191,7 +201,7 @@ const Navigation = () => {
               navigate(INFORMATION_WAR);
             }}
           >
-            Як ми працюємо під час війни
+            {t('navigation.infoWar')}
           </MenuItem>
           <MenuItem
             onClick={() => {
@@ -199,7 +209,7 @@ const Navigation = () => {
               navigate(INFORMATION_CHILDREN_IN_STRESS);
             }}
           >
-            «Допоможiть, моя дитина в стресi»
+            {t('navigation.stressChild')}
           </MenuItem>
           <MenuItem
             onClick={() => {
@@ -207,7 +217,7 @@ const Navigation = () => {
               navigate(INFORMATION_MOTHER_SAVE_MY_LIFE);
             }}
           >
-            Брошура «Матусю, збережи менi життя!»
+            {t('navigation.motherSaveMyLife')}
           </MenuItem>
           <MenuItem
             onClick={() => {
@@ -215,7 +225,7 @@ const Navigation = () => {
               navigate(INFORMATION_STOP_VIOLENCE);
             }}
           >
-            Брошура «Скажи СТОП насиллю»
+            {t('navigation.stopViolence')}
           </MenuItem>
           <MenuItem
             onClick={() => {
@@ -223,7 +233,7 @@ const Navigation = () => {
               navigate(INFORMATION_SAVE_CHILDREN_BOOK);
             }}
           >
-            Книга «Збереженнi життя»
+            {t('navigation.saveLife')}
           </MenuItem>
         </StyledMenu>
       </Grid>
@@ -242,7 +252,7 @@ const Navigation = () => {
             ...fonts.montserratMedium16,
           }}
         >
-          {NavigationMenuItems.reports}
+          {NAVIGATION_REPORTS}
         </Typography>
       </Grid>
       <Grid
@@ -260,7 +270,7 @@ const Navigation = () => {
             ...fonts.montserratMedium16,
           }}
         >
-          {NavigationMenuItems.partners}
+          {NAVIGATION_PARTNERS}
         </Typography>
       </Grid>
       <Grid
@@ -278,7 +288,7 @@ const Navigation = () => {
             ...fonts.montserratMedium16,
           }}
         >
-          {NavigationMenuItems.volunteers}
+          {NAVIGATION_VOLUNTEERS}
         </Typography>
       </Grid>
       <Grid
@@ -296,7 +306,7 @@ const Navigation = () => {
             ...fonts.montserratMedium16,
           }}
         >
-          {NavigationMenuItems.contacts}
+          {NAVIGATION_CONTACTS}
         </Typography>
       </Grid>
     </Grid>

@@ -3,8 +3,10 @@ import { colors } from 'core/constants/colors';
 import { fonts } from 'core/constants/fonts';
 import PageContainer from 'containers/PageContainer';
 import FinancialHelpCard from 'components/FinancialHelpCard';
+import { useTranslation } from 'react-i18next';
 
 const WantToHelp = () => {
+  const { t, i18n } = useTranslation();
   const normalTextStyle = {
     color: colors.matteBlack,
     ...fonts.montserratNormal16,
@@ -27,92 +29,75 @@ const WantToHelp = () => {
               ...fonts.montserratMedium85,
             }}
           >
-            Хочу допогти
+            {t('wantToHelpPage.header')}
           </Typography>
           <Typography sx={normalTextStyle} paddingTop={'30px'}>
-            Завдяки вам, наші дорогі благодійники, нам вдається підтримати, допомогти продуктами,
-            ліками наші підопічні родини, а їх в нас вже більше 70. Низький уклін кожному чиї серця
-            відкриті для добра. Разом — ми Сила Любові та Світла.
+            {t('wantToHelpPage.p1')}
           </Typography>
           <Grid paddingTop={'35px'} display={'flex'} flexDirection={'row'} gap={'73px'}>
             <Grid>
               <Typography sx={semiboldTextStyle} width={'max-content'}>
-                Допомога родинам
+                {t('wantToHelpPage.t1')}
               </Typography>
             </Grid>
             <Grid>
-              <Typography sx={normalTextStyle}>
-                Щодня кількість дітей, які постраждали внаслідок війни зростає. Вони потребують
-                допомоги психолога, ліків, памперсів, одягу. Якщо ви хочете домогти, приєднуйтесь до
-                нашої роботи та допоможіть нам забезпечувати постраждалих дітей всім тим, що їм так
-                зараз необхідно.
-              </Typography>
+              <Typography sx={normalTextStyle}>{t('wantToHelpPage.p2')}</Typography>
               <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                Ми підтримуємо родини з Херсону, Черкас, Жмеринки, Вінниці, Харкова, Маріуполя,
-                Київської області, Запоріжжя, Краматорську, Донецьку Славянську та Североденецку.
+                {t('wantToHelpPage.p3')}
               </Typography>
               <Typography sx={normalTextStyle}>
-                Пишіть на{' '}
+                {t('wantToHelpPage.t2')}
                 <Typography
                   display={'inline'}
                   sx={{
                     ...fonts.montserratSemibold16,
                   }}
                 >
-                  Viber 0504453445.
+                  {t('wantToHelpPage.t3')}
                 </Typography>
               </Typography>
-              <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                Основні потреби на сьогодні:
-              </Typography>
-              <Grid paddingLeft={'15px'}>
-                <Typography sx={normalTextStyle}>1. Продуктові набори</Typography>
-                <Typography sx={normalTextStyle}>2. Ліки</Typography>
-                <Typography sx={normalTextStyle}>3. Памперси</Typography>
-                <Typography sx={normalTextStyle}>4. Дитяче харчування</Typography>
-              </Grid>
+              {i18n.language !== 'en' && (
+                <Typography sx={normalTextStyle} paddingTop={'10px'}>
+                  {t('wantToHelpPage.listHeader')}
+                </Typography>
+              )}
+              {i18n.language !== 'en' && (
+                <Grid paddingLeft={'15px'}>
+                  <Typography sx={normalTextStyle}>{t('wantToHelpPage.listItem1')}</Typography>
+                  <Typography sx={normalTextStyle}>{t('wantToHelpPage.listItem2')}</Typography>
+                  <Typography sx={normalTextStyle}>{t('wantToHelpPage.listItem3')}</Typography>
+                  <Typography sx={normalTextStyle}>{t('wantToHelpPage.listItem4')}</Typography>
+                </Grid>
+              )}
               <Grid paddingTop={'10px'}>
-                <FinancialHelpCard destination={'ДОПОМОГА РОДИНАМ'} />
+                <FinancialHelpCard destination={t('wantToHelpPage.t4')} />
               </Grid>
             </Grid>
           </Grid>
           <Grid>
             <Typography sx={normalTextStyle} paddingTop={'25px'}>
-              Допомагаючи, робіть це з відчуттям, що допомагаєте кожній живій істоті на планеті.
-              Перераховуючи гривню, робіть це з відчуттям, що закриваєте всі фінансові потреби цього
-              світу. Купуючи продукти на потреби інших — відчувайте, як годуєте всіх нужденних. Наш
-              НАМІР — це 90% результату.
+              {t('wantToHelpPage.p4')}
             </Typography>
             <Typography sx={normalTextStyle} paddingTop={'10px'}>
-              Як таке може бути?
+              {t('wantToHelpPage.p5')}
             </Typography>
             <Typography sx={normalTextStyle} paddingTop={'10px'}>
-              Коли ми даємо, по своїм можливостям, АЛЕ з відкритим і щедрим серцем, в якому бажання
-              допомогти, то цією силою бажання ми магнітом притягну десятки нових людей, які
-              як янголи злетяться до цього питання! Ми як ліхтарі, які освітять світові цю потребу
-              і вона точно буде вирішена і закрита
+              {t('wantToHelpPage.p6')}
             </Typography>
           </Grid>
           <Grid paddingTop={'35px'} display={'flex'} flexDirection={'row'} gap={'40px'}>
             <Grid>
               <Typography sx={semiboldTextStyle} width={'max-content'}>
-                Акцiя «Чашечка кави»
+                {t('wantToHelpPage.t5')}
               </Typography>
             </Grid>
             <Grid>
-              <Typography sx={normalTextStyle}>
-                Дякуємо кожному, що долучаєтеся до нашої благодійної акції «Чашечка добра/кави».
-                І коли відправлятимете наступну чашечку пам’ятайте про силу вашого наміру, яке стане
-                світлом.
-              </Typography>
+              <Typography sx={normalTextStyle}>{t('wantToHelpPage.p7')}</Typography>
               <Grid paddingTop={'10px'}>
-                <FinancialHelpCard destination={'АКЦІЯЧАШЕЧКАКАВИ'} />
+                <FinancialHelpCard destination={t('wantToHelpPage.t6')} />
               </Grid>
               <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                Всі дітки, які на фотографіях, були збережені мамами, які хотіли зробити аборт.
-                {/* eslint-disable-next-line react/no-unescaped-entities */}
-                Акція "чашечка кави" допомогла зібрати потрібні суми та закрити всі потреби мам та
-                діток, щоб зберегти життя в утробi.
+                {t('wantToHelpPage.p8')}
               </Typography>
               <Grid display={'flex'} flexDirection={'column'} gap={'40px'} paddingTop={'30px'}>
                 <Grid display={'flex'} flexDirection={'row'} gap={'40px'}>

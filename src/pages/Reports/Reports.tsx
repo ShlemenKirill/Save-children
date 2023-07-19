@@ -2,8 +2,10 @@ import { Box, Grid, Link, List, ListItem, Typography } from '@mui/material';
 import { colors } from 'core/constants/colors';
 import PageContainer from 'containers/PageContainer';
 import { fonts } from 'core/constants/fonts';
+import { useTranslation } from 'react-i18next';
 
 const Reports = () => {
+  const { t, i18n } = useTranslation();
   const mainImagesSrc = ['/images/reports/report2.png', '/images/reports/report3.png'];
   const additionalImagesSrc = [
     '/images/reports/report4.png',
@@ -46,34 +48,37 @@ const Reports = () => {
               ...fonts.montserratMedium85,
             }}
           >
-            Звітність
+            {t('reportsPage.header')}
           </Typography>
           <Grid display={'flex'} flexDirection={'row'} justifyContent={'space-between'}>
             <Grid>
               <Typography sx={headerTextStyle} paddingTop={'30px'}>
-                За чотири роки діяльності ГО «Збережи дитину» вдалося:
+                {t('reportsPage.list1Header')}
               </Typography>
-              <List sx={listStyle}>
-                <ListItem sx={listItemsStyle}>
-                  <Typography sx={normalTextStyle} paddingTop={'5px'}>
-                    Зберегти{' '}
-                    <Typography display={'inline'} sx={semiboldTextStyle}>
-                      бiльше 200  дiтей
-                    </Typography>{' '}
-                    вiд аботьiв. Попередили аборти та зберегли новозароджене життя.
-                  </Typography>
-                </ListItem>
-                <ListItem sx={listItemsStyle}>
-                  <Typography sx={normalTextStyle} paddingTop={'5px'}>
-                    Надати більше{' '}
-                    <Typography display={'inline'} sx={semiboldTextStyle}>
-                      20 тонн продуктової допомоги.
+
+              {i18n.language !== 'en' && (
+                <List sx={listStyle}>
+                  <ListItem sx={listItemsStyle}>
+                    <Typography sx={normalTextStyle} paddingTop={'5px'}>
+                      {t('reportsPage.list1item1.t1')}
+                      <Typography display={'inline'} sx={semiboldTextStyle}>
+                        {t('reportsPage.list1item1.t2')}
+                      </Typography>{' '}
+                      {t('reportsPage.list1item1.t3')}
                     </Typography>
-                  </Typography>
-                </ListItem>
-              </List>
+                  </ListItem>
+                  <ListItem sx={listItemsStyle}>
+                    <Typography sx={normalTextStyle} paddingTop={'5px'}>
+                      {t('reportsPage.list1item2.t1')}
+                      <Typography display={'inline'} sx={semiboldTextStyle}>
+                        {t('reportsPage.list1item2.t2')}
+                      </Typography>
+                    </Typography>
+                  </ListItem>
+                </List>
+              )}
               <Typography sx={headerTextStyle} paddingTop={'60px'}>
-                Звiт про дiяльнiсть благодiйноЇ ГРОМАДСЬКОЇ ОРГАНІЗАЦІЇ ГО «ЗБЕРЕЖИ ДИТИНУ».
+                {t('reportsPage.p1')}
               </Typography>
             </Grid>
             <Box
@@ -85,16 +90,13 @@ const Reports = () => {
             />
           </Grid>
           <Typography sx={normalTextStyle} paddingTop={'20px'}>
-            1. Гаряча лінія допомоги КРИЗОВИМ вагітним, працює на повну. Нагадуємо, ми працюємо
-            по буднях з 09:00 до 19:00. Всього на гарячу лінію звернулось більш ніж 500 жінок.
+            {t('reportsPage.list2item1')}
           </Typography>
           <Typography sx={normalTextStyle} paddingTop={'10px'}>
-            2. Проводимо та підтримуємо спортивні, навчальні, познавальні проекти направлені
-            на збереження життя.
+            {t('reportsPage.list2item2')}
           </Typography>
           <Typography sx={normalTextStyle} paddingTop={'10px'}>
-            3. Ми підготували та видали дві брошури про ЗБЕРЕЖЕННЯ ЖИТТЯ та СТОП НАСИЛЛЯ. Брошури
-            допомогають жінкам, дітям, родинам, соціальним працівникам, поліції, мед закладам.
+            {t('reportsPage.list2item3')}
           </Typography>
           <Grid display={'flex'} flexDirection={'row'} gap={'39px'} paddingTop={'20px'}>
             <Grid display={'flex'} flexDirection={'row'} gap={'39px'}>
@@ -112,22 +114,18 @@ const Reports = () => {
               })}
             </Grid>
             <Grid>
-              <Typography sx={normalTextStyle}>
-                4. Стабільно працюють 5 психологів які ведуть консультування та дають психологічну
-                підтримку безкоштовно.
+              <Typography sx={normalTextStyle}>{t('reportsPage.list2item4')}</Typography>
+              <Typography sx={normalTextStyle} paddingTop={'10px'}>
+                {t('reportsPage.list2item5')}
               </Typography>
               <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                5. Стабільно працюють юристи та адвокати безкоштовно.
+                {t('reportsPage.list2item6')}
               </Typography>
               <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                6. Ми почали професійно консультувати наших колег, з інших ГО та благодійних фондів.
+                {t('reportsPage.list2item7')}
               </Typography>
               <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                7. На постійній основі проводяться навчальні заходи для сиріт. На регулярній основі
-                проводимо психологічні заняття для дітей-сиріт.
-              </Typography>
-              <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                8. Працює ютюб канал з лекціями про сім’ю та материнство, наслідки абортів
+                {t('reportsPage.list2item8')}
               </Typography>
               <Link
                 href={'https://www.youtube.com/channel/UCFZg-YkFJZ2UX4LUI2ZhEYg'}
@@ -144,24 +142,21 @@ const Reports = () => {
                   },
                 }}
               >
-                Збережи дитину Поддержка материнства и семьи
+                {t('reportsPage.t1')}
               </Link>
             </Grid>
           </Grid>
           <Typography sx={normalTextStyle} paddingTop={'20px'}>
-            9. Налагодили плідну співпрацю з дитячими соціальними центрами, соціальними службами
-            та іншими благодійними та соціальними проектами.
+            {t('reportsPage.list2item9')}
           </Typography>
           <Typography sx={normalTextStyle} paddingTop={'10px'}>
-            10. Консультуємо соціальних працівників, лікарів, та працівників шелтерів для жінок
-            з дітками.
+            {t('reportsPage.list2item10')}
           </Typography>
           <Typography sx={normalTextStyle} paddingTop={'10px'}>
-            11. Стабільно в місяць передаємо родинам більше 200 кг продуктової допомоги. Та більше
-            ніж 200 кг речової, побутової допомоги.
+            {t('reportsPage.list2item11')}
           </Typography>
           <Typography sx={normalTextStyle} paddingTop={'10px'}>
-            12. Відкрили будинок турботи «СЕРДЕНЬКО».
+            {t('reportsPage.list2item12')}
           </Typography>
           <Grid display={'flex'} flexDirection={'row'} gap={'39px'} paddingTop={'20px'}>
             {additionalImagesSrc.map((src) => {
@@ -178,46 +173,37 @@ const Reports = () => {
             })}
           </Grid>
           <Typography sx={normalTextStyle} paddingTop={'20px'}>
-            13. Підтримали ліками підопічні родини в період пандемії та війни на сумму більше
-            70000 грн.
+            {t('reportsPage.list2item13')}
           </Typography>
           <Typography sx={normalTextStyle} paddingTop={'10px'}>
-            14. Надали психологічну, юридичну, фінансову підтримку 340 сім’ям, які опинилися
-            в складних життєвих ситуаціях під час війни.
+            {t('reportsPage.list2item14')}
           </Typography>
           <Typography sx={normalTextStyle} paddingTop={'10px'}>
-            15. Забезпечили підтримку 14 вагітних жінок, які не мали постійного місця проживання
-            і роботи, щоб припинити жебракування.
+            {t('reportsPage.list2item15')}
           </Typography>
           <Grid display={'flex'} flexDirection={'row'} gap={'90px'} paddingTop={'10px'}>
             <Grid>
-              <Typography sx={normalTextStyle}>
-                16. Працюємо в кабінеті доабортного консультування при жіночій консультації
-                на Червоному Хуторі.
+              <Typography sx={normalTextStyle}>{t('reportsPage.list2item16')}</Typography>
+              <Typography sx={normalTextStyle} paddingTop={'10px'}>
+                {t('reportsPage.list2item17')}
               </Typography>
               <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                17. Проводимо навчання для сестер милосердя.
+                {t('reportsPage.list2item18')}
               </Typography>
               <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                18. Допомогли хлопчику з протезуванням ніжки, щоб стати на дві ноги та піти
-                до першого класу.
+                {t('reportsPage.list2item19')}
               </Typography>
               <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                19. Допомогли оплатити чотири дуже дорогі та серйозні операції для діток.
+                {t('reportsPage.list2item20')}
               </Typography>
               <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                20. Зібрали до пологового будинку 48 матусь.
+                {t('reportsPage.list2item21')}
               </Typography>
               <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                21. Готуємо до видання книгу про збережені життя, яка повинна вийти до кінця
-                2022 року.
+                {t('reportsPage.list2item22')}
               </Typography>
               <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                22. Надаємо регулярну продуктову допомогу будинку милосердя.
-              </Typography>
-              <Typography sx={normalTextStyle} paddingTop={'10px'}>
-                {/* eslint-disable-next-line react/no-unescaped-entities */}
-                23. В нас з’явився свій гімн #Збережидитину".
+                {t('reportsPage.list2item23')}
               </Typography>
             </Grid>
             <Grid paddingTop={'10px'}>

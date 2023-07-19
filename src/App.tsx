@@ -1,6 +1,6 @@
 import React, { lazy, useState, Suspense, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { NavigationMenuItems } from 'core/constants/common';
+import { NAVIGATION_MAIN } from 'core/constants/common';
 import {
   ABOUT_US,
   CONTACTS,
@@ -34,8 +34,8 @@ const WorkAtWar = lazy(() => import('pages/Information/WorkAtWar'));
 const WantToHelp = lazy(() => import('pages/WantToHelp'));
 
 const App = () => {
-  const [currentMenuItem, setCurrentMenuItem] = useState<NavigationMenuItems>(
-    NavigationMenuItems.main,
+  const [currentMenuItem, setCurrentMenuItem] = useState<string>(
+    NAVIGATION_MAIN,
   );
   const [isOnScroll, setIsOnScroll] = useState<boolean>(false);
   const handleScroll = () => {
@@ -53,6 +53,7 @@ const App = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
   return (
     <MenuContext.Provider
       value={{ currentMenuItem, setCurrentMenuItem, isOnScroll, setIsOnScroll }}
